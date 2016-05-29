@@ -6,7 +6,7 @@ ToDo:
 * Table view?
 * Add small overview what the page exactly do
 * Add a warning that all of these pages mostly require JavaScript which must be e.g allowed via NoScript/umatrix.
-* ....
+* Some pages itself may collecting a online/offline database?! Research + proof needed. But it would make sense if they seell the collected data to Google, Amazon and others ... 
 
 
 ### Addons & Plugin tests
@@ -209,3 +209,6 @@ http://do-know.com/privacy-test.html
 
 Audio Fingerprint test
 https://audiofingerprint.openwpm.com/
+
+Browser 'auto-download' security vulnerability 
+https://binaer.xyz/haifei-li/test.html
