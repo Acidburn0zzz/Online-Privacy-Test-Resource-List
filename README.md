@@ -18,8 +18,6 @@ https://thehackerblog.com/addon_scanner/
 Flash Player System Test
 https://www.browserleaks.com/flash
 
-
-
 Flash Player Test	 
 https://www.adobe.com/software/flash/about/
 
@@ -32,7 +30,7 @@ Silverlight Test
 https://www.browserleaks.com/silverlight
 
 
-### EMail
+### eMail
 
 Email IP Leak
 http://emailipleak.com/
@@ -208,3 +206,6 @@ http://www.popuptest.com/
 
 Privacy check:
 http://do-know.com/privacy-test.html
+
+Audio Fingerprint test
+https://audiofingerprint.openwpm.com/
