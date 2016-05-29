@@ -207,8 +207,8 @@ http://www.popuptest.com/
 Privacy check:
 http://do-know.com/privacy-test.html
 
-Audio Fingerprint test
+Audio Fingerprint test (see also [here](https://github.com/Gitoffthelawn))
 https://audiofingerprint.openwpm.com/
 
-Browser 'auto-download' security vulnerability 
+Browser 'auto-download' security vulnerability (Chrome, IDM affected as time of writing)
 https://binaer.xyz/haifei-li/test.html
