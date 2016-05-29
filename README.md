@@ -7,6 +7,7 @@ ToDo:
 * Add small overview what the page exactly do
 * Add a warning that all of these pages mostly require JavaScript which must be e.g allowed via NoScript/umatrix.
 * Some pages itself may collecting a online/offline database?! Research + proof needed. But it would make sense if they seell the collected data to Google, Amazon and others ... 
+* Mark depcreated (because fixed by OS/Browser) test with an icon? It would help to identify if that is already fixed or not to avoid to submit unessary data and of course it would costs your time ... 
 
 
 ### Addons & Plugin tests
