@@ -1,4 +1,5 @@
-# POTARC - Privacy Online Test And Resource Compendium
+# - POTARC -
+# Privacy Online Test And Resource Compendium
 
 This list is designed to show all available (and useful) online tests
 
