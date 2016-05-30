@@ -1,7 +1,8 @@
 # - POTARC -
 # Privacy Online Test And Resource Compendium
 
-This list is designed to show all available (and useful) online tests.
+This list is designed to show all available (and useful) online tests. I see this as a 'community' based project since everyone can contribute and no one ever will excluded (only with good reasons like spamming, ...). I/we not accept any donations because we all doing this in our free time and it's up to everyone. The information should be avaible for free for everyone. 
+
 
 ToDo:
 * Add an page index to easier navigate to the specific sections 
