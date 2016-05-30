@@ -4,6 +4,7 @@
 This list is designed to show all available (and useful) online tests.
 
 ToDo:
+* Add an page index to easier navigate to the specific sections 
 * ~~Enable accepting issues on GitHub!~~
 * Table view?
 * Add small overview what the page exactly do
@@ -32,6 +33,20 @@ ToDo:
 **How to archive this?**
 
 Collection of device fingerprints from web clients (browser software) relies on the availability of JavaScript or similar client-side scripting language for the harvesting of a suitably large number of parameters. Overall this means if only one or a small of things are detectable it not automatically reveals your true identify, but all together is pretty dangerous.
+
+
+** Fixed within the Browser (ensure you using the latest product [always])**
+* SSL / TLS (ciphers) [if you only browsing on pages like GitHub ~ you can even more '[harden](https://tools.ietf.org/html/draft-sheffer-tls-bcp-00)' it]
+* OpenSSL fixed (heartbleed,...) 
+* Chrome: Audio Fingerprinting not possible Firefox: **not tested (yet) - need feedback!**
+* Tor (several fingerprints still possible, it's on the todo and will be fixed soon)
+* Java/Adobe Flash, both are dying -> HTML5 -> canvas
+* HTML5 several stuff like Canvas, Font, ... (will never be fixed, use addons)
+* Cookies in general are not fixable since your page may need it, Amazon for shopping as an example (addons/filter-lists may help to whitelist).
+* CPU, mouswheel fingerprinting which needs to be fixed also within the OS (still open)
+* MAC address leakage - disable IPv6 (if not nessary/needed)
+* WebRTC (partial) since Chrome 48 and Firefox 42, both getting an new menu to allow it per-page (whitelist) [there exist also for both several addons, workarounds to compile it without WebRTC support)
+* .... 
 
 
 
