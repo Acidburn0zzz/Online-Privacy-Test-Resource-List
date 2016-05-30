@@ -1,7 +1,7 @@
 # - POTARC -
 # Privacy Online Test And Resource Compendium
 
-This list is designed to show all available (and useful) online tests
+This list is designed to show all available (and useful) online tests.
 
 ToDo:
 * Enable accepting issues on GitHub!
@@ -10,6 +10,25 @@ ToDo:
 * Add a warning that all of these pages mostly require JavaScript which must be e.g allowed via NoScript/umatrix.
 * Some pages itself may collecting a online/offline database?! Research + proof needed. But it would make sense if they seell the collected data to Google, Amazon and others ... 
 * Mark depcreated (because fixed by OS/Browser) test with an icon? It would help to identify if that is already fixed or not to avoid to submit unessary data and of course it would costs your time ... 
+
+
+Known Fingerprint techniques:
+* Mouse Speed fingerprinting
+* CPU Benchmark fingerprinting
+* User fingerprinting problem (IP, ...)
+* Canvas Fingerprinting
+* Screen resolution
+* UberCookie/Cookies/EverCookie/Supercookies
+* Measuring time (Timezone)
+* getClientRects fingerprinting (DOM)
+* OSI model fingerprints (HTTP, Header, User Agent, ...)
+* Hardware implemented fingerprint methods 
+* Plugin/Extension tracking (Silverlight, Adobe Flash, ...)
+* ....
+
+How to archive this?
+Collection of device fingerprints from web clients (browser software) relies on the availability of JavaScript or similar client-side scripting language for the harvesting of a suitably large number of parameters. Overall this means if only one or a small of things are detectable it not automatically reveals your true identify, but all together is pretty dangerous.
+
 
 
 ### Addon & Plugin Tests
