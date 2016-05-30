@@ -23,9 +23,9 @@ I see this as a 'community' based project since everyone can contribute and no o
 * CPU Benchmark fingerprinting
 * User fingerprinting problem (IP, ...)
 * Canvas Fingerprinting
-* Screen resolution
+* Screen resolution (this possible will never be fixed since it would break too much)
 * UberCookie/Cookies/EverCookie/Supercookies
-* Measuring time (Timezone)
+* Measuring time (Timezone/[NTP](http://www.securityweek.com/ntp-servers-exposed-long-distance-wireless-attacks))
 * getClientRects fingerprinting (DOM)
 * OSI model fingerprints (HTTP, Header, User Agent, Firewall, ...)
 * Hardware implemented fingerprint methods 
