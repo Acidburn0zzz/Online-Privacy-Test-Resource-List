@@ -1,8 +1,9 @@
-# Online-Privacy-Test-Resource-List
+# POTARC - Privacy Online Test And Resource Compendium
 
 This list is designed to show all available (and useful) online tests
 
 ToDo:
+* Enable accepting issues on GitHub!
 * Table view?
 * Add small overview what the page exactly do
 * Add a warning that all of these pages mostly require JavaScript which must be e.g allowed via NoScript/umatrix.
