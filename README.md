@@ -1,7 +1,9 @@
 # - POTARC -
 # Privacy Online Test And Resource Compendium
 
-This list is designed to show all available (and useful) online tests. I see this as a 'community' based project since everyone can contribute and no one ever will excluded (only with good reasons like spamming, ...). I/we not accept any donations because we all doing this in our free time and it's up to everyone. The information should be avaible for free for everyone. 
+This list is designed to show all available (and useful) online tests, we may not add each test if it's unclear if it collects only data to hand/sell it to 3th-party developer or people which pay for it to use it for 'bad' things. 
+
+I see this as a 'community' based project since everyone can contribute and no one ever will excluded (only with good reasons like spamming, ...). I/we not accept any donations because we all doing this in our free time and it's up to everyone. The information should be avaible for free for everyone. 
 
 
 ToDo:
@@ -56,206 +58,206 @@ Collection of device fingerprints from web clients (browser software) relies on 
 Firefox Addon Detector:
 https://thehackerblog.com/addon_scanner/
 
-Flash Player System Test
+Flash Player System Test:
 https://www.browserleaks.com/flash
 
-Flash Player Test	 
+Flash Player Test:
 https://www.adobe.com/software/flash/about/
 
-Java Test
+Java Test:
 https://www.java.com/en/download/installed.jsp
 
-Silverlight Test
+Silverlight Test:
 https://www.browserleaks.com/silverlight
 
 
 ### eMail
 
-Check TLS
+Check Provider-TLS:
 https://www.checktls.com/
 
-Email IP Leak
+Email IP Leak Test:
 http://emailipleak.com/
 
-Email Privacy Tester
+Email Privacy Tester:
 https://emailprivacytester.com/
 
-Email Trace
+Email Trace:
 http://www.ip-adress.com/trace_email/
 
-Have I Been Pwned?
+Have I Been Pwned?:
 https://haveibeenpwned.com/
 
-Pwnedlist
+Pwnedlist:
 https://pwnedlist.com/
 
 
 ### HTML5 test
 
-Battery Status API
+Battery Status API:
 http://pstadler.sh/battery.js/
 
-Canvas Fingerprinting
+Canvas Fingerprinting:
 https://www.browserleaks.com/canvas
 
-Hard Drive Fill Test
+Hard Drive Fill Test:
 http://www.filldisk.com/
 
-HTML5 Features Detection
+HTML5 Features Detection:
 https://www.browserleaks.com/modernizr
 
-HTML5 Geolocation Test
+HTML5 Geolocation Test:
 https://www.browserleaks.com/geo
 
-HTML5 Test
+HTML5 Test:
 http://html5test.com/
 
-WebRTC Leak Test
+WebRTC Leak Test:
 https://www.perfect-privacy.com/webrtc-leaktest/
 
-WebRTC Test
+WebRTC Test:
 https://test.webrtc.org/
 
-WebRTC What's My IP Check
+WebRTC What's My IP Check:
 http://whatismyipaddress.com/webrtc-test
 
 
-### IP / DNS  Leak Tests
+### IP & DNS Leak Tests
 
-Check my Torrent IP
+Check my Torrent IP:
 https://torguard.net/checkmytorrentipaddress.php
 
-Content Filters and Proxy Test
+Content Filters and Proxy Test:
 https://www.browserleaks.com/proxy
 
-DNS Leak Test
+DNS Leak Test:
 https://www.dnsleaktest.com/
 
-DNS Spoofability Test
+DNS Spoofability Test:
 https://www.grc.com/dns/dns.htm
 
-IP v4 and v6 Discovery
+IPv4/Ipv6 Discovery/Detection Test:
 https://www.perfect-privacy.com/check-ip/
 
-IP Magnet
+IP Magnet Test:
 http://ipmagnet.services.cbcdn.com/
 
-Whois Test (Windows)
+Whois Test (Windows):
 https://www.browserleaks.com/whois
 
 
 ### Privacy Management
 
-Google Account History
+Google Account History:
 https://www.google.com/settings/accounthistory
 
-Facebook Activity Log
+Facebook Activity Log:
 https://www.facebook.com/me/allactivity
 
-YouTube Video History / Search history
+YouTube Video History / Search history:
 https://www.youtube.com/feed/history
 
 
 ### SSL Test
 
-Bad SSL
+Bad SSL:
 https://badssl.com/
 
-FREAK Attack: Client Check
+FREAK Attack: Client Check:
 https://freakattack.com/clienttest.html
 
-Heartbleed test	
+Heartbleed test:
 https://filippo.io/Heartbleed/
 
-RC4 Fallback Test
+RC4 Fallback Test:
 https://rc4.io/
 
-How's My SSL
+How's My SSL:
 https://www.howsmyssl.com/
 
-SSL Cipher Suite Details
+SSL Cipher Suite Details:
 https://cc.dcsec.uni-hannover.de/
 
-Weak Diffie-Hellman and the Logjam Attack
+Weak Diffie-Hellman and the Logjam Attack:
 https://weakdh.org/
 
 
 ### Random Tests (DNT, Evercookie, Headers, Javascript,...)
 
-BrowserRecon
+BrowserRecon (Header/HTTP) Test:
 http://www.computec.ch/projekte/browserrecon/?s=scan
 
-Browser Referer Headers
+Browser Referer Headers:
 https://www.darklaunch.com/tools/test-referer
 
-Do Not Track
+Do Not Track Test:
 https://www.browserleaks.com/donottrack 
 
-Evercookie Test
+Evercookie Test:
 http://samy.pl/evercookie/
 
-JavaScript Browser Information
+JavaScript Browser Information:
 https://www.browserleaks.com/javascript
 
-Popup Blocking Tests
+Popup Blocking Tests:
 http://www.kephyr.com/popupkillertest/index.html
 
-Redirect test page
+Redirect Page Test:
 https://jigsaw.w3.org/HTTP/300/Overview.html
 
-System Fonts Detection
+System Fonts Detection Test:
 https://www.browserleaks.com/fonts
 
-JavaScript/CSS Font Detector
+JavaScript/CSS Font Detector:
 http://www.lalit.org/lab/javascript-css-font-detect/
 
-Universal Plug n'Play (UPnP) Internet Exposure Test
+Universal Plug n'Play (UPnP) Internet Exposure Test:
 https://www.grc.com/x/ne.dll?rh1dkyd2
 
 
 ### Advanced Tests
 
-Am I Unique?
+Am I Unique?:
 https://amiunique.org/fp
 
-Browser Spy
+Browser Spy (Multiple Tests):
 http://browserspy.dk/
 
-Cross Browser Fingerprinting Test	
+Cross Browser Fingerprinting Test:
 http://fingerprint.pet-portal.eu/#
 
-IP Leak
+IP Leak:
 https://ipleak.net/
 
-Five Star Privacy Checker
+Five Star Privacy Checker:
 http://5who.net/
 
-Jondonym Full Anonymity Test
+Jondonym Full Anonymity Test:
 http://ip-check.info/?lang=en
 
-Panopticlick
+Panopticlick:
 https://panopticlick.eff.org/
 
-PC Flank
+PC Flank:
 http://www.pcflank.com/index.htm
 
-Onion Leak Test
+Onion Leak Test:
 http://cure53.de/leak/onion.php
 
-Tor test
+Tor Fingerprint Test:
 https://tor.triop.se/
 
-Whoer
+Whoer:
 https://whoer.net/
 
-Popup Test
+Popup Test:
 http://www.popuptest.com/
 
 Privacy Check:
 http://do-know.com/privacy-test.html
 
-Audio Fingerprint Test (see also [here](https://github.com/Gitoffthelawn))
+Audio Fingerprint Test (see also [here](https://github.com/Gitoffthelawn)):
 https://audiofingerprint.openwpm.com/
 
-Browser 'auto-download' Security Vulnerability (Chrome, IDM affected as time of writing)
+Browser 'auto-download' Security Vulnerability (Chrome, IDM affected as time of writing):
 https://binaer.xyz/haifei-li/test.html
