@@ -32,6 +32,9 @@ https://www.browserleaks.com/silverlight
 
 ### eMail
 
+Check TLS
+https://www.checktls.com/
+
 Email IP Leak
 http://emailipleak.com/
 
