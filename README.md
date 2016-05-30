@@ -1,8 +1,10 @@
-# Online-Privacy-Test-Resource-List
+# - POTARC -
+# Privacy Online Test And Resource Compendium
 
-This lists is designed to show all available (and useful) online tests
+This list is designed to show all available (and useful) online tests
 
 ToDo:
+* Enable accepting issues on GitHub!
 * Table view?
 * Add small overview what the page exactly do
 * Add a warning that all of these pages mostly require JavaScript which must be e.g allowed via NoScript/umatrix.
@@ -10,11 +12,10 @@ ToDo:
 * Mark depcreated (because fixed by OS/Browser) test with an icon? It would help to identify if that is already fixed or not to avoid to submit unessary data and of course it would costs your time ... 
 
 
-### Addons & Plugin tests
+### Addon & Plugin Tests
 
-Firefox addon Detector:
+Firefox Addon Detector:
 https://thehackerblog.com/addon_scanner/
-
 
 Flash Player System Test
 https://www.browserleaks.com/flash
@@ -22,10 +23,8 @@ https://www.browserleaks.com/flash
 Flash Player Test	 
 https://www.adobe.com/software/flash/about/
 
-
 Java Test
 https://www.java.com/en/download/installed.jsp
-
 
 Silverlight Test
 https://www.browserleaks.com/silverlight
@@ -42,14 +41,14 @@ https://emailprivacytester.com/
 Email Trace
 http://www.ip-adress.com/trace_email/
 
-Have I been pwned?
+Have I Been Pwned?
 https://haveibeenpwned.com/
 
 Pwnedlist
 https://pwnedlist.com/
 
 
-### HTMl5 test
+### HTML5 test
 
 Battery Status API
 http://pstadler.sh/battery.js/
@@ -75,11 +74,11 @@ https://www.perfect-privacy.com/webrtc-leaktest/
 WebRTC Test
 https://test.webrtc.org/
 
-WebRTC what's my IP check
+WebRTC What's My IP Check
 http://whatismyipaddress.com/webrtc-test
 
 
-### IP /DNS  leak tests
+### IP / DNS  Leak Tests
 
 Check my Torrent IP
 https://torguard.net/checkmytorrentipaddress.php
@@ -92,6 +91,9 @@ https://www.dnsleaktest.com/
 
 DNS Spoofability Test
 https://www.grc.com/dns/dns.htm
+
+IP v4 and v6 Discovery
+https://www.perfect-privacy.com/check-ip/
 
 IP Magnet
 http://ipmagnet.services.cbcdn.com/
@@ -112,7 +114,7 @@ YouTube Video History / Search history
 https://www.youtube.com/feed/history
 
 
-### SSL test
+### SSL Test
 
 Bad SSL
 https://badssl.com/
@@ -136,7 +138,7 @@ Weak Diffie-Hellman and the Logjam Attack
 https://weakdh.org/
 
 
-### Random tests (DNT, Evercookie, Headers, Javascript,...)
+### Random Tests (DNT, Evercookie, Headers, Javascript,...)
 
 BrowserRecon
 http://www.computec.ch/projekte/browserrecon/?s=scan
@@ -166,10 +168,9 @@ Universal Plug n'Play (UPnP) Internet Exposure Test
 https://www.grc.com/x/ne.dll?rh1dkyd2
 
 
-
 ### Advanced Tests
 
-Am I Unique
+Am I Unique?
 https://amiunique.org/fp
 
 Browser Spy
@@ -202,14 +203,14 @@ https://tor.triop.se/
 Whoer
 https://whoer.net/
 
-Popup test
+Popup Test
 http://www.popuptest.com/
 
-Privacy check:
+Privacy Check:
 http://do-know.com/privacy-test.html
 
-Audio Fingerprint test (see also [here](https://github.com/Gitoffthelawn))
+Audio Fingerprint Test (see also [here](https://github.com/Gitoffthelawn))
 https://audiofingerprint.openwpm.com/
 
-Browser 'auto-download' security vulnerability (Chrome, IDM affected as time of writing)
+Browser 'auto-download' Security Vulnerability (Chrome, IDM affected as time of writing)
 https://binaer.xyz/haifei-li/test.html
