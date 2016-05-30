@@ -27,7 +27,7 @@ I see this as a 'community' based project since everyone can contribute and no o
 * UberCookie/Cookies/EverCookie/Supercookies
 * Measuring time (Timezone)
 * getClientRects fingerprinting (DOM)
-* OSI model fingerprints (HTTP, Header, User Agent, ...)
+* OSI model fingerprints (HTTP, Header, User Agent, Firewall, ...)
 * Hardware implemented fingerprint methods 
 * Plugin/Extension tracking (Silverlight, Adobe Flash, ...)
 * Tor detection
