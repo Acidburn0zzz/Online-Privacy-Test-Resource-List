@@ -7,6 +7,8 @@ I see this as a 'community' based project since everyone can contribute and no o
 
 
 **ToDo:**
+* Add github-gh page (front-page)
+* Add (maybe) gitter chat 
 * Add an page index to easier navigate to the specific sections 
 * ~~Enable accepting issues on GitHub!~~
 * Table view?
