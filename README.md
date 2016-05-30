@@ -12,7 +12,7 @@ ToDo:
 * Mark depcreated (because fixed by OS/Browser) test with an icon? It would help to identify if that is already fixed or not to avoid to submit unessary data and of course it would costs your time ... 
 
 
-Known Fingerprint techniques:
+**Known Fingerprint techniques:**
 * Mouse Speed fingerprinting
 * CPU Benchmark fingerprinting
 * User fingerprinting problem (IP, ...)
@@ -26,7 +26,8 @@ Known Fingerprint techniques:
 * Plugin/Extension tracking (Silverlight, Adobe Flash, ...)
 * ....
 
-How to archive this?
+**How to archive this?**
+
 Collection of device fingerprints from web clients (browser software) relies on the availability of JavaScript or similar client-side scripting language for the harvesting of a suitably large number of parameters. Overall this means if only one or a small of things are detectable it not automatically reveals your true identify, but all together is pretty dangerous.
 
 
