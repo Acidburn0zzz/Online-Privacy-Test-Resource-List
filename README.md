@@ -24,6 +24,8 @@ ToDo:
 * OSI model fingerprints (HTTP, Header, User Agent, ...)
 * Hardware implemented fingerprint methods 
 * Plugin/Extension tracking (Silverlight, Adobe Flash, ...)
+* Tor detection
+* DNS leakage or bypasses 
 * ....
 
 **How to archive this?**
