@@ -49,6 +49,7 @@ Collection of device fingerprints from web clients (browser software) relies on 
 * CPU, mouswheel fingerprinting which needs to be fixed also within the OS (still open)
 * MAC address leakage - disable IPv6 (if not nessary/needed)
 * WebRTC (partial) since Chrome 48 and Firefox 42, both getting an new menu to allow it per-page (whitelist) [there exist also for both several addons, workarounds to compile it without WebRTC support)
+* PopUps are (if not Canvas/JS related) not anymore possible, you see a permission Dialog or can control this behavior directly via Browser settings
 * .... 
 
 
