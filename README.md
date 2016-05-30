@@ -6,7 +6,7 @@ This list is designed to show all available (and useful) online tests, we may no
 I see this as a 'community' based project since everyone can contribute and no one ever will excluded (only with good reasons like spamming, ...). I/we not accept any donations because we all doing this in our free time and it's up to everyone. The information should be avaible for free for everyone. 
 
 
-ToDo:
+**ToDo:**
 * Add an page index to easier navigate to the specific sections 
 * ~~Enable accepting issues on GitHub!~~
 * Table view?
@@ -33,10 +33,6 @@ ToDo:
 * Stuff which is documented and mentioned over [here](https://github.com/CHEF-KOCH/NSABlocklist).
 * ....
 
-**How to archive this?**
-
-Collection of device fingerprints from web clients (browser software) relies on the availability of JavaScript or similar client-side scripting language for the harvesting of a suitably large number of parameters. Overall this means if only one or a small of things are detectable it not automatically reveals your true identify, but all together is pretty dangerous.
-
 
 ** Fixed within the Browser (ensure you using the latest product [always])**
 * SSL / TLS (ciphers) [if you only browsing on pages like GitHub ~ you can even more '[harden](https://tools.ietf.org/html/draft-sheffer-tls-bcp-00)' it]
@@ -52,6 +48,9 @@ Collection of device fingerprints from web clients (browser software) relies on 
 * PopUps are (if not Canvas/JS related) not anymore possible, you see a permission Dialog or can control this behavior directly via Browser settings
 * .... 
 
+**How to handle this?**
+
+Collection of device fingerprints from web clients (browser software) relies on the availability of JavaScript or similar client-side scripting language for the harvesting of a suitably large number of parameters. Overall this means if only one or a small of things are detectable it not automatically reveals your true identify, but all together is pretty dangerous.
 
 
 ### Addon & Plugin Tests
