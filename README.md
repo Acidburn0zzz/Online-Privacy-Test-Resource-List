@@ -7,18 +7,18 @@ I see this as a 'community' based project since everyone can contribute and no o
 
 
 **ToDo:**
+* Do you want to change your project name to Privacy Online Test And Resource Compendium (right now, it is Online Privacy Test Resource List0
 * Add github-gh page (front-page)
 * Add (maybe) gitter chat 
 * Add an page index to easier navigate to the specific sections 
-* ~~Enable accepting issues on GitHub!~~
 * Table view?
 * Add small overview what the page exactly do
 * Add a warning that all of these pages mostly require JavaScript which must be e.g allowed via NoScript/umatrix.
-* Some pages itself may collecting a online/offline database?! Research + proof needed. But it would make sense if they seell the collected data to Google, Amazon and others ... 
-* Mark depcreated (because fixed by OS/Browser) test with an icon? It would help to identify if that is already fixed or not to avoid to submit unessary data and of course it would costs your time ... 
+* Some pages itself may collecting a online/offline database?! Research + proof needed. But it would make sense if they sell the collected data to Google, Amazon and others ... 
+* Mark deprecated (because fixed by OS/Browser) test with an icon? It would help to identify if that is already fixed or not to avoid to submit unessary data and of course it would costs your time ... 
 
 
-**Known Fingerprint techniques:**
+**Known Fingerprinting Techniques:**
 * Mouse Speed fingerprinting
 * CPU Benchmark fingerprinting
 * User fingerprinting problem (IP, ...)
@@ -126,7 +126,7 @@ http://whatismyipaddress.com/webrtc-test
 
 ### IP & DNS Leak Tests
 
-Check my Torrent IP:
+Check My Torrent IP:
 https://torguard.net/checkmytorrentipaddress.php
 
 Content Filters and Proxy Test:
@@ -138,7 +138,7 @@ https://www.dnsleaktest.com/
 DNS Spoofability Test:
 https://www.grc.com/dns/dns.htm
 
-IPv4/Ipv6 Discovery/Detection Test:
+IPv4/IPv6 Discovery / Detection Test:
 https://www.perfect-privacy.com/check-ip/
 
 IP Magnet Test:
@@ -156,7 +156,7 @@ https://www.google.com/settings/accounthistory
 Facebook Activity Log:
 https://www.facebook.com/me/allactivity
 
-YouTube Video History / Search history:
+YouTube Video History / Search History:
 https://www.youtube.com/feed/history
 
 
@@ -168,7 +168,7 @@ https://badssl.com/
 FREAK Attack: Client Check:
 https://freakattack.com/clienttest.html
 
-Heartbleed test:
+Heartbleed Test:
 https://filippo.io/Heartbleed/
 
 RC4 Fallback Test:
@@ -231,9 +231,6 @@ http://fingerprint.pet-portal.eu/#
 IP Leak:
 https://ipleak.net/
 
-Five Star Privacy Checker:
-http://5who.net/
-
 Jondonym Full Anonymity Test:
 http://ip-check.info/?lang=en
 
@@ -261,5 +258,5 @@ http://do-know.com/privacy-test.html
 Audio Fingerprint Test (see also [here](https://github.com/Gitoffthelawn)):
 https://audiofingerprint.openwpm.com/
 
-Browser 'auto-download' Security Vulnerability (Chrome, IDM affected as time of writing):
+Browser 'auto-download' Security Vulnerability (Chrome, IDM affected at time of writing):
 https://binaer.xyz/haifei-li/test.html
