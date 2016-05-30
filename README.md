@@ -25,7 +25,8 @@ ToDo:
 * Hardware implemented fingerprint methods 
 * Plugin/Extension tracking (Silverlight, Adobe Flash, ...)
 * Tor detection
-* DNS leakage or bypasses 
+* DNS leakage or bypasses
+* Stuff which is documented and mentioned over [here](https://github.com/CHEF-KOCH/NSABlocklist).
 * ....
 
 **How to archive this?**
