@@ -36,7 +36,7 @@ I see this as a 'community' based project since everyone can contribute and no o
 * ....
 
 
-** Fixed within the Browser (ensure you using the latest product [always])**
+**Fixed within the Browser (ensure you using the latest product [always])**
 * SSL / TLS (ciphers) [if you only browsing on pages like GitHub ~ you can even more '[harden](https://tools.ietf.org/html/draft-sheffer-tls-bcp-00)' it]
 * OpenSSL fixed (heartbleed,...) 
 * Chrome: Audio Fingerprinting not possible Firefox: **not tested (yet) - need feedback!**
