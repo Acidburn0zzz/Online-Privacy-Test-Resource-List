@@ -23,8 +23,7 @@ I see this as a 'community' based project since everyone can contribute and no o
 **Known Fingerprinting Techniques:**
 * Mouse Speed fingerprinting
 * CPU Benchmark fingerprinting
-* User fingerprinting problem (IP, ...)
-* Canvas Fingerprinting
+* User fingerprinting problem (Canvas, IP, ...)
 * Screen resolution (this possible will never be fixed since it would break too much)
 * UberCookie/Cookies/EverCookie/Supercookies
 * Measuring time (Timezone/[NTP](http://www.securityweek.com/ntp-servers-exposed-long-distance-wireless-attacks))
@@ -221,7 +220,7 @@ http://www.lalit.org/lab/javascript-css-font-detect/
 Universal Plug n'Play (UPnP) Internet Exposure Test:
 https://www.grc.com/x/ne.dll?rh1dkyd2
 
-JavaScript: PasteJacking
+JavaScript: PasteJacking:
 https://www.sempervideo.de/pastejacking/
 
 
