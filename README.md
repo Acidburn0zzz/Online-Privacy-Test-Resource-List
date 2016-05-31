@@ -221,6 +221,9 @@ http://www.lalit.org/lab/javascript-css-font-detect/
 Universal Plug n'Play (UPnP) Internet Exposure Test:
 https://www.grc.com/x/ne.dll?rh1dkyd2
 
+JavaScript: PasteJacking
+https://www.sempervideo.de/pastejacking/
+
 
 ### Advanced Tests
 
