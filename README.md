@@ -10,7 +10,6 @@ I see this as a 'community' based project since everyone can contribute and no o
 
 
 **ToDo:**
-* Do you want to change your project name to Privacy Online Test And Resource Compendium (right now, it is Online Privacy Test Resource List)
 * Add github-gh page (front-page)
 * Add (maybe) gitter chat 
 * Add an page index to easier navigate to the specific sections 
