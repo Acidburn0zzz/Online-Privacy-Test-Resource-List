@@ -1,4 +1,7 @@
 # - POTARC -
+
+Privacy Online Test And Resource Compendium© project original created under the MIT license 2016 by CHEF-KOCH and community.
+
 # Privacy Online Test And Resource Compendium
 
 This list is designed to show all available (and useful) online tests, we may not add each test if it's unclear if it collects only data to hand/sell it to 3th-party developer or people which pay for it to use it for 'bad' things. 
