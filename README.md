@@ -122,6 +122,9 @@ http://whatismyipaddress.com/webrtc-test
 
 ### IP & DNS Leak Tests
 
+IP Leak:
+https://ipleak.net/
+
 Check My Torrent IP:
 https://torguard.net/checkmytorrentipaddress.php
 
@@ -229,9 +232,6 @@ http://browserspy.dk/
 
 Cross Browser Fingerprinting Test:
 http://fingerprint.pet-portal.eu/#
-
-IP Leak:
-https://ipleak.net/
 
 Jondonym Full Anonymity Test:
 http://ip-check.info/?lang=en
