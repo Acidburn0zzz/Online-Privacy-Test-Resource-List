@@ -222,6 +222,18 @@ JavaScript: PasteJacking:
 https://www.sempervideo.de/pastejacking/
 
 
+### Mouse 
+
+Enotus mouse test (Tracking speed and polling rate): 
+http://enotus.at.tut.by/Articles/MouseTest/index.html (link broken?)
+
+Outerspace's Max IPS logger (Tracking speeds and will show if theres negative/positive acceleration when you hit a certain speed):
+http://maxouterspace.com/ (link broken?)
+
+Mouse Rate Checker (polling rate):
+http://tscherwitschke.de/old/download.html
+
+
 ### Advanced Tests
 
 Am I Unique?:
