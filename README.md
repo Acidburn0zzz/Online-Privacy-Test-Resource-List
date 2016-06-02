@@ -84,9 +84,9 @@ Pwnedlist:
 https://pwnedlist.com/
 
 
-### Certificate Test
+### Certificate
 
-Revocation Awareness Test
+Revocation Awareness Test:
 https://www.grc.com/revocation.htm
 
 
