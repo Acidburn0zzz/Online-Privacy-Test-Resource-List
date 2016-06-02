@@ -84,6 +84,12 @@ Pwnedlist:
 https://pwnedlist.com/
 
 
+### Certificate Test
+
+Revocation Awareness Test
+https://www.grc.com/revocation.htm
+
+
 ### HTML5 test
 
 Battery Status API:
