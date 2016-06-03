@@ -83,6 +83,9 @@ https://haveibeenpwned.com/
 Pwnedlist:
 https://pwnedlist.com/
 
+Check Your GPG Fingerprints
+https://evil32.com/
+
 
 ### Certificate
 
