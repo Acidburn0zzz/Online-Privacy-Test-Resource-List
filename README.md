@@ -164,6 +164,9 @@ https://www.youtube.com/feed/history
 
 ### SSL Test
 
+SSL Cipher Suite Details of Your Browser
+https://cc.dcsec.uni-hannover.de/
+
 Bad SSL:
 https://badssl.com/
 
