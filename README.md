@@ -95,6 +95,9 @@ https://www.grc.com/revocation.htm
 
 ### HTML5 test
 
+Basic HTMl5 Video and Audio tester (works without JS or Plugins)
+http://tools.woolyss.com/html5-audio-video-tester/
+
 Battery Status API:
 http://pstadler.sh/battery.js/
 
