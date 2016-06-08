@@ -45,7 +45,7 @@ I see this as a 'community' based project since everyone can contribute and no o
 Collection of device fingerprints from web clients (browser software) relies on the availability of JavaScript or similar client-side scripting language for the harvesting of a suitably large number of parameters. Overall this means if only one or a small of things are detectable it not automatically reveals your true identify, but all together is pretty dangerous.
 
 
-### Addon & Plugin Tests (obsolete)
+### Add-ons & Plugin Tests (obsolete except A. Flash)
 
 Firefox Addon Detector:
 https://thehackerblog.com/addon_scanner/
@@ -63,9 +63,9 @@ Silverlight Test:
 https://www.browserleaks.com/silverlight
 
 
-### Add-ons e10s
+### Add-ons e10s check
 
-Firefox Compatible check
+Firefox Compatible check:
 https://www.arewee10syet.com/
 
 
@@ -101,7 +101,7 @@ https://www.grc.com/revocation.htm
 
 ### HTML5 test
 
-Basic HTMl5 Video and Audio tester (works without JS or Plugins)
+Basic HTMl5 Video and Audio tester (works without JS or Plugins):
 http://tools.woolyss.com/html5-audio-video-tester/
 
 Battery Status API:
@@ -173,7 +173,7 @@ https://www.youtube.com/feed/history
 
 ### SSL Test
 
-SSL Cipher Suite Details of Your Browser
+SSL Cipher Suite Details of Your Browser:
 https://cc.dcsec.uni-hannover.de/
 
 Bad SSL:
