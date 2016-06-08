@@ -45,7 +45,7 @@ I see this as a 'community' based project since everyone can contribute and no o
 Collection of device fingerprints from web clients (browser software) relies on the availability of JavaScript or similar client-side scripting language for the harvesting of a suitably large number of parameters. Overall this means if only one or a small of things are detectable it not automatically reveals your true identify, but all together is pretty dangerous.
 
 
-### Addon & Plugin Tests
+### Addon & Plugin Tests (obsolete)
 
 Firefox Addon Detector:
 https://thehackerblog.com/addon_scanner/
@@ -61,6 +61,12 @@ https://www.java.com/en/download/installed.jsp
 
 Silverlight Test:
 https://www.browserleaks.com/silverlight
+
+
+### Add-ons e10s
+
+Firefox Compatible check
+https://www.arewee10syet.com/
 
 
 ### eMail
