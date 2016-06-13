@@ -261,6 +261,12 @@ Mouse Rate Checker (polling rate):
 http://tscherwitschke.de/old/download.html
 
 
+### Keyboard
+
+Javascript Key Event Test Script
+http://unixpapa.com/js/testkey.html
+
+
 ### Advanced Tests
 
 Am I Unique?:
