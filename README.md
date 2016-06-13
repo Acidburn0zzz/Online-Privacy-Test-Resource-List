@@ -22,6 +22,18 @@ I see this as a 'community' based project since everyone can contribute and no o
 * Plugin/Extension tracking (Silverlight, Adobe Flash, ...)
 * Tor detection
 * DNS leakage or bypasses
+* Do not track (DNT) detection (DNT is useless anyway because it's an optional feature)
+* Font detection
+* Caching attacks
+* PushAPI
+* ServiceWorker
+* Fetch API
+* AJAX
+* CORS (ajax)
+* WebSocket
+* Password sniffing
+* Polling rate (interval) e.g. usb polling rate
+* Several HTTP authorization detection (not fixable because it's protocol dependend + metadata)
 * Stuff which is documented and mentioned over [here](https://github.com/CHEF-KOCH/NSABlocklist).
 * ....
 
