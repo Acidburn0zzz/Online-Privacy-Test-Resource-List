@@ -307,3 +307,9 @@ https://audiofingerprint.openwpm.com/
 
 Browser 'auto-download' Security Vulnerability (Chrome, IDM affected at time of writing):
 https://binaer.xyz/haifei-li/test.html
+
+
+### Tor 
+
+TorCheck at Xenobite.eu
+https://torcheck.xenobite.eu/index.php
