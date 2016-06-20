@@ -17,21 +17,23 @@ I see this as a 'community' based project since everyone can contribute and no o
 * UberCookie/Cookies/EverCookie/Supercookies
 * Measuring time (Timezone/[NTP](http://www.securityweek.com/ntp-servers-exposed-long-distance-wireless-attacks))
 * getClientRects fingerprinting (DOM)
-* OSI model fingerprints (HTTP, Header, User Agent, Firewall, ...)
+* OSI model fingerprints (based on HTTP, Header, User Agent, Firewall, ...)
 * Hardware implemented fingerprint methods 
 * Plugin/Extension tracking (Silverlight, Adobe Flash, ...)
-* Tor detection
+* Tor node detection
 * DNS leakage or bypasses
 * Do not track (DNT) detection (DNT is useless anyway because it's an optional feature)
 * Font detection
 * Caching attacks
 * PushAPI
 * ServiceWorker
+* [TLS](https://github.com/LeeBrotherston/tls-fingerprinting)
 * Fetch API
 * AJAX
 * CORS (ajax)
 * WebSocket
 * Password sniffing
+* [Canvas](http://cseweb.ucsd.edu/~hovav/dist/canvas.pdf)
 * Polling rate (interval) e.g. usb polling rate
 * Several HTTP authorization detection (not fixable because it's protocol dependend + metadata)
 * Stuff which is documented and mentioned over [here](https://github.com/CHEF-KOCH/NSABlocklist).
@@ -43,7 +45,7 @@ I see this as a 'community' based project since everyone can contribute and no o
 * OpenSSL fixed (heartbleed,...) 
 * Chrome: Audio Fingerprinting not possible Firefox: **not tested (yet) - need feedback!**
 * Tor (several fingerprints still possible, it's on the todo and will be fixed soon)
-* Java/Adobe Flash, both are dying -> HTML5 -> canvas
+* Java/Adobe Flash, both are dying -> HTML5
 * HTML5 several stuff like Canvas, Font, ... (will never be fixed, use addons)
 * Cookies in general are not fixable since your page may need it, Amazon for shopping as an example (addons/filter-lists may help to whitelist).
 * CPU, mouswheel fingerprinting which needs to be fixed also within the OS (still open)
