@@ -18,21 +18,22 @@ I see this as a 'community' based project since everyone can contribute and no o
 * Measuring time (Timezone/[NTP](http://www.securityweek.com/ntp-servers-exposed-long-distance-wireless-attacks))
 * getClientRects fingerprinting (DOM)
 * OSI model fingerprints (based on HTTP, Header, User Agent, Firewall, ...)
-* Hardware implemented fingerprint methods 
+* Hardware implemented fingerprint methods such as DRM
 * Plugin/Extension tracking (Silverlight, Adobe Flash, ...)
-* Tor node detection
-* DNS leakage or bypasses
+* [Tor node detection](https://check.torproject.org/)
+* [DNS leakage or bypasses](https://www.dnsleaktest.com/what-is-a-dns-leak.html)
 * Do not track (DNT) detection (DNT is useless anyway because it's an optional feature)
-* Font detection
-* Caching attacks
-* PushAPI
+* [Font detection & vulnerabilites](https://support.microsoft.com/en-us/kb/2639658)
+* [Caching attacks](https://en.wikipedia.org/wiki/Timing_attack)
+* [PushAPI](https://developer.mozilla.org/en-US/docs/Web/API/Push_API)
 * ServiceWorker
 * [TLS](https://github.com/LeeBrotherston/tls-fingerprinting)
-* Fetch API
-* AJAX
-* CORS (ajax)
-* WebSocket
-* Password sniffing
+* [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+* [Battery API](https://www.w3.org/TR/battery-status/)
+* [AJAX](http://www.symantec.com/connect/articles/ajax-security-basics)
+* [CORS (ajax)](http://www.html5rocks.com/en/tutorials/cors/)
+* [WebSocket](http://resources.infosecinstitute.com/websocket-security-issues/)
+* [Password sniffing](http://cng.seas.rochester.edu/CNG/docs/Security/node8.html)
 * [Canvas](http://cseweb.ucsd.edu/~hovav/dist/canvas.pdf)
 * Polling rate (interval) e.g. usb polling rate
 * Several HTTP authorization detection (not fixable because it's protocol dependend + metadata)
