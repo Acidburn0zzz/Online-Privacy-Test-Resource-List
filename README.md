@@ -271,6 +271,9 @@ http://tscherwitschke.de/old/download.html
 Javascript Key Event Test Script
 http://unixpapa.com/js/testkey.html
 
+JavaScript Event KeyCode Test Page
+http://www.asquare.net/javascript/tests/KeyCode.html
+
 
 ### Advanced Tests
 
