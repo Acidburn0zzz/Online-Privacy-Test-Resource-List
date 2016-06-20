@@ -183,6 +183,11 @@ YouTube Video History / Search History:
 https://www.youtube.com/feed/history
 
 
+### Resource:// URIs checks 
+
+Arthured Elstein resource:// URIs leak information page
+https://arthuredelstein.github.io/tordemos/resource-locale.html
+
 ### SSL Test
 
 SSL Cipher Suite Details of Your Browser:
