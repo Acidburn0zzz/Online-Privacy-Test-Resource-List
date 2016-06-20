@@ -10,7 +10,7 @@ I see this as a 'community' based project since everyone can contribute and no o
 
 
 **Known Fingerprinting Techniques:**
-* Mouse Speed fingerprinting
+* [Mouse Speed fingerprinting](http://jcarlosnorte.com/security/2016/03/06/advanced-tor-browser-fingerprinting.html)
 * CPU Benchmark fingerprinting
 * User fingerprinting problem (Canvas, IP, ...)
 * Screen resolution (this possible will never be fixed since it would break too much)
@@ -19,14 +19,14 @@ I see this as a 'community' based project since everyone can contribute and no o
 * getClientRects fingerprinting (DOM)
 * OSI model fingerprints (based on HTTP, Header, User Agent, Firewall, ...)
 * Hardware implemented fingerprint methods such as DRM
-* Plugin/Extension tracking (Silverlight, Adobe Flash, ...)
+* [Plugin/Extension tracking](https://webdevwonders.com/detecting-browser-plugins/) (Silverlight, Adobe Flash, ...)
 * [Tor node detection](https://check.torproject.org/)
 * [DNS leakage or bypasses](https://www.dnsleaktest.com/what-is-a-dns-leak.html)
-* Do not track (DNT) detection (DNT is useless anyway because it's an optional feature)
+* [Do not track (DNT) detection](https://econsultancy.com/blog/6921-the-ftc-s-do-not-track-proposal-useless-harmful-or-both)
 * [Font detection & vulnerabilites](https://support.microsoft.com/en-us/kb/2639658)
 * [Caching attacks](https://en.wikipedia.org/wiki/Timing_attack)
 * [PushAPI](https://developer.mozilla.org/en-US/docs/Web/API/Push_API)
-* ServiceWorker
+* [ServiceWorker](http://www.html5rocks.com/en/tutorials/service-worker/introduction/)
 * [TLS](https://github.com/LeeBrotherston/tls-fingerprinting)
 * [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 * [Battery API](https://www.w3.org/TR/battery-status/)
