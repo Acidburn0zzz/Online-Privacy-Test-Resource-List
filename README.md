@@ -295,6 +295,9 @@ http://ip-check.info/?lang=en
 Panopticlick:
 https://panopticlick.eff.org/
 
+Browserprint.Info:
+https://browserprint.info/test
+
 PC Flank:
 http://www.pcflank.com/index.htm
 
