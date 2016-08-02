@@ -1,4 +1,4 @@
-# - POTARC -
+﻿# - POTARC -
 
 Privacy Online Test And Resource Compendium© project original created under the MIT license 2016 by CHEF-KOCH and community.
 
@@ -184,6 +184,9 @@ https://www.facebook.com/me/allactivity
 
 YouTube Video History / Search History:
 https://www.youtube.com/feed/history
+
+Microsoft Account Credentials Leak vulnerability check:
+https://msleak.perfect-privacy.com/
 
 
 ### Resource:// URIs checks 
