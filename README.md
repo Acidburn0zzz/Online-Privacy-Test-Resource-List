@@ -146,6 +146,9 @@ https://test.webrtc.org/
 WebRTC What's My IP Check:
 http://whatismyipaddress.com/webrtc-test
 
+HTML5 Security Cheatsheet
+https://html5sec.org/
+
 
 ### IP & DNS Leak Tests
 
