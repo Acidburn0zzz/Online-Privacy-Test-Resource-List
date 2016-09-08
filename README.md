@@ -191,6 +191,9 @@ https://www.youtube.com/feed/history
 Microsoft Account Credentials Leak vulnerability check:
 https://msleak.perfect-privacy.com/
 
+Checks website reputation and additional security related infos:
+https://github.com/andersju/webbkoll
+
 
 ### Resource:// URIs checks 
 
