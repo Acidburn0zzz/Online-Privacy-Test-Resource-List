@@ -147,6 +147,9 @@ https://test.webrtc.org/
 WebRTC What's My IP Check:
 http://whatismyipaddress.com/webrtc-test
 
+HTML5 Security Cheatsheet
+https://html5sec.org/
+
 
 ### IP & DNS Leak Tests
 
@@ -188,6 +191,9 @@ https://www.youtube.com/feed/history
 
 Microsoft Account Credentials Leak vulnerability check:
 https://msleak.perfect-privacy.com/
+
+Checks website reputation and additional security related infos:
+https://github.com/andersju/webbkoll
 
 
 ### Resource:// URIs checks 
