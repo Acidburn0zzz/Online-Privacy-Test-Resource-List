@@ -10,6 +10,7 @@ I see this as a 'community' based project since everyone can contribute and no o
 
 
 **Known Fingerprinting Techniques:**
+* [CPU Fingerprint](http://yinzhicao.org/TrackingFree/crossbrowsertracking_NDSS17.pdf)
 * [Mouse Speed fingerprinting](http://jcarlosnorte.com/security/2016/03/06/advanced-tor-browser-fingerprinting.html)
 * CPU Benchmark fingerprinting
 * User fingerprinting problem (Canvas, IP, ...)
@@ -194,6 +195,7 @@ https://msleak.perfect-privacy.com/
 Arthured Elstein resource:// URIs leak information page
 https://arthuredelstein.github.io/tordemos/resource-locale.html
 
+
 ### SSL Test
 
 SSL Cipher Suite Details of Your Browser:
@@ -279,6 +281,12 @@ http://unixpapa.com/js/testkey.html
 
 JavaScript Event KeyCode Test Page
 http://www.asquare.net/javascript/tests/KeyCode.html
+
+
+## GPU / CPU 
+
+http://www.uniquemachine.org/
+
 
 
 ### Advanced Tests
