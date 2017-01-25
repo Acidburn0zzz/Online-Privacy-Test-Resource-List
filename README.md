@@ -153,6 +153,9 @@ https://html5sec.org/
 
 ### IP & DNS Leak Tests
 
+DoiLeak:
+https://www.doileak.com/
+
 IP Leak:
 https://ipleak.net/
 
@@ -307,7 +310,7 @@ Cross Browser Fingerprinting Test:
 http://fingerprint.pet-portal.eu/#
 
 Jondonym Full Anonymity Test:
-http://ip-check.info/?lang=en
+http://ip-check.info/
 
 Panopticlick:
 https://panopticlick.eff.org/
