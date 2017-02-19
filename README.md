@@ -294,8 +294,7 @@ http://www.asquare.net/javascript/tests/KeyCode.html
 
 ## GPU / CPU 
 
-http://www.uniquemachine.org/
-
+http://www.uniquemachine.org/ ([Source](https://github.com/Song-Li/cross_browser))
 
 
 ### Advanced Tests
