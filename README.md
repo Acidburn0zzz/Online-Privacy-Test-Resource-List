@@ -52,7 +52,7 @@ I see this as a 'community' based project since everyone can contribute and no o
 * Cookies in general are not fixable since your page may need it, Amazon for shopping as an example (addons/filter-lists may help to whitelist).
 * CPU, mouswheel fingerprinting which needs to be fixed also within the OS (still open)
 * MAC address leakage - disable IPv6 (if not nessary/needed)
-* WebRTC (partial) since Chrome 48 and Firefox 42, both getting an new menu to allow it per-page (whitelist) [there exist also for both several addons, workarounds to compile it without WebRTC support)
+* WebRTC since Chrome 48+ and Firefox 42+, both getting an new menu to allow it per-page (whitelist) [there exist also for both several addons, workarounds to compile it without WebRTC support)
 * PopUps are (if not Canvas/JS related) not anymore possible, you see a permission Dialog or can control this behavior directly via Browser settings
 * .... 
 
@@ -197,6 +197,9 @@ https://msleak.perfect-privacy.com/
 
 Checks website reputation and additional security related infos:
 https://github.com/andersju/webbkoll
+
+Browser Extension and Login-Leak Experiment
+https://extensions.inrialpes.fr/
 
 
 ### Resource:// URIs checks 
