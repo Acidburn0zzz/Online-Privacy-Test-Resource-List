@@ -204,7 +204,7 @@ https://extensions.inrialpes.fr/
 
 ## Resource:// URIs checks 
 
-Arthured Elstein resource:// URIs leak information page
+Arthured Elstein resource:// URIs leak information page:
 https://arthuredelstein.github.io/tordemos/resource-locale.html
 
 
@@ -309,7 +309,7 @@ Browser Spy (Multiple Tests):
 http://browserspy.dk/
 
 Cross Browser Fingerprinting Test:
-http://fingerprint.pet-portal.eu/#
+http://fingerprint.pet-portal.eu/
 
 Jondonym Full Anonymity Test:
 http://ip-check.info/
