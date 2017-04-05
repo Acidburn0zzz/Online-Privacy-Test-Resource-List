@@ -198,7 +198,7 @@ https://msleak.perfect-privacy.com/
 Checks website reputation and additional security related infos:
 https://github.com/andersju/webbkoll
 
-Browser Extension and Login-Leak Experiment
+Browser Extension and Login-Leak Experiment:
 https://extensions.inrialpes.fr/
 
 
@@ -280,7 +280,7 @@ Enotus mouse test (Tracking speed and polling rate):
 http://enotus.at.tut.by/Articles/MouseTest/index.html (link broken?)
 
 Outerspace's Max IPS logger (Tracking speeds and will show if theres negative/positive acceleration when you hit a certain speed):
-http://maxouterspace.com/ (link broken?)
+http://maxouterspace.com/
 
 Mouse Rate Checker (polling rate):
 http://tscherwitschke.de/old/download.html
