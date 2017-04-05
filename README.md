@@ -61,7 +61,7 @@ I see this as a 'community' based project since everyone can contribute and no o
 Collection of device fingerprints from web clients (browser software) relies on the availability of JavaScript or similar client-side scripting language for the harvesting of a suitably large number of parameters. Overall this means if only one or a small of things are detectable it not automatically reveals your true identify, but all together is pretty dangerous.
 
 
-### Add-ons & Plugin Tests (obsolete except A. Flash)
+## Add-ons & Plugin Tests (obsolete except A. Flash)
 
 Firefox Addon Detector:
 https://thehackerblog.com/addon_scanner/
@@ -79,13 +79,13 @@ Silverlight Test:
 https://www.browserleaks.com/silverlight
 
 
-### Add-ons e10s check
+## Add-ons e10s check
 
 Firefox Compatible check:
 https://www.arewee10syet.com/
 
 
-### eMail
+## eMail
 
 Check Provider-TLS:
 https://www.checktls.com/
@@ -109,13 +109,13 @@ Check Your GPG Fingerprints
 https://evil32.com/
 
 
-### Certificate
+## Certificate
 
 Revocation Awareness Test:
 https://www.grc.com/revocation.htm
 
 
-### HTML5 test
+## HTML5 test
 
 Basic HTMl5 Video and Audio tester (works without JS or Plugins):
 http://tools.woolyss.com/html5-audio-video-tester/
@@ -151,7 +151,7 @@ HTML5 Security Cheatsheet
 https://html5sec.org/
 
 
-### IP & DNS Leak Tests
+## IP & DNS Leak Tests
 
 DoiLeak:
 https://www.doileak.com/
@@ -181,7 +181,7 @@ Whois Test (Windows):
 https://www.browserleaks.com/whois
 
 
-### Privacy Management
+## Privacy Management
 
 Google Account History:
 https://www.google.com/settings/accounthistory
@@ -202,13 +202,13 @@ Browser Extension and Login-Leak Experiment:
 https://extensions.inrialpes.fr/
 
 
-### Resource:// URIs checks 
+## Resource:// URIs checks 
 
 Arthured Elstein resource:// URIs leak information page
 https://arthuredelstein.github.io/tordemos/resource-locale.html
 
 
-### SSL Test
+## SSL Test
 
 SSL Cipher Suite Details of Your Browser:
 https://cc.dcsec.uni-hannover.de/
@@ -235,7 +235,7 @@ Weak Diffie-Hellman and the Logjam Attack:
 https://weakdh.org/
 
 
-### Random Tests (DNT, Evercookie, Headers, Javascript,...)
+## Random Tests (DNT, Evercookie, Headers, Javascript,...)
 
 BrowserRecon (Header/HTTP) Test:
 http://www.computec.ch/projekte/browserrecon/?s=scan
@@ -274,7 +274,7 @@ JavaScript: PasteJacking:
 https://www.sempervideo.de/pastejacking/
 
 
-### Mouse 
+## Mouse 
 
 Enotus mouse test (Tracking speed and polling rate): 
 http://enotus.at.tut.by/Articles/MouseTest/index.html (link broken?)
@@ -286,7 +286,7 @@ Mouse Rate Checker (polling rate):
 http://tscherwitschke.de/old/download.html
 
 
-### Keyboard
+## Keyboard
 
 Javascript Key Event Test Script
 http://unixpapa.com/js/testkey.html
@@ -300,7 +300,7 @@ http://www.asquare.net/javascript/tests/KeyCode.html
 http://www.uniquemachine.org/ ([Source](https://github.com/Song-Li/cross_browser))
 
 
-### Advanced Tests
+## Advanced Tests
 
 Am I Unique?:
 https://amiunique.org/fp
@@ -345,7 +345,7 @@ Browser 'auto-download' Security Vulnerability (Chrome, IDM affected at time of 
 https://binaer.xyz/haifei-li/test.html
 
 
-### Tor 
+## Tor 
 
 TorCheck at Xenobite.eu
 https://torcheck.xenobite.eu/index.php
