@@ -6,7 +6,7 @@ Privacy Online Test And Resource Compendium© project original created under the
 
 This list is designed to show all available (and useful) online tests, we may not add each test if it's unclear if it collects only data to hand/sell it to 3th-party developer or people which pay for it to use it for 'bad' things. 
 
-I see this as a 'community' based project since everyone can contribute and no one ever will excluded (only with good reasons like spamming, ...). I/we not accept any donations because we all doing this in our free time and it's up to everyone. The information should be avaible for free for everyone. 
+I see this as a 'community' based project since everyone can contribute and no one ever will excluded (only with good reasons like spamming, ...). I/we not accept any donations because we all doing this in our free time and it's up to everyone. The information should be available for free for everyone. 
 
 
 **Known Fingerprinting Techniques:**
@@ -24,7 +24,7 @@ I see this as a 'community' based project since everyone can contribute and no o
 * [Tor node detection](https://check.torproject.org/)
 * [DNS leakage or bypasses](https://www.dnsleaktest.com/what-is-a-dns-leak.html)
 * [Do not track (DNT) detection](https://econsultancy.com/blog/6921-the-ftc-s-do-not-track-proposal-useless-harmful-or-both)
-* [Font detection & vulnerabilites](https://support.microsoft.com/en-us/kb/2639658)
+* [Font detection & vulnerabilities](https://support.microsoft.com/en-us/kb/2639658)
 * [Caching attacks](https://en.wikipedia.org/wiki/Timing_attack)
 * [PushAPI](https://developer.mozilla.org/en-US/docs/Web/API/Push_API)
 * [ServiceWorker](http://www.html5rocks.com/en/tutorials/service-worker/introduction/)
@@ -37,7 +37,7 @@ I see this as a 'community' based project since everyone can contribute and no o
 * [Password sniffing](http://cng.seas.rochester.edu/CNG/docs/Security/node8.html)
 * [Canvas](http://cseweb.ucsd.edu/~hovav/dist/canvas.pdf)
 * Polling rate (interval) e.g. usb polling rate
-* Several HTTP authorization detection (not fixable because it's protocol dependend + metadata)
+* Several HTTP authorization detection (not fixable because it's protocol depending + meta-data)
 * Stuff which is documented and mentioned over [here](https://github.com/CHEF-KOCH/NSABlocklist).
 * ....
 
@@ -51,9 +51,10 @@ I see this as a 'community' based project since everyone can contribute and no o
 * HTML5 several stuff like Canvas, Font, ... (will never be fixed, use addons)
 * Cookies in general are not fixable since your page may need it, Amazon for shopping as an example (addons/filter-lists may help to whitelist).
 * CPU, mouswheel fingerprinting which needs to be fixed also within the OS (still open)
-* MAC address leakage - disable IPv6 (if not nessary/needed)
+* MAC address leakage - disable IPv6 (if not necessary/needed)
 * WebRTC since Chrome 48+ and Firefox 42+, both getting an new menu to allow it per-page (whitelist) [there exist also for both several addons, workarounds to compile it without WebRTC support)
 * PopUps are (if not Canvas/JS related) not anymore possible, you see a permission Dialog or can control this behavior directly via Browser settings
+* Audio Fingerprint Tests
 * .... 
 
 **How to handle this?**
