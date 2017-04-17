@@ -274,6 +274,9 @@ https://www.grc.com/x/ne.dll?rh1dkyd2
 JavaScript: PasteJacking:
 https://www.sempervideo.de/pastejacking/
 
+Punycode converter:
+https://www.punycoder.com/
+
 
 ## Mouse 
 
