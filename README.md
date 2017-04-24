@@ -351,11 +351,11 @@ https://binaer.xyz/haifei-li/test.html
 
 ## Tor 
 
-TorCheck at Xenobite.eu
+TorCheck at Xenobite.eu:
 https://torcheck.xenobite.eu/index.php
 
 
-### Misc
+## Misc
 
-Shattered SHA1 attack 
+Shattered SHA1 attack (SHA1 collusion example):
 https://shattered.io
