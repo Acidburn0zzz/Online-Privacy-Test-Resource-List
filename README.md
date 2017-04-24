@@ -353,3 +353,9 @@ https://binaer.xyz/haifei-li/test.html
 
 TorCheck at Xenobite.eu
 https://torcheck.xenobite.eu/index.php
+
+
+### Misc
+
+Shattered SHA1 attack 
+https://shattered.io
