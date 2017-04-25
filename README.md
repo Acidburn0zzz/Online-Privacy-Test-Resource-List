@@ -348,6 +348,9 @@ https://audiofingerprint.openwpm.com/
 Browser 'auto-download' Security Vulnerability (Chrome, IDM affected at time of writing):
 https://binaer.xyz/haifei-li/test.html
 
+Check2IP:
+http://check2ip.com/
+
 
 ## Tor 
 
