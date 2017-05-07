@@ -185,6 +185,9 @@ http://ipmagnet.services.cbcdn.com/
 Whois Test (Windows):
 https://www.browserleaks.com/whois
 
+Mirai Vulnerability Scanner:
+https://www.incapsula.com/mirai-scanner/
+
 
 ## Privacy Management
 
