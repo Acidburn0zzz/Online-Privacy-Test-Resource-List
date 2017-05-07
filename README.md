@@ -284,6 +284,9 @@ https://www.sempervideo.de/pastejacking/
 Punycode converter:
 https://www.punycoder.com/
 
+Uniquemachine test:
+http://uniquemachine.org/
+
 
 ## Mouse 
 
