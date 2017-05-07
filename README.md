@@ -39,6 +39,10 @@ I see this as a 'community' based project since everyone can contribute and no o
 * Polling rate (interval) e.g. usb polling rate
 * Several HTTP authorization detection (not fixable because it's protocol depending + meta-data)
 * Stuff which is documented and mentioned over [here](https://github.com/CHEF-KOCH/NSABlocklist).
+* CPU Starvation Attacks
+* Memory Starvation Attacks
+* Resource Starvation Attacks
+* Network Bandwidth Attacks
 * ....
 
 
