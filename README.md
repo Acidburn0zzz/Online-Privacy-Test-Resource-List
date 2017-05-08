@@ -326,7 +326,7 @@ Cross Browser Fingerprinting Test:
 http://fingerprint.pet-portal.eu/
 
 Jondonym Full Anonymity Test:
-http://ip-check.info/
+http://ip-check.info/?lang=en
 
 Panopticlick:
 https://panopticlick.eff.org/
