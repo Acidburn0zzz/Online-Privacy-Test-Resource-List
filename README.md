@@ -287,6 +287,9 @@ https://www.punycoder.com/
 Uniquemachine test:
 http://uniquemachine.org/
 
+Mozilla Observatory:
+https://observatory.mozilla.org/
+
 
 ## Mouse 
 
