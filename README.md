@@ -302,6 +302,9 @@ http://maxouterspace.com/
 Mouse Rate Checker (polling rate):
 http://tscherwitschke.de/old/download.html
 
+Mouse reaction time tester:
+http://www.humanbenchmark.com/tests/reactiontime
+
 
 ## Keyboard
 
