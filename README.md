@@ -290,6 +290,9 @@ http://uniquemachine.org/
 Mozilla Observatory:
 https://observatory.mozilla.org/
 
+Google Chrome drive-by exploit tester:
+http://www.sempervideo.de/chrome-driveby/
+
 
 ## Mouse 
 
