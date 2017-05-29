@@ -377,7 +377,11 @@ TorCheck at Xenobite.eu:
 https://torcheck.xenobite.eu/index.php
 
 
-## Misc
+## Cryptography
 
 Shattered SHA1 attack (SHA1 collusion example):
 https://shattered.io
+
+
+## Chrome
+https://internet-israel.com/internet_files/webrtc/index.html [709952](https://bugs.chromium.org/p/chromium/issues/detail?id=709952) 
