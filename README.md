@@ -384,4 +384,6 @@ https://shattered.io
 
 
 ## Chrome
-https://internet-israel.com/internet_files/webrtc/index.html [709952](https://bugs.chromium.org/p/chromium/issues/detail?id=709952) 
+
+Web RTC Chrome vulnerability check
+https://internet-israel.com/internet_files/webrtc/index.html [Bug 709952](https://bugs.chromium.org/p/chromium/issues/detail?id=709952) 
