@@ -43,6 +43,7 @@ I see this as a 'community' based project since everyone can contribute and no o
 * Memory Starvation Attacks
 * Resource Starvation Attacks
 * Network Bandwidth Attacks
+* ISP throttling checks
 * ....
 
 
@@ -385,5 +386,17 @@ https://shattered.io
 
 ## Chrome
 
-Web RTC Chrome vulnerability check
+Web RTC Chrome vulnerability check:
 https://internet-israel.com/internet_files/webrtc/index.html [Bug 709952](https://bugs.chromium.org/p/chromium/issues/detail?id=709952) 
+
+
+## ISP Throttling check
+
+BitTorrent Traffic Shaping:
+https://neubot.nexacenter.org/download
+
+Glasnost:
+http://broadband.mpi-sws.org/transparency/glasnost.php
+
+The Internet Health Test:
+https://www.battleforthenet.com/internethealthtest/
