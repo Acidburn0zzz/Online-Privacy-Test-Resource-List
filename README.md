@@ -273,6 +273,9 @@ https://jigsaw.w3.org/HTTP/300/Overview.html
 System Fonts Detection Test:
 https://www.browserleaks.com/fonts
 
+FluxFonts:
+https://ctrl.blog/entry/fluxfonts
+
 JavaScript/CSS Font Detector:
 http://www.lalit.org/lab/javascript-css-font-detect/
 
