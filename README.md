@@ -403,3 +403,9 @@ http://broadband.mpi-sws.org/transparency/glasnost.php
 
 The Internet Health Test:
 https://www.battleforthenet.com/internethealthtest/
+
+
+## Torrent
+
+ipMagnet:
+http://ipmagnet.services.cbcdn.com/
