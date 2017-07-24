@@ -409,3 +409,9 @@ https://www.battleforthenet.com/internethealthtest/
 
 ipMagnet:
 http://ipmagnet.services.cbcdn.com/
+
+
+## Ransomware
+
+NoMoreRansom
+https://www.nomoreransom.org
