@@ -10,16 +10,15 @@ I see this as a 'community' based project since everyone can contribute and no o
 
 
 **Known Fingerprinting Techniques:**
+* OSI model fingerprints (based on HTTP, Header, User Agent, Firewall, ...)
 * [CPU Fingerprint](http://yinzhicao.org/TrackingFree/crossbrowsertracking_NDSS17.pdf)
-* [Mouse Speed fingerprinting](http://jcarlosnorte.com/security/2016/03/06/advanced-tor-browser-fingerprinting.html)
-* CPU Benchmark fingerprinting
-* User fingerprinting problem (Canvas, IP, ...)
+* [Mouse & CPU fingerprinting](http://jcarlosnorte.com/security/2016/03/06/advanced-tor-browser-fingerprinting.html)
+* [User fingerprinting problem (Canvas, IP, ...)](https://en.wikipedia.org/wiki/Canvas_fingerprinting)
 * Screen resolution (this possible will never be fixed since it would break too much)
 * UberCookie/Cookies/EverCookie/Supercookies
 * Measuring time (Timezone/[NTP](http://www.securityweek.com/ntp-servers-exposed-long-distance-wireless-attacks))
-* getClientRects fingerprinting (DOM)
-* OSI model fingerprints (based on HTTP, Header, User Agent, Firewall, ...)
-* Hardware implemented fingerprint methods such as DRM
+* getClientRects fingerprinting via [DOM](http://www.water.ca.gov/waterquality/docs/Fingerprinting%20Sources%20of%20DOM%20-%20Ngatia.pdf)
+* Hardware implemented fingerprint methods such as [hardware based DRM](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/hardware-drm)
 * [Plugin/Extension tracking](https://webdevwonders.com/detecting-browser-plugins/) (Silverlight, Adobe Flash, ...)
 * [Tor node detection](https://check.torproject.org/)
 * [DNS leakage or bypasses](https://www.dnsleaktest.com/what-is-a-dns-leak.html)
@@ -36,14 +35,13 @@ I see this as a 'community' based project since everyone can contribute and no o
 * [WebSocket](http://resources.infosecinstitute.com/websocket-security-issues/)
 * [Password sniffing](http://cng.seas.rochester.edu/CNG/docs/Security/node8.html)
 * [Canvas](http://cseweb.ucsd.edu/~hovav/dist/canvas.pdf)
-* Polling rate (interval) e.g. usb polling rate
 * Several HTTP authorization detection (not fixable because it's protocol depending + meta-data)
 * Stuff which is documented and mentioned over [here](https://github.com/CHEF-KOCH/NSABlocklist).
-* CPU Starvation Attacks
-* Memory Starvation Attacks
-* Resource Starvation Attacks
-* Network Bandwidth Attacks
-* ISP throttling checks
+* [CPU Starvation Attacks](https://msdn.microsoft.com/en-us/library/ee810608(v=cs.20).aspx)
+* [Memory Starvation Attacks](https://msdn.microsoft.com/en-us/library/ee810601(v=cs.20).aspx)
+* [Resource Starvation Attacks](https://msdn.microsoft.com/en-us/library/ee798408(v=cs.20).aspx)
+* [Network Bandwidth Attacks](https://msdn.microsoft.com/en-us/library/ee798452(v=cs.20).aspx)
+* [ISP throttling checks](https://thenextweb.com/apps/2015/05/21/quick-test-shows-if-isps-are-secretly-throttling-your-internet-speeds/)
 * CDN {Web Cache Deception Attack](https://omergil.blogspot.ch/2017/02/web-cache-deception-attack.html)
 * ....
 
