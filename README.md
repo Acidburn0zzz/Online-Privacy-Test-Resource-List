@@ -10,12 +10,13 @@ I see this as a 'community' based project since everyone can contribute and no o
 
 
 **Known Fingerprinting Techniques:**
-* OSI model fingerprints (based on HTTP, Header, User Agent, Firewall, ...)
+* OSI model fingerprints (based on [HTTP](https://github.com/wireghoul/lbmap), Header, User Agent, Firewall, ...)
 * [CPU Fingerprint](http://yinzhicao.org/TrackingFree/crossbrowsertracking_NDSS17.pdf)
 * [Mouse & CPU fingerprinting](http://jcarlosnorte.com/security/2016/03/06/advanced-tor-browser-fingerprinting.html)
 * [User fingerprinting problem (Canvas, IP, ...)](https://en.wikipedia.org/wiki/Canvas_fingerprinting)
 * Screen resolution (this possible will never be fixed since it would break too much)
 * UberCookie/Cookies/EverCookie/Supercookies
+* [Database fingerprints](https://github.com/Valve/fingerprintjs2)
 * Measuring time (Timezone/[NTP](http://www.securityweek.com/ntp-servers-exposed-long-distance-wireless-attacks))
 * getClientRects fingerprinting via [DOM](http://www.water.ca.gov/waterquality/docs/Fingerprinting%20Sources%20of%20DOM%20-%20Ngatia.pdf)
 * Hardware implemented fingerprint methods such as [hardware based DRM](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/hardware-drm)
@@ -49,16 +50,15 @@ I see this as a 'community' based project since everyone can contribute and no o
 **Fixed within the Browser (ensure you using the latest product [always])**
 * SSL / TLS (ciphers) [if you only browsing on pages like GitHub ~ you can even more '[harden](https://tools.ietf.org/html/draft-sheffer-tls-bcp-00)' it]
 * OpenSSL fixed (heartbleed,...) 
-* Chrome: Audio Fingerprinting not possible Firefox: **not tested (yet) - need feedback!**
 * Tor (several fingerprints still possible, it's on the todo and will be fixed soon)
 * Java/Adobe Flash, both are dead -> HTML5
 * HTML5 several stuff like Canvas, Font, ... (will never be fixed, use addons)
 * Cookies in general are not fixable since your page may need it, Amazon for shopping as an example (addons/filter-lists may help to whitelist).
-* CPU, mouswheel fingerprinting which needs to be fixed also within the OS (still open)
+* CPU, mouse wheel fingerprinting which needs to be fixed also within the OS (still open)
 * MAC address leakage - disable IPv6 (if not necessary/needed)
 * WebRTC since Chrome 48+ and Firefox 42+, both getting an new menu to allow it per-page (whitelist) [there exist also for both several addons, workarounds to compile it without WebRTC support)
 * PopUps are (if not Canvas/JS related) not anymore possible, you see a permission dialog or can control this behaviour directly via Browser settings
-* Audio Fingerprint Tests
+* [Audio fingerprint tests](https://github.com/worldveil/dejavu), [example](https://github.com/dpwe/audfprint).
 * .... 
 
 **How to handle this?**
