@@ -44,6 +44,7 @@ I see this as a 'community' based project since everyone can contribute and no o
 * Resource Starvation Attacks
 * Network Bandwidth Attacks
 * ISP throttling checks
+* CDN {Web Cache Deception Attack](https://omergil.blogspot.ch/2017/02/web-cache-deception-attack.html)
 * ....
 
 
