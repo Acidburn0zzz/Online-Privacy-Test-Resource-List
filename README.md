@@ -52,13 +52,13 @@ I see this as a 'community' based project since everyone can contribute and no o
 * OpenSSL fixed (heartbleed,...) 
 * Chrome: Audio Fingerprinting not possible Firefox: **not tested (yet) - need feedback!**
 * Tor (several fingerprints still possible, it's on the todo and will be fixed soon)
-* Java/Adobe Flash, both are dying -> HTML5
+* Java/Adobe Flash, both are dead -> HTML5
 * HTML5 several stuff like Canvas, Font, ... (will never be fixed, use addons)
 * Cookies in general are not fixable since your page may need it, Amazon for shopping as an example (addons/filter-lists may help to whitelist).
 * CPU, mouswheel fingerprinting which needs to be fixed also within the OS (still open)
 * MAC address leakage - disable IPv6 (if not necessary/needed)
 * WebRTC since Chrome 48+ and Firefox 42+, both getting an new menu to allow it per-page (whitelist) [there exist also for both several addons, workarounds to compile it without WebRTC support)
-* PopUps are (if not Canvas/JS related) not anymore possible, you see a permission Dialog or can control this behavior directly via Browser settings
+* PopUps are (if not Canvas/JS related) not anymore possible, you see a permission dialog or can control this behaviour directly via Browser settings
 * Audio Fingerprint Tests
 * .... 
 
@@ -67,7 +67,7 @@ I see this as a 'community' based project since everyone can contribute and no o
 Collection of device fingerprints from web clients (browser software) relies on the availability of JavaScript or similar client-side scripting language for the harvesting of a suitably large number of parameters. Overall this means if only one or a small of things are detectable it not automatically reveals your true identify, but all together is pretty dangerous.
 
 
-## Add-ons & Plugin Tests (obsolete except A. Flash)
+## Obsolete Add-ons & Plugin Tests
 
 Firefox Addon Detector:
 https://thehackerblog.com/addon_scanner/
