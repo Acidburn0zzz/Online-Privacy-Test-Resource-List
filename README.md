@@ -131,6 +131,9 @@ http://pstadler.sh/battery.js/
 Canvas Fingerprinting:
 https://www.browserleaks.com/canvas
 
+Battery Status API:
+https://pazguille.github.io/demo-battery-api/
+
 Hard Drive Fill Test:
 http://www.filldisk.com/
 
