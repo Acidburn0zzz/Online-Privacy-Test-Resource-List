@@ -296,6 +296,9 @@ https://observatory.mozilla.org/
 Google Chrome drive-by exploit tester:
 http://www.sempervideo.de/chrome-driveby/
 
+The Privacy.net Analyzer:
+http://analyze.privacy.net
+
 
 ## Mouse 
 
