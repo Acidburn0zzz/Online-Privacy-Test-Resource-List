@@ -167,9 +167,6 @@ https://www.doileak.com/
 IP Leak:
 https://ipleak.net/
 
-Check My Torrent IP:
-https://torguard.net/checkmytorrentipaddress.php
-
 Content Filters and Proxy Test:
 https://www.browserleaks.com/proxy
 
@@ -412,8 +409,11 @@ https://www.battleforthenet.com/internethealthtest/
 ipMagnet:
 http://ipmagnet.services.cbcdn.com/
 
+Check My Torrent IP:
+https://torguard.net/checkmytorrentipaddress.php
+
 
 ## Ransomware
 
-NoMoreRansom
+NoMoreRansom:
 https://www.nomoreransom.org
