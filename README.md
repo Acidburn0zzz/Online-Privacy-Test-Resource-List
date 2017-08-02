@@ -194,6 +194,9 @@ https://www.browserleaks.com/whois
 Mirai Vulnerability Scanner:
 https://www.incapsula.com/mirai-scanner/
 
+Galhi US Test:
+http://ip.galih.us
+
 
 ## Privacy Management
 
