@@ -155,11 +155,17 @@ https://test.webrtc.org/
 WebRTC What's My IP Check:
 http://whatismyipaddress.com/webrtc-test
 
-HTML5 Security Cheatsheet
+Anonymster WebRTC check:
+https://anonymster.com/web-rtc-leak-test/
+
+HTML5 Security Cheatsheet:
 https://html5sec.org/
 
 
 ## IP & DNS Leak Tests
+
+GeoTek Datentechnik - Web Privacy Check:
+https://ipinfo.info/html/privacy-check.php
 
 DoiLeak:
 https://www.doileak.com/
@@ -224,7 +230,7 @@ https://cc.dcsec.uni-hannover.de/
 Bad SSL:
 https://badssl.com/
 
-FREAK Attack: Client Check:
+FREAK Attack - Client Check:
 https://freakattack.com/clienttest.html
 
 Heartbleed Test:
