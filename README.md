@@ -347,7 +347,7 @@ https://amiunique.org/fp
 Browser Spy (Multiple Tests):
 http://browserspy.dk/
 
-Cross Browser Fingerprinting Test:
+Cross Browser Fingerprinting Test (User must to disable its ad-blocker!):
 http://fingerprint.pet-portal.eu/
 
 Jondonym Full Anonymity Test:
