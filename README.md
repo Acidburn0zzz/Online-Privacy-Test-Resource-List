@@ -44,6 +44,7 @@ I see this as a 'community' based project since everyone can contribute and no o
 * [Network Bandwidth Attacks](https://msdn.microsoft.com/en-us/library/ee798452(v=cs.20).aspx)
 * [ISP throttling checks](https://thenextweb.com/apps/2015/05/21/quick-test-shows-if-isps-are-secretly-throttling-your-internet-speeds/)
 * CDN {Web Cache Deception Attack](https://omergil.blogspot.ch/2017/02/web-cache-deception-attack.html)
+* Identify theft
 * ....
 
 
@@ -429,3 +430,9 @@ https://torguard.net/checkmytorrentipaddress.php
 
 NoMoreRansom:
 https://www.nomoreransom.org
+
+
+## Identify theft check
+
+Have I Been Pwned:
+https://haveibeenpwned.com
