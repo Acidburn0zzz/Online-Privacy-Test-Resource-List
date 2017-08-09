@@ -219,6 +219,9 @@ https://github.com/andersju/webbkoll
 Browser Extension and Login-Leak Experiment:
 https://extensions.inrialpes.fr/
 
+Hide my Footprint:
+https://hmfp.absolutedouble.co.uk/
+
 
 ## Resource:// URIs checks 
 
