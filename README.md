@@ -390,6 +390,12 @@ Check2IP:
 http://check2ip.com/
 
 
+## HTTP Strict Transport Security (HSTS)
+
+Chromium's HSTS preload list submission website:
+https://hstspreload.org
+
+
 ## Tor 
 
 TorCheck at Xenobite.eu:
