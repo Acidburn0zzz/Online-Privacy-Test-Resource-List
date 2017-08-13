@@ -132,6 +132,12 @@ http://pstadler.sh/battery.js/
 Canvas Fingerprinting:
 https://www.browserleaks.com/canvas
 
+canvas.toBlob test:
+https://blueimp.github.io/JavaScript-Canvas-to-Blob/test/
+
+get.Image Canvas test:
+http://tutorialspark.com/html5/HTML5_Canvas_get_Image_Data_Demo.php
+
 Battery Status API:
 https://pazguille.github.io/demo-battery-api/
 
