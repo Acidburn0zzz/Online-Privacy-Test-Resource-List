@@ -241,9 +241,6 @@ https://arthuredelstein.github.io/tordemos/resource-locale.html
 
 ## SSL Test
 
-SSL Cipher Suite Details of Your Browser:
-https://cc.dcsec.uni-hannover.de/
-
 Bad SSL:
 https://badssl.com/
 
@@ -264,6 +261,12 @@ https://cc.dcsec.uni-hannover.de/
 
 Weak Diffie-Hellman and the Logjam Attack:
 https://weakdh.org/
+
+
+## SSH Test
+
+SSH Audit:
+https://github.com/arthepsy/ssh-audit
 
 
 ## Random Tests (DNT, Evercookie, Headers, Javascript,...)
@@ -315,6 +318,24 @@ http://uniquemachine.org/
 
 Mozilla Observatory:
 https://observatory.mozilla.org/
+
+PrivacyScore:
+https://privacyscore.org/
+
+CryptCheck:
+https://tls.imirhil.fr
+
+Webbkoll ([source](https://github.com/andersju/webbkoll)):
+https://webbkoll.dataskydd.net/en
+
+Qualys SSL Labs:
+https://www.ssllabs.com/ssltest/
+
+securityheaders.io:
+https://securityheaders.io
+
+Hardenize:
+https://www.hardenize.com
 
 Google Chrome drive-by exploit tester:
 http://www.sempervideo.de/chrome-driveby/
