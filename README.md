@@ -46,6 +46,7 @@ I see this as a 'community' based project since everyone can contribute and no o
 * CDN {Web Cache Deception Attack](https://omergil.blogspot.ch/2017/02/web-cache-deception-attack.html)
 * Identify theft
 * [Extension system based attacks](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-sanchez-rola.pdf)
+* [NoCoin](https://github.com/keraf/NoCoin), to stop background mining
 * ....
 
 
