@@ -48,6 +48,7 @@ I see this as a 'community' based project since everyone can contribute and no o
 * [Extension system based attacks](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-sanchez-rola.pdf)
 * [NoCoin](https://github.com/keraf/NoCoin), prevents background mining via opt-in
 * [Urchin Tracking Module (UTM)](https://support.google.com/urchin/answer/28307?hl=en)
+* Common Data leakage
 * ....
 
 
@@ -233,6 +234,9 @@ https://hmfp.absolutedouble.co.uk/
 
 Browsers leak installed extensions PoC:
 https://github.com/earthlng/testpages
+
+Information Disclosure on IE:
+https://www.cracking.com.ar/demos/ieaddressbarguess/
 
 
 ## Resource:// URIs checks 
