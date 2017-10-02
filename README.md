@@ -482,3 +482,34 @@ https://www.nomoreransom.org
 
 Have I Been Pwned:
 https://haveibeenpwned.com
+
+
+
+## Browser Benchmarks:
+
+Speedometer:
+http://browserbench.org/Speedometer/
+
+ARES 6:
+http://browserbench.org/ARES-6/
+
+Motion Mark:
+http://browserbench.org/MotionMark/
+
+JetStream:
+http://browserbench.org/JetStream/
+
+PeaceKeeper:
+http://peacekeeper.futuremark.com
+
+Lite Brite:
+https://testdrive-archive.azurewebsites.net/Performance/LiteBrite/
+
+Octane:
+https://chromium.github.io/octane/
+
+Dromaeo:
+http://dromaeo.com
+
+Acid 3:
+http://acid3.acidtests.org/
