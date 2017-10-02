@@ -484,8 +484,7 @@ Have I Been Pwned:
 https://haveibeenpwned.com
 
 
-
-## Browser Benchmarks:
+## Browser Benchmarks
 
 Speedometer:
 http://browserbench.org/Speedometer/
@@ -513,3 +512,9 @@ http://dromaeo.com
 
 Acid 3:
 http://acid3.acidtests.org/
+
+
+## Hardware Device Search engine
+
+Shodan.io:
+https://www.shodan.io/
