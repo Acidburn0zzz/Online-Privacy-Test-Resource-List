@@ -174,6 +174,9 @@ https://anonymster.com/web-rtc-leak-test/
 HTML5 Security Cheatsheet:
 https://html5sec.org/
 
+Chromium HTML5 audio/video tester:
+https://tools.woolyss.com/html5-audio-video-tester/
+
 
 ## IP & DNS Leak Tests
 
