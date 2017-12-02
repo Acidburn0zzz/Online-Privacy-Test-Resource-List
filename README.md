@@ -49,6 +49,8 @@ I see this as a 'community' based project since everyone can contribute and no o
 * [NoCoin](https://github.com/keraf/NoCoin), prevents background mining via opt-in
 * [Urchin Tracking Module (UTM)](https://support.google.com/urchin/answer/28307?hl=en)
 * Common Data leakage
+* uBeacons
+* Fake identity/comments
 * ....
 
 
@@ -518,3 +520,9 @@ http://acid3.acidtests.org/
 
 Shodan.io:
 https://www.shodan.io/
+
+
+## Identity check:
+
+New York Attorney General Eric Schneiderman tool
+https://ag.ny.gov/fakecomments
