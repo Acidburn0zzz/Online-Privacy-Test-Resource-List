@@ -243,6 +243,9 @@ https://github.com/earthlng/testpages
 Information Disclosure on IE:
 https://www.cracking.com.ar/demos/ieaddressbarguess/
 
+ETag:
+http://lucb1e.com/rp/cookielesscookies/
+
 
 ## Resource:// URIs checks 
 
