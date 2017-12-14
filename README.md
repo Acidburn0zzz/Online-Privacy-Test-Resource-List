@@ -281,6 +281,12 @@ Weak Diffie-Hellman and the Logjam Attack:
 https://weakdh.org/
 
 
+## RSA Test
+
+The ROBOT Attack
+https://robotattack.org/#check ([ROBOT Attack checking tool](https://github.com/robotattackorg/robot-detect))
+
+
 ## SSH Test
 
 SSH Audit:
