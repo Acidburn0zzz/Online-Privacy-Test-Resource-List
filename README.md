@@ -131,7 +131,7 @@ Revocation Awareness Test:
 https://www.grc.com/revocation.htm
 
 
-## HTML5 test
+## HTML5 Test
 
 Basic HTMl5 Video and Audio tester (works without JS or Plugins):
 http://tools.woolyss.com/html5-audio-video-tester/
@@ -216,6 +216,9 @@ https://www.incapsula.com/mirai-scanner/
 
 Galhi US Test:
 http://ip.galih.us
+
+Check your current IP:
+http://checkip.dyn.com
 
 
 ## Privacy Management
