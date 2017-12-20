@@ -500,6 +500,9 @@ http://ipmagnet.services.cbcdn.com/
 Check My Torrent IP:
 https://torguard.net/checkmytorrentipaddress.php
 
+I know what you downloaded:
+https://iknowwhatyoudownload.com/en/peer/
+
 
 ## Ransomware
 
