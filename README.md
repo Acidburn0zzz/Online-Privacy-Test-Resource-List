@@ -370,6 +370,9 @@ http://www.sempervideo.de/chrome-driveby/
 The Privacy.net Analyzer:
 http://analyze.privacy.net
 
+Spectre Vulnerability Check:
+http://xlab.tencent.com/special/spectre/spectre_check.html
+
 ## DNSSEC
 
 DNSSEC Resolver Test:
