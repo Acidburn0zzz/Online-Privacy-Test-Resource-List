@@ -253,6 +253,9 @@ https://www.cracking.com.ar/demos/ieaddressbarguess/
 ETag:
 http://lucb1e.com/rp/cookielesscookies/
 
+Overview of all supported Two Factor Auth (2FA) pages:
+https://twofactorauth.org/
+
 
 ## Resource:// URIs checks 
 
