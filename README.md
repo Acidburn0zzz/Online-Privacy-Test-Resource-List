@@ -55,6 +55,7 @@ I see this as a 'community' based project since everyone can contribute and no o
 * Common Data leakage
 * uBeacons
 * Fake identity/comments
+* Crooked Style Sheets
 * ....
 
 
@@ -180,6 +181,12 @@ https://html5sec.org/
 
 Chromium HTML5 audio/video tester:
 https://tools.woolyss.com/html5-audio-video-tester/
+
+
+## CSS 
+
+Crooked Style Sheets:
+http://crookedss.bplaced.net/ ([Source](https://github.com/jbtronics/CrookedStyleSheets))
 
 
 ## IP & DNS Leak Tests
