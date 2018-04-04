@@ -56,6 +56,7 @@ I see this as a 'community' based project since everyone can contribute and no o
 * uBeacons
 * Fake identity/comments
 * Crooked Style Sheets
+* [Zero With Detection](https://umpox.github.io/zero-width-detection/)
 * ....
 
 
