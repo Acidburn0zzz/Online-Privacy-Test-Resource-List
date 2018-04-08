@@ -168,6 +168,9 @@ http://html5test.com/
 WebRTC Leak Test:
 https://www.perfect-privacy.com/webrtc-leaktest/
 
+WebRTC Leak Test:
+https://diafygi.github.io/webrtc-ips/
+
 WebRTC Test:
 https://test.webrtc.org/
 
