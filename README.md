@@ -360,8 +360,8 @@ https://www.sempervideo.de/pastejacking/
 Punycode converter:
 https://www.punycoder.com/
 
-Uniquemachine test:
-http://uniquemachine.org/
+Unique Machine:
+http://uniquemachine.org/ (https://github.com/Song-Li/cross_browser))
 
 Mozilla Observatory:
 https://observatory.mozilla.org/
@@ -424,11 +424,6 @@ http://unixpapa.com/js/testkey.html
 
 JavaScript Event KeyCode Test Page
 http://www.asquare.net/javascript/tests/KeyCode.html
-
-
-## GPU / CPU 
-
-http://www.uniquemachine.org/ ([Source](https://github.com/Song-Li/cross_browser))
 
 
 ## Advanced Tests
