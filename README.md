@@ -133,6 +133,12 @@ Revocation Awareness Test:
 https://www.grc.com/revocation.htm
 
 
+## Crypto mining
+
+MALWARE DETECTED WITH THREAT EMULATION
+http://www.cpcheckme.com/checkme/
+
+
 ## HTML5 Test
 
 Basic HTMl5 Video and Audio tester (works without JS or Plugins):
