@@ -1,6 +1,6 @@
 ﻿# - POTARC -
 
-Privacy Online Test And Resource Compendium© project original created under the MIT license 2016 by CHEF-KOCH and community.
+Privacy Online Test And Resource Compendium© project original created under the MIT license 2016 - 2018 by CHEF-KOCH and community.
 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40CHEF-KOCH)](https://twitter.com/FZeven)
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/CHEF-KOCH)
@@ -492,7 +492,7 @@ Shattered SHA1 attack (SHA1 collusion example):
 https://shattered.io
 
 
-## Chrome
+## Chrome WebRTC check
 
 Web RTC Chrome vulnerability check:
 https://internet-israel.com/internet_files/webrtc/index.html [Bug 709952](https://bugs.chromium.org/p/chromium/issues/detail?id=709952) 
@@ -510,7 +510,7 @@ The Internet Health Test:
 https://www.battleforthenet.com/internethealthtest/
 
 
-Web Search Engine which can show/inspect the source code:
+## Web Search Engine which can show/inspect the source code
 
 Source Code Search Engine:
 https://publicwww.com
@@ -576,7 +576,7 @@ Shodan.io:
 https://www.shodan.io/
 
 
-## Identity check:
+## Identity check
 
-New York Attorney General Eric Schneiderman tool
+New York Attorney General Eric Schneiderman tool:
 https://ag.ny.gov/fakecomments
