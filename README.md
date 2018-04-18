@@ -85,6 +85,11 @@ Collection of [device fingerprints](https://en.wikipedia.org/wiki/Device_fingerp
 Some mentioned services & pages collect the results and store it offline, some even sell the results to 3rd-parties! I'm not responsible for this behavior, the list will add an indicator for services which doing it soon.
 
 
+## Contribution
+
+See CONTRIBUTING.md
+
+
 ## Obsolete Add-ons & Plugin Tests
 
 Firefox Addon Detector:

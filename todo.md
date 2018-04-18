@@ -1,4 +1,4 @@
-- Sort the documents DNS, Android, iOS etc via own category
 - Show or mark websites which store or sell your fingerprint data
+- Add date to papers? Or sort by date?
 - Drink less coffee (maybe?)
 - Fix all the bugs which doesn't exist in the project (optional)
