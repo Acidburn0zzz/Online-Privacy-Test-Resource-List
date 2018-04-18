@@ -48,15 +48,20 @@ I see this as a 'community' based project since everyone can contribute and no o
 * [Network Bandwidth Attacks](https://msdn.microsoft.com/en-us/library/ee798452(v=cs.20).aspx)
 * [ISP throttling checks](https://thenextweb.com/apps/2015/05/21/quick-test-shows-if-isps-are-secretly-throttling-your-internet-speeds/)
 * CDN {Web Cache Deception Attack](https://omergil.blogspot.ch/2017/02/web-cache-deception-attack.html)
-* Identify theft
 * [Extension system based attacks](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-sanchez-rola.pdf)
 * [NoCoin](https://github.com/keraf/NoCoin), prevents background mining via opt-in
 * [Urchin Tracking Module (UTM)](https://support.google.com/urchin/answer/28307?hl=en)
 * [uBeacons](https://www.ubuduasia.com/single-post/2015/12/02/Leverage-Data-Analytics-to-reevaluate-your-marketing-effort-using-uBeacons-)
-* Fake identity & comments
+* Fake identity, Identify theft (not fixable) & Fake Comments
 * Crooked Style Sheets
+* [User agent detection](https://en.wikipedia.org/wiki/Usage_share_of_web_browsers#User_agent_spoofing)
 * [Zero With Detection](https://umpox.github.io/zero-width-detection/)
-* ....
+* [Acoustic fingerprinting](https://en.wikipedia.org/wiki/Acoustic_fingerprint)
+* [Automatic content recognition](https://en.wikipedia.org/wiki/Automatic_content_recognition)
+* [Canvas fingerprinting](https://en.wikipedia.org/wiki/Canvas_fingerprinting)
+* [Digital video fingerprinting](https://en.wikipedia.org/wiki/Digital_video_fingerprinting)
+* [Public key fingerprint](https://en.wikipedia.org/wiki/Public_key_fingerprint)
+* [Common Spoofing attacks](https://en.wikipedia.org/wiki/Spoofing_attack)
 
 
 **Fixed within the Browser (ensure you using the latest product [always])**
@@ -69,13 +74,13 @@ I see this as a 'community' based project since everyone can contribute and no o
 * CPU, mouse wheel fingerprinting which needs to be fixed also within the OS (still open)
 * MAC address leakage - disable IPv6 (if not necessary/needed)
 * WebRTC since Chrome 48+ and Firefox 42+, both getting an new menu to allow it per-page (whitelist) [there exist also for both several addons, workarounds to compile it without WebRTC support)
-* PopUps are (if not Canvas/JS related) not anymore possible, you see a permission dialog or can control this behaviour directly via Browser settings
+* PopUps are (if not Canvas/JS related) not anymore possible, you see a permission dialog or can control this behavior directly via Browser settings
 * [Audio fingerprint tests](https://github.com/worldveil/dejavu), [example](https://github.com/dpwe/audfprint).
 * .... 
 
 **How to handle this?**
 
-Collection of device fingerprints from web clients (browser software) relies on the availability of JavaScript or similar client-side scripting language for the harvesting of a suitably large number of parameters. Overall this means if only one or a small of things are detectable it not automatically reveals your true identify, but all together is pretty dangerous.
+Collection of [device fingerprints](https://en.wikipedia.org/wiki/Device_fingerprint) from web clients (browser software) relies on the availability of JavaScript or similar client-side scripting language for the harvesting of a suitably large number of parameters. Overall this means if only one or a small of things are detectable it not automatically reveals your true identify, but all together is pretty dangerous.
 
 Some mentioned services & pages collect the results and store it offline, some even sell the results to 3rd-parties! I'm not responsible for this behavior, the list will add an indicator for services which doing it soon.
 
@@ -454,6 +459,9 @@ https://panopticlick.eff.org/
 Browserprint.Info:
 https://browserprint.info/test
 
+Browserprint check (offline):
+https://fingerprint.pet-portal.eu/
+
 PC Flank:
 http://www.pcflank.com/index.htm
 
@@ -503,7 +511,7 @@ https://shattered.io
 ## Chrome WebRTC check
 
 Web RTC Chrome vulnerability check:
-https://internet-israel.com/internet_files/webrtc/index.html [Bug 709952](https://bugs.chromium.org/p/chromium/issues/detail?id=709952) 
+https://internet-israel.com/internet_files/webrtc/index.html ([Bug 709952](https://bugs.chromium.org/p/chromium/issues/detail?id=709952))
 
 
 ## ISP Throttling check
