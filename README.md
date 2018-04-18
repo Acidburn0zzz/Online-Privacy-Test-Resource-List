@@ -575,9 +575,6 @@ http://browserbench.org/MotionMark/
 JetStream:
 http://browserbench.org/JetStream/
 
-PeaceKeeper:
-http://peacekeeper.futuremark.com
-
 Lite Brite:
 https://testdrive-archive.azurewebsites.net/Performance/LiteBrite/
 
