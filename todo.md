@@ -1,0 +1,4 @@
+- Sort the documents DNS, Android, iOS etc via own category
+- Show or mark websites which store or sell your fingerprint data
+- Drink less coffee (maybe?)
+- Fix all the bugs which doesn't exist in the project (optional)
