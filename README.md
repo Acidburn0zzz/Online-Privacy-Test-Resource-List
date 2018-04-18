@@ -362,7 +362,7 @@ Punycode converter:
 https://www.punycoder.com/
 
 Unique Machine:
-http://uniquemachine.org/ (https://github.com/Song-Li/cross_browser))
+http://uniquemachine.org/ ([Source](https://github.com/Song-Li/cross_browser))
 
 Mozilla Observatory:
 https://observatory.mozilla.org/
@@ -460,9 +460,6 @@ http://www.pcflank.com/index.htm
 Onion Leak Test:
 http://cure53.de/leak/onion.php
 
-Tor Fingerprint Test:
-https://tor.triop.se/
-
 Whoer:
 https://whoer.net/
 
@@ -488,10 +485,13 @@ Chromium's HSTS preload list submission website:
 https://hstspreload.org
 
 
-## Tor 
+## Tor Network & Finterprint checks
 
 TorCheck at Xenobite.eu:
 https://torcheck.xenobite.eu/index.php
+
+Tor Fingerprint Test:
+https://tor.triop.se/
 
 
 ## Cryptography
