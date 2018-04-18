@@ -521,6 +521,9 @@ https://internet-israel.com/internet_files/webrtc/index.html ([Bug 709952](https
 
 ## ISP Throttling check
 
+Internet Health Test:
+https://www.battleforthenet.com/internethealthtest/
+
 BitTorrent Traffic Shaping:
 https://neubot.nexacenter.org/download
 
