@@ -524,8 +524,8 @@ https://internet-israel.com/internet_files/webrtc/index.html ([Bug 709952](https
 BitTorrent Traffic Shaping:
 https://neubot.nexacenter.org/download
 
-Glasnost:
-http://broadband.mpi-sws.org/transparency/glasnost.php
+Neubot:
+https://neubot.nexacenter.org/download
 
 The Internet Health Test:
 https://www.battleforthenet.com/internethealthtest/
