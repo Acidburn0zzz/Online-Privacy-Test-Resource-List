@@ -2,9 +2,9 @@
 
 Privacy Online Test And Resource Compendium© project original created under the MIT license 2016 - 2018 by CHEF-KOCH and community.
 
-[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40CHEF-KOCH)](https://twitter.com/FZeven)
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40CHEF-KOCH)](https://twitter.com/CKsTechNews)
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/CHEF-KOCH)
-[![Discord](https://discordapp.com/api/guilds/204394292519632897/widget.png)](https://discord.me/NVinside)
+[![Discord](https://discordapp.com/api/guilds/418256415874875402/widget.png)](https://discord.me/CHEF-KOCH)
 
 # Privacy Online Test And Resource Compendium
 
@@ -14,12 +14,12 @@ I see this as a 'community' based project since everyone can contribute and no o
 
 
 **Known Fingerprinting Techniques:**
-* OSI model fingerprints (based on [HTTP](https://github.com/wireghoul/lbmap), Header, User Agent, Firewall, ...)
+* [OSI model fingerprints](https://searchnetworking.techtarget.com/tip/OSI-Securing-the-Stack-Layer-4-Fingerprinting) (based on [HTTP](https://github.com/wireghoul/lbmap), Header, User Agent, Firewall, ...)
 * [CPU Fingerprint](http://yinzhicao.org/TrackingFree/crossbrowsertracking_NDSS17.pdf)
 * [Mouse & CPU fingerprinting](http://jcarlosnorte.com/security/2016/03/06/advanced-tor-browser-fingerprinting.html)
 * [User fingerprinting problem (Canvas, IP, ...)](https://en.wikipedia.org/wiki/Canvas_fingerprinting)
 * Screen resolution (this possible will never be fixed since it would break too much)
-* UberCookie/Cookies/EverCookie/Supercookies
+* [UberCookie](http://ubercookie.robinlinus.com/faq.html)/[Cookies](https://en.wikipedia.org/wiki/HTTP_cookie)/[EverCookie](https://en.wikipedia.org/wiki/Evercookie)/[Supercookies](https://en.wikipedia.org/wiki/HTTP_cookie#Supercookie)
 * [Database fingerprints](https://github.com/Valve/fingerprintjs2)
 * Measuring time (Timezone/[NTP](http://www.securityweek.com/ntp-servers-exposed-long-distance-wireless-attacks))
 * getClientRects fingerprinting via [DOM](http://www.water.ca.gov/waterquality/docs/Fingerprinting%20Sources%20of%20DOM%20-%20Ngatia.pdf)
@@ -52,9 +52,8 @@ I see this as a 'community' based project since everyone can contribute and no o
 * [Extension system based attacks](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-sanchez-rola.pdf)
 * [NoCoin](https://github.com/keraf/NoCoin), prevents background mining via opt-in
 * [Urchin Tracking Module (UTM)](https://support.google.com/urchin/answer/28307?hl=en)
-* Common Data leakage
-* uBeacons
-* Fake identity/comments
+* [uBeacons](https://www.ubuduasia.com/single-post/2015/12/02/Leverage-Data-Analytics-to-reevaluate-your-marketing-effort-using-uBeacons-)
+* Fake identity & comments
 * Crooked Style Sheets
 * [Zero With Detection](https://umpox.github.io/zero-width-detection/)
 * ....
@@ -77,6 +76,8 @@ I see this as a 'community' based project since everyone can contribute and no o
 **How to handle this?**
 
 Collection of device fingerprints from web clients (browser software) relies on the availability of JavaScript or similar client-side scripting language for the harvesting of a suitably large number of parameters. Overall this means if only one or a small of things are detectable it not automatically reveals your true identify, but all together is pretty dangerous.
+
+Some mentioned services & pages collect the results and store it offline, some even sell the results to 3rd-parties! I'm not responsible for this behavior, the list will add an indicator for services which doing it soon.
 
 
 ## Obsolete Add-ons & Plugin Tests
@@ -393,6 +394,13 @@ http://analyze.privacy.net
 Spectre Vulnerability Check:
 http://xlab.tencent.com/special/spectre/spectre_check.html
 
+Are You Trackable?:
+http://ubercookie.robinlinus.com/ ([Source](https://github.com/RobinLinus/ubercookie))
+
+Ubercookie Test:
+http://jcarlosnorte.com/assets/ubercookie/
+
+
 ## DNSSEC
 
 DNSSEC Resolver Test:
@@ -405,7 +413,7 @@ https://rootcanary.org/test.html
 ## Mouse 
 
 Enotus mouse test (Tracking speed and polling rate): 
-http://enotus.at.tut.by/Articles/MouseTest/index.html (link broken?)
+http://enotus.at.tut.by/Articles/MouseTest/index.html (link broken but the tool is mirrored)
 
 Outerspace's Max IPS logger (Tracking speeds and will show if theres negative/positive acceleration when you hit a certain speed):
 http://maxouterspace.com/
