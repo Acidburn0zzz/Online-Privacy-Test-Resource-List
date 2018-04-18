@@ -87,7 +87,7 @@ Some mentioned services & pages collect the results and store it offline, some e
 
 ## Contribution
 
-See CONTRIBUTING.md
+See [CONTRIBUTING.md](https://github.com/CHEF-KOCH/Online-Privacy-Test-Resource-List/blob/master/CONTRIBUTING.md).
 
 
 ## Obsolete Add-ons & Plugin Tests
