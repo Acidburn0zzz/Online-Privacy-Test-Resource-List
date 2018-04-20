@@ -551,6 +551,18 @@ https://portchecker.co/
 ShieldsUp!!:
 https://www.grc.com/faq-shieldsup.htm
 
+PenTest yourself. Don't get hacked:
+https://pentest-tools.com/home
+
+HackerWatch:
+https://www.hackerwatch.org/probe/
+
+Hacker Target:
+https://hackertarget.com/firewall-test/
+
+CanYouSeeMe.org:
+http://canyouseeme.org/
+
 
 ## Torrent
 
