@@ -540,6 +540,18 @@ Source Code Search Engine:
 https://publicwww.com
 
 
+## Firewall Tests
+
+Test your Metal:
+http://metal.fortiguard.com/tests/
+
+Port Checker:
+https://portchecker.co/
+
+ShieldsUp!!:
+https://www.grc.com/faq-shieldsup.htm
+
+
 ## Torrent
 
 ipMagnet:
