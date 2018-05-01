@@ -62,6 +62,7 @@ I see this as a 'community' based project since everyone can contribute and no o
 * [Digital video fingerprinting](https://en.wikipedia.org/wiki/Digital_video_fingerprinting)
 * [Public key fingerprint](https://en.wikipedia.org/wiki/Public_key_fingerprint)
 * [Common Spoofing attacks](https://en.wikipedia.org/wiki/Spoofing_attack)
+* [ASN Squatting Attacks](http://securityskeptic.typepad.com/the-security-skeptic/2011/06/asn-squatting-attacks.html)
 
 
 **Fixed within the Browser (ensure you using the latest product [always])**
