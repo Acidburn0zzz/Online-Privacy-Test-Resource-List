@@ -284,6 +284,9 @@ http://lucb1e.com/rp/cookielesscookies/
 Overview of all supported Two Factor Auth (2FA) pages:
 https://twofactorauth.org/
 
+ASN Blocklist:
+https://www.enjen.net/asn-blocklist/
+
 
 ## Resource:// URIs checks 
 
