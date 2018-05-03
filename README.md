@@ -33,10 +33,10 @@ Keep in mind
 * [CPU Fingerprint](http://yinzhicao.org/TrackingFree/crossbrowsertracking_NDSS17.pdf)
 * [Mouse & CPU fingerprinting](http://jcarlosnorte.com/security/2016/03/06/advanced-tor-browser-fingerprinting.html)
 * [User fingerprinting problem (Canvas, IP, ...)](https://en.wikipedia.org/wiki/Canvas_fingerprinting)
-* Screen resolution (this possible will never be fixed since it would break too much)
+* [Screen resolution](http://www.b3rn3d.com/blog/2014/05/29/fingerprinting-resolution/)
 * [UberCookie](http://ubercookie.robinlinus.com/faq.html)/[Cookies](https://en.wikipedia.org/wiki/HTTP_cookie)/[EverCookie](https://en.wikipedia.org/wiki/Evercookie)/[Supercookies](https://en.wikipedia.org/wiki/HTTP_cookie#Supercookie)
 * [Database fingerprints](https://github.com/Valve/fingerprintjs2)
-* Measuring time (Timezone/[NTP](http://www.securityweek.com/ntp-servers-exposed-long-distance-wireless-attacks))
+* [Measuring time](https://en.wikipedia.org/wiki/Timing_attack) (Timezone/[NTP](http://www.securityweek.com/ntp-servers-exposed-long-distance-wireless-attacks))
 * getClientRects fingerprinting via [DOM](http://www.water.ca.gov/waterquality/docs/Fingerprinting%20Sources%20of%20DOM%20-%20Ngatia.pdf)
 * Hardware implemented fingerprint methods such as [hardware based DRM](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/hardware-drm)
 * [Plugin/Extension tracking](https://webdevwonders.com/detecting-browser-plugins/) (Silverlight, Adobe Flash, ...)
@@ -56,7 +56,6 @@ Keep in mind
 * [Password sniffing](http://cng.seas.rochester.edu/CNG/docs/Security/node8.html)
 * [Canvas](http://cseweb.ucsd.edu/~hovav/dist/canvas.pdf)
 * Several HTTP authorization detection (not fixable because it's protocol depending + meta-data)
-* Stuff which is documented and mentioned over [here](https://github.com/CHEF-KOCH/NSABlocklist).
 * [CPU Starvation Attacks](https://msdn.microsoft.com/en-us/library/ee810608(v=cs.20).aspx)
 * [Memory Starvation Attacks](https://msdn.microsoft.com/en-us/library/ee810601(v=cs.20).aspx)
 * [Resource Starvation Attacks](https://msdn.microsoft.com/en-us/library/ee798408(v=cs.20).aspx)
@@ -68,7 +67,7 @@ Keep in mind
 * [Urchin Tracking Module (UTM)](https://support.google.com/urchin/answer/28307?hl=en)
 * [uBeacons](https://www.ubuduasia.com/single-post/2015/12/02/Leverage-Data-Analytics-to-reevaluate-your-marketing-effort-using-uBeacons-)
 * Fake identity, Identify theft (not fixable) & Fake Comments
-* Crooked Style Sheets
+* [Crooked Style Sheets](https://www.mike-gualtieri.com/posts/stealing-data-with-css-attack-and-defense) [Discussion](https://news.ycombinator.com/item?id=16157773)
 * [User agent detection](https://en.wikipedia.org/wiki/Usage_share_of_web_browsers#User_agent_spoofing)
 * [Zero With Detection](https://umpox.github.io/zero-width-detection/)
 * [Acoustic fingerprinting](https://en.wikipedia.org/wiki/Acoustic_fingerprint)
@@ -78,7 +77,8 @@ Keep in mind
 * [Public key fingerprint](https://en.wikipedia.org/wiki/Public_key_fingerprint)
 * [Common Spoofing attacks](https://en.wikipedia.org/wiki/Spoofing_attack)
 * [ASN Squatting Attacks](http://securityskeptic.typepad.com/the-security-skeptic/2011/06/asn-squatting-attacks.html)
-* Power consumption and wave signal based tests (not fixable without breaking the signals!). 
+* Power consumption and wave signal based tests (not fixable without breaking the signals!).
+* Stuff which is documented and mentioned over [here](https://github.com/CHEF-KOCH/NSABlocklist) or [here](https://wiki.mozilla.org/Fingerprinting)
 
 
 ### Already fixed within the Browser (ensure you using the latest product [always])
@@ -114,98 +114,59 @@ Keep in mind
 
 ## eMail
 
-Check Provider-TLS:
-https://www.checktls.com/
-
-Email IP Leak Test:
-http://emailipleak.com/
-
-Email Privacy Tester:
-https://emailprivacytester.com/
-
-Email Trace:
-http://www.ip-adress.com/trace_email/
-
-Have I Been Pwned?:
-https://haveibeenpwned.com/
-
-Pwnedlist:
-https://pwnedlist.com/
-
-Check Your GPG Fingerprints
-https://evil32.com/
+| **Page or Addon** | **Description** | **Collects or sells user data?** |
+| --- | --- | --- |
+| [Email IP Leak Test](http://emailipleak.com/) | Checks if your email provider shows your real IP address to its recipients. | `N/A` |
+| [Email Privacy Tester](https://emailprivacytester.com/) | Checks email addresses | `Yes` see [here](https://www.emailprivacytester.com/privacy) |
+| [Email Trace](http://www.ip-adress.com/trace_email/) | Checks email addresses | `Yes` |
+| [Have I Been Pwned?](https://haveibeenpwned.com/) | Database which checks if you affected by several holes | `No` | 
+| [Pwnedlist](https://pwnedlist.com/) | Database which checks if you affected by several holes | `Yes` - Currently down |
+| [Check Your GPG Fingerprints](https://evil32.com/) | Check if your GPG key is leaked or not | `No` |
 
 
-## Certificate
+## Certificate 
 
-Revocation Awareness Test:
-https://www.grc.com/revocation.htm
-
-
-## Crypto mining
-
-MALWARE DETECTED WITH THREAT EMULATION
-http://www.cpcheckme.com/checkme/
+| **Page or Addon** | **Description** | **Collects or sells user data?** |
+| --- | --- | --- |
+| [Revocation Awareness Test](https://www.grc.com/revocation.htm) | Certificate based revocation test | `No` |
+| [Check Provider-TLS](https://www.checktls.com/) | Check provider TLS certificates | `N/A` |
 
 
-## HTML5 Test
 
-Basic HTMl5 Video and Audio tester (works without JS or Plugins):
-http://tools.woolyss.com/html5-audio-video-tester/
+## Crypto mining detecttion and Malware
 
-Battery Status API:
-http://pstadler.sh/battery.js/
-
-Canvas Fingerprinting:
-https://www.browserleaks.com/canvas
-
-canvas.toBlob test:
-https://blueimp.github.io/JavaScript-Canvas-to-Blob/test/
-
-get.Image Canvas test:
-http://tutorialspark.com/html5/HTML5_Canvas_get_Image_Data_Demo.php
-
-Battery Status API:
-https://pazguille.github.io/demo-battery-api/
-
-Hard Drive Fill Test:
-http://www.filldisk.com/
-
-HTML5 Features Detection:
-https://www.browserleaks.com/modernizr
-
-HTML5 Geolocation Test:
-https://www.browserleaks.com/geo
-
-HTML5 Test:
-http://html5test.com/
-
-WebRTC Leak Test:
-https://www.perfect-privacy.com/webrtc-leaktest/
-
-WebRTC Leak Test:
-https://diafygi.github.io/webrtc-ips/
-
-WebRTC Test:
-https://test.webrtc.org/
-
-WebRTC What's My IP Check:
-http://whatismyipaddress.com/webrtc-test
-
-Anonymster WebRTC check:
-https://anonymster.com/web-rtc-leak-test/
-
-HTML5 Security Cheatsheet:
-https://html5sec.org/
-
-Chromium HTML5 audio/video tester:
-https://tools.woolyss.com/html5-audio-video-tester/
+| **Page or Addon** | **Description** | **Collects or sells user data?** |
+| --- | --- | --- |
+| [MALWARE DETECTED WITH THREAT EMULATION](http://www.cpcheckme.com/checkme/) | Check if your security setup is ready against crypto mining and other threats | `Yes` |
 
 
-## CSS 
+## HTML5 based features test
 
-Crooked Style Sheets:
-http://crookedss.bplaced.net/ ([Source](https://github.com/jbtronics/CrookedStyleSheets))
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- |
+| [Basic HTMl5 Video and Audio tester](http://tools.woolyss.com/html5-audio-video-tester/) | HTMl5 Video and Audio tester | `No` | `No` |
+| [Battery Status API](http://pstadler.sh/battery.js/) | Checks if you browser supports Battery Status API | `No` | `No` |
+| [Battery Status API](https://pazguille.github.io/demo-battery-api/) | Another Battery Status API Test | `No` | `Yes` |
+| [Canvas Fingerprinting](https://www.browserleaks.com/canvas) | Checks your Canvas Fingerprint | `N/A` | `Yes` |
+| [canvas.toBlob test](https://blueimp.github.io/JavaScript-Canvas-to-Blob/test/) | Checks your Canvas Blob Fingerprint | `N/A` | `Yes` |
+| [get.Image Canvas test](http://tutorialspark.com/html5/HTML5_Canvas_get_Image_Data_Demo.php) | Checks your get.Image Fingerprint | `N/A` | `Yes` |
+| [HTML5 Features Detection](https://www.browserleaks.com/modernizr) | Detects which HTML5 features your Browser is capatible of | `N/A` | `Yes` |
+| [Hard Drive Fill Test](http://www.filldisk.com/) | Hard Drive Fill Test | `Yes` | `Yes` |
+| [HTML5 Geolocation Test](https://www.browserleaks.com/geo) | HTML5 based Geolocation Test | `No` | `Yes` |
+| [HTML5 Test](http://html5test.com/) | Official HTML5 test landing page | `No` | `Yes` |
+| [HTML5 Security Cheatsheet](https://html5sec.org/) | HTML5 Security checklist | `N/A` | `Yes` |
+| [WebRTC Leak Test](https://www.perfect-privacy.com/webrtc-leaktest/) | Perfect Privacy WebRTC Leakage Test | `Yes` | `Yes` |
+| [WebRTC Leak Test](https://diafygi.github.io/webrtc-ips/) | WebRTC Leak Test | `No` | `Yes` |
+| [WebRTC Test](https://test.webrtc.org/) | WebRTC Official test | `N/A` | `Yes` |
+| [WebRTC What's My IP Check](http://whatismyipaddress.com/webrtc-test) | WebRTC IP Check | `Yes` | `Yes` |
+| [Anonymster WebRTC check](https://anonymster.com/web-rtc-leak-test/) | Another WebRTC check | `No` | `Yes` |
+
+
+## CSS Fingerprint Test
+
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- |
+| [Crooked Style Sheets](http://crookedss.bplaced.net/) | Crooked Style Sheets fingerprinting test page | `No` | `Yes` ([Source](https://github.com/jbtronics/CrookedStyleSheets))|
 
 
 ## IP & DNS Leak Tests
