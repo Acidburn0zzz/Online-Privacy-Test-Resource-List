@@ -9,8 +9,8 @@ Using issues
 
 The [issue tracker](https://github.com/CHEF-KOCH/Online-Privacy-Test-Resource-List/issues) is the preferred channel for reporting bugs, requesting new features and submitting pull requests. If you want more attention you can contact me via Discord.
 
-* Check the existent links and documents before you submit something
-* Ensure you have permission to submit some external materials
+* Check twice the existent links and documents before you submit something!
+* Ensure you have permission to submit some external materials if it's not your own.
 
 
 Reporting bugs
@@ -20,10 +20,9 @@ Well structured, detailed bug reports are hugely valuable for the project.
 
 Guidelines for reporting bugs:
 
- - Check the issue search to see if it has already been reported
- - Isolate the problem to a simple test case, in case something is offline, ensure it's really offline
+ - Check the issue search to see if it has already been reported.
+ - Isolate the problem to a simple test case, in case something is offline, ensure it's really offline.
  - Be specific on every report, this means more details are better in order to discuss the problem/idea etc.
- - Read [ToDo [Read this before you post something!]](https://github.com/CHEF-KOCH/Online-Privacy-Test-Resource-List/issues/3)
 
 Please provide any additional details associated with the bug/problem/idea, if it's browser/extension or screen density specific, or only happens with a certain configuration or data.
 
