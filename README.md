@@ -17,7 +17,7 @@ POTARC itself is more a community driven project because everyone can contribute
 See [CONTRIBUTING.md](https://github.com/CHEF-KOCH/Online-Privacy-Test-Resource-List/blob/master/CONTRIBUTING.md). Before you create a new issue ticket, ensure you read the issue template and check if the things you like to request is not already on the todo list in order to avoid duplicates or already known things. 
 
 
-### How to handle the information and test results?
+## How to handle the information and test results?
 
 Collection of [device fingerprints](https://en.wikipedia.org/wiki/Device_fingerprint) from web clients  such as browser software mostly relies on the availability of JavaScript or similar client-side scripting language for the harvesting of a suitably large number of parameters. Overall this means if only one or a small of things are detectable it not automatically reveals your real identify, but all together can be pretty dangerous in order to expose you or your security setup. Keep in mind that it's not a good idea to share the results or to leak information which setup you exactly use.
 
@@ -91,7 +91,7 @@ Keep in mind
 * CPU & Mouse wheel fingerprinting which needs to be fixed also within the OS (this is a wontfix!) 
 * Network layer based leaks like MAC address leakage. Disabling/blocking IPv6, if not necessary/needed is enough. See [RFC 3041](https://tools.ietf.org/html/rfc3041).
 * WebRTC since Chrome 48+ and Firefox 42+, both getting an new menu to allow it per-page (whitelist). There exist also for both several addons, workarounds to compile it without WebRTC support). [Unofficial Chromium builds](http://chromium.woolyss.com) also come without WebRTC or sync.
-* PopUps aren't possible anymore, if not Canvas/JS related). You see a permission dialog or can control this behavior directly via Browser settings. Some [Browsers also come with their own Ads-blocking features](https://www.theverge.com/2018/2/14/17011266/google-chrome-ad-blocker-features).
+* PopUps aren't possible anymore, if not Canvas/JS related). You see a permission dialog or can control this behavior directly via Browser settings. Some [Browsers also come with their own Ads-blocking feature](https://www.theverge.com/2018/2/14/17011266/google-chrome-ad-blocker-features).
 
 
 ## Obsolete Add-ons & Plugin Tests
@@ -166,94 +166,51 @@ Keep in mind
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
-| [Crooked Style Sheets](http://crookedss.bplaced.net/) | Crooked Style Sheets fingerprinting test page | `No` | `Yes` ([Source](https://github.com/jbtronics/CrookedStyleSheets))|
+| [Crooked Style Sheets](http://crookedss.bplaced.net/) | Crooked Style Sheets fingerprinting test page | `No` | `Yes` ([Source Code](https://github.com/jbtronics/CrookedStyleSheets))|
 
 
-## IP & DNS Leak Tests
+## IP, DNS & Magnet Leak Tests
 
-GeoTek Datentechnik - Web Privacy Check:
-https://ipinfo.info/html/privacy-check.php
-
-DoiLeak:
-https://www.doileak.com/
-
-IP Leak:
-https://ipleak.net/
-
-Content Filters and Proxy Test:
-https://www.browserleaks.com/proxy
-
-DNS Leak Test:
-https://www.dnsleaktest.com/
-
-DNS Spoofability Test:
-https://www.grc.com/dns/dns.htm
-
-IPv4/IPv6 Discovery / Detection Test:
-https://www.perfect-privacy.com/check-ip/
-
-IP Magnet Test:
-http://ipmagnet.services.cbcdn.com/
-
-Whois Test (Windows):
-https://www.browserleaks.com/whois
-
-Mirai Vulnerability Scanner:
-https://www.incapsula.com/mirai-scanner/
-
-Galhi US Test:
-http://ip.galih.us
-
-Check your current IP:
-http://checkip.dyn.com
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- |
+| [GeoTek Datentechnik - Web Privacy Check](https://ipinfo.info/html/privacy-check.php) | Basic Web Privacy Check | `No` | `Yes` |
+| [DoiLeak](https://www.doileak.com/) | Checks if you real IP is leaking behind Proxy/VPN | `N/A` | `Yes` |
+| [IP Leak](https://ipleak.net/) | Most well-known IP leak check | `Yes` | `Yes` |
+| [DNS Leak Test](https://www.dnsleaktest.com/) | Most well-known DNS leak check | `Yes` | `Yes` |
+| [Content Filters and Proxy Test](https://www.browserleaks.com/proxy) | Check your filter list and Proxy configuration | `N/A` | `Yes` |
+|[DNS Spoofability Test](https://www.grc.com/dns/dns.htm) | Is your DNS spoofed? | `Yes` | `Yes` |
+| [IPv4/IPv6 Discovery / Detection Test](https://www.perfect-privacy.com/check-ip/) | Checks your current IPv4/IPv6 configuration | `N/A` | `Yes` |
+| [IP Magnet Test](http://ipmagnet.services.cbcdn.com/) | Allows you to see which IP address your BitTorrent Client is handing out to its peers and trackers! | `No` | `No` |
+| [Whois Test](https://www.browserleaks.com/whois) | Basic Whois Test for Windows Users | `No` | `Yes` |
+| [Mirai Vulnerability Scanner](https://www.incapsula.com/mirai-scanner/) | Basic Network Vulnerability Scanner | `N/A` | `Yes` |
+| [Galhi US Test](http://ip.galih.us) | Simple IP check | `No` | `No` |
+| [Check your current IP](http://checkip.dyn.com) | Yet another IP checker alternative | `N/A` | `No` |
 
 
 ## Privacy Management
 
-Google Account History:
-https://www.google.com/settings/accounthistory
-
-Facebook Activity Log:
-https://www.facebook.com/me/allactivity
-
-YouTube Video History / Search History:
-https://www.youtube.com/feed/history
-
-Microsoft Account Credentials Leak vulnerability check:
-https://msleak.perfect-privacy.com/
-
-Checks website reputation and additional security related infos:
-https://github.com/andersju/webbkoll
-
-Browser Extension and Login-Leak Experiment:
-https://extensions.inrialpes.fr/
-
-Hide my Footprint:
-https://hmfp.absolutedouble.co.uk/
-
-Browsers leak installed extensions PoC:
-https://github.com/earthlng/testpages
-
-Information Disclosure on IE:
-https://www.cracking.com.ar/demos/ieaddressbarguess/
-
-ETag:
-http://lucb1e.com/rp/cookielesscookies/
-
-Overview of all supported Two Factor Auth (2FA) pages:
-https://twofactorauth.org/
-
-ASN Blocklist:
-https://www.enjen.net/asn-blocklist/
-
-Nextcloud Security Scan:
-https://scan.nextcloud.com
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- |
+| [Google Account History](https://www.google.com/settings/accounthistory) | View, manage or delete your Google Account History | `N/A` | `No` |
+| [Facebook Activity Log](https://www.facebook.com/me/allactivity) | View, manage or delete your Facebook Account History | `N/A` | `No` |
+| [YouTube Video History / Search History](https://www.youtube.com/feed/history) | Check your YouTube Account Feed History | `N/A` | `Yes` |
+| [Microsoft Account Credentials Leak vulnerability check](https://msleak.perfect-privacy.com/) | Microsoft Account Credentials Leak vulnerability check | `Yes` Collects and stores the results | `Yes` |
+| [Webbkoll](https://github.com/andersju/webbkoll) | Checks website reputation and additional security related infos | `No` | `No` |
+| [Browser Extension and Login-Leak Experiment](https://extensions.inrialpes.fr/) | Browser Web Beacon test | `Yes` see [here](https://extensions.inrialpes.fr/privacy.php) | `No` |
+| [Hide my Footprint](https://hmfp.absolutedouble.co.uk/) | Checks your Browser footprint | `Yes` | `Yes` |
+| [Browsers leak installed extensions PoC](https://github.com/earthlng/testpages) | Detect installed Extensions | `No` | `No` |
+| [Information Disclosure on IE](https://www.cracking.com.ar/demos/ieaddressbarguess/) |  Check if Internet Explorer leaks sensible Information |`Yes` | `No` |
+| [ETag](http://lucb1e.com/rp/cookielesscookies/) | ETAG (Cookieless Cookies) Test | `Yes` stores results in an offline database | `Yes` |
+| [Overview of all supported Two-Factor Auth (2FA) pages](https://twofactorauth.org/) | Lists all 2FA supported pages | `N/A` | `No` |
+| [ASN Blocklist](https://www.enjen.net/asn-blocklist/) | Lists and shows ASN Providers | `N/A` | `No` |
+| [Nextcloud Security Scan](https://scan.nextcloud.com) | Nextcloud Security Scan | `Yes` | `Yes` |
 
 
-## Resource:// URIs checks 
+## Resource:// URIs leak checks 
 
-Arthured Elstein resource:// URIs leak information page:
-https://arthuredelstein.github.io/tordemos/resource-locale.html
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- |
+| [Arthured Elstein resource:// URIs leak information page](https://arthuredelstein.github.io/tordemos/resource-locale.html) | resource:// URIs leak information test page | `N/A` | `No` |
 
 
 ## SSL Test
