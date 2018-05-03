@@ -8,8 +8,8 @@ Please do not ask or open any new ticket which is on the following todo list alr
 
 **ToDo:**
 - [ ] Add github-gh page (front-page)
-- [ ] Add an page index to easier navigate to the specific sections 
-- [ ] Better view - table view? (low-prio)
+- [x] ~~Add an page index to easier navigate to the specific sections~~
+- [x] ~~Better view - table view? (low-prio)~~
 - [x] Mention [HTTPS Client Identification Using SSL/TLS](https://www.muni.cz/research/publications/1299983?lang=en)
 - [ ] Mention document fingerprinting (basically metadata), same goes to pictures, ... 
 - [ ] Add small overview what the page exactly do
