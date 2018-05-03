@@ -424,6 +424,12 @@ DS Algorithm Test:
 https://rootcanary.org/test.html
 
 
+## Government Internet Speed Test
+
+Breitbandmessung:
+http://breitbandmessung.de
+
+
 ## Mouse 
 
 Enotus mouse test (Tracking speed and polling rate): 
