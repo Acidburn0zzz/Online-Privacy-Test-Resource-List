@@ -1,4 +1,4 @@
-﻿# - POTARC -
+## - POTARC -
 
 Privacy Online Test And Resource Compendium© (short: POTARC) project original created under the MIT license 2016 - 2018 by CHEF-KOCH and community.
 
@@ -6,14 +6,27 @@ Privacy Online Test And Resource Compendium© (short: POTARC) project original c
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/CHEF-KOCH)
 [![Discord](https://discordapp.com/api/guilds/418256415874875402/widget.png)](https://discord.me/CHEF-KOCH)
 
-# Privacy Online Test And Resource Compendium
+## Privacy Online Test And Resource Compendium
 
 The list is designed to show all available and useful online/offline tests in order to build strategies to harden your OS/Internet/Browser configuration against fingerprinting methods. Some of those services might collect only data to hand/sell it to 3th-party developer or people which pay for it to use it for 'bad' things, such services are (if known) marked and aren't preferable added - so keep this in mind before you request a site. 
 
-POTARC itself is more a community driven project because everyone can contribute to it and no pull request or discussion will be rejacted, only with good reasons like spamming, etc. . This project does not accept any donations because we all doing this in our free time and it's up to everyone. The information should be available for free for everyone. 
+POTARC itself is more a community driven project because everyone can contribute to it and no pull request or discussion will be rejacted, only with good reasons like spamming, etc. . This project does not accept any donations because we all doing this in our free time and it's up to everyone. The information should be available for free for everyone.
+
+## Contribution
+
+See [CONTRIBUTING.md](https://github.com/CHEF-KOCH/Online-Privacy-Test-Resource-List/blob/master/CONTRIBUTING.md). Before you create a new issue ticket, ensure you read the issue template and check if the things you like to request is not already on the todo list in order to avoid dublicates or already known things. 
 
 
-**Known Fingerprinting Techniques:**
+### How to handle the information and test results?
+
+Collection of [device fingerprints](https://en.wikipedia.org/wiki/Device_fingerprint) from web clients  such as browser software mostly relies on the availability of JavaScript or similar client-side scripting language for the harvesting of a suitably large number of parameters. Overall this means if only one or a small of things are detectable it not automatically reveals your real identify, but all together can be pretty dangerous in order to expose you or your security setup. Keep in mind that it's not a good idea to share the results or to leak information which setup you exactly use.
+
+Keep in mind
+> Some of the integrated services & pages collect the results and store it offline and some even sell the results to 3rd-parties! I'm not responsible for this behavior, the list will add an indicator for services which doing it soon.
+
+
+### Known Fingerprinting Techniques
+* [Audio fingerprint tests](https://github.com/worldveil/dejavu), [example](https://github.com/dpwe/audfprint).
 * [OSI model fingerprints](https://searchnetworking.techtarget.com/tip/OSI-Securing-the-Stack-Layer-4-Fingerprinting) (based on [HTTP](https://github.com/wireghoul/lbmap), Header, User Agent, Firewall, ...)
 * [CPU Fingerprint](http://yinzhicao.org/TrackingFree/crossbrowsertracking_NDSS17.pdf)
 * [Mouse & CPU fingerprinting](http://jcarlosnorte.com/security/2016/03/06/advanced-tor-browser-fingerprinting.html)
@@ -63,32 +76,20 @@ POTARC itself is more a community driven project because everyone can contribute
 * [Public key fingerprint](https://en.wikipedia.org/wiki/Public_key_fingerprint)
 * [Common Spoofing attacks](https://en.wikipedia.org/wiki/Spoofing_attack)
 * [ASN Squatting Attacks](http://securityskeptic.typepad.com/the-security-skeptic/2011/06/asn-squatting-attacks.html)
+* Power consumption and wave signal based tests (not fixable without breaking the signals!). 
 
 
-**Fixed within the Browser (ensure you using the latest product [always])**
+### Already fixed within the Browser (ensure you using the latest product [always])
 * SSL / TLS (ciphers) [if you only browsing on pages like GitHub ~ you can even more '[harden](https://tools.ietf.org/html/draft-sheffer-tls-bcp-00)' it]
 * OpenSSL fixed (heartbleed,...) 
-* Tor (several fingerprints still possible, it's on the todo and will be fixed soon)
-* Java/Adobe Flash, both are dead -> HTML5
-* HTML5 several stuff like Canvas, Font, ... (will never be fixed, use addons)
-* Cookies in general are not fixable since your page may need it, Amazon for shopping as an example (addons/filter-lists may help to whitelist).
-* CPU, mouse wheel fingerprinting which needs to be fixed also within the OS (still open)
-* MAC address leakage - disable IPv6 (if not necessary/needed)
-* WebRTC since Chrome 48+ and Firefox 42+, both getting an new menu to allow it per-page (whitelist) [there exist also for both several addons, workarounds to compile it without WebRTC support)
-* PopUps are (if not Canvas/JS related) not anymore possible, you see a permission dialog or can control this behavior directly via Browser settings
-* [Audio fingerprint tests](https://github.com/worldveil/dejavu), [example](https://github.com/dpwe/audfprint).
-* .... 
-
-**How to handle this?**
-
-Collection of [device fingerprints](https://en.wikipedia.org/wiki/Device_fingerprint) from web clients (browser software) relies on the availability of JavaScript or similar client-side scripting language for the harvesting of a suitably large number of parameters. Overall this means if only one or a small of things are detectable it not automatically reveals your true identify, but all together is pretty dangerous.
-
-Some mentioned services & pages collect the results and store it offline, some even sell the results to 3rd-parties! I'm not responsible for this behavior, the list will add an indicator for services which doing it soon.
-
-
-## Contribution
-
-See [CONTRIBUTING.md](https://github.com/CHEF-KOCH/Online-Privacy-Test-Resource-List/blob/master/CONTRIBUTING.md).
+* Tor (several fingerprint methods are still possible, it's on the todo and will be fixed soon (?))
+* Java/Adobe Flash, both are dead and replaced by HTML5 (which has it's own weaknesses) 
+* HTML5 several stuff like Canvas, Font, ... (will never be fixed, you have to use  in order to spoof such data)
+* Cookies in general are not fixable since your visited page may need it, Amazon for shopping as an example (addons/filter-lists may help to whitelist). But you can disable the cookie collection and work instead with a whitelist, every Browser does support this.
+* CPU & Mouse wheel fingerprinting which needs to be fixed also within the OS (this is a wontfix!) 
+* Network layer based leaks like MAC address leakage. Disabling(blocking IPv6, if not necessary/needed is enough. 
+* WebRTC since Chrome 48+ and Firefox 42+, both getting an new menu to allow it per-page (whitelist). There exist also for both several addons, workarounds to compile it without WebRTC support). [Unofficial Chromium builds](http://chromium.woolyss.com) also come without WebRTC or sync.
+* PopUps aren't possible anymore, if not Canvas/JS related). You see a permission dialog or can control this behavior directly via Browser settings. Some [Browsers also come with their own Ads-blocking features](https://www.theverge.com/2018/2/14/17011266/google-chrome-ad-blocker-features).
 
 
 ## Obsolete Add-ons & Plugin Tests
