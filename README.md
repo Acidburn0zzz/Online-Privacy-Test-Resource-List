@@ -21,6 +21,8 @@ See [CONTRIBUTING.md](https://github.com/CHEF-KOCH/Online-Privacy-Test-Resource-
 
 Collection of [device fingerprints](https://en.wikipedia.org/wiki/Device_fingerprint) from web clients  such as browser software mostly relies on the availability of JavaScript or similar client-side scripting language for the harvesting of a suitably large number of parameters. Overall this means if only one or a small of things are detectable it not automatically reveals your real identify, but all together can be pretty dangerous in order to expose you or your security setup. Keep in mind that it's not a good idea to share the results or to leak information which setup you exactly use.
 
+The document section is for research and evidence purposes, topics without any proof are not reliable and the project doesn't accept any submissions without any documents or research based on the matter.
+
 Keep in mind
 > Some of the integrated services & pages collect the results and store it offline and some even sell the results to 3rd-parties! I'm not responsible for this behavior, the list will add an indicator for services which doing it soon.
 
