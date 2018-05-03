@@ -55,7 +55,7 @@ Keep in mind
 * [WebSocket](http://resources.infosecinstitute.com/websocket-security-issues/)
 * [Password sniffing](http://cng.seas.rochester.edu/CNG/docs/Security/node8.html)
 * [Canvas](http://cseweb.ucsd.edu/~hovav/dist/canvas.pdf)
-* Several HTTP authorization detection (not fixable because it's protocol depending + meta-data)
+* Several [HTTP authorization detection](https://en.wikipedia.org/wiki/Security_testing#Authentication) which is not fixable because it's protocol and meta-data depending and would require new metadata less protocols.
 * [CPU Starvation Attacks](https://msdn.microsoft.com/en-us/library/ee810608(v=cs.20).aspx)
 * [Memory Starvation Attacks](https://msdn.microsoft.com/en-us/library/ee810601(v=cs.20).aspx)
 * [Resource Starvation Attacks](https://msdn.microsoft.com/en-us/library/ee798408(v=cs.20).aspx)
@@ -63,7 +63,7 @@ Keep in mind
 * [ISP throttling checks](https://thenextweb.com/apps/2015/05/21/quick-test-shows-if-isps-are-secretly-throttling-your-internet-speeds/)
 * CDN [Web Cache Deception Attack](https://omergil.blogspot.ch/2017/02/web-cache-deception-attack.html). CDN's are in general a security problem, once infected or compromised you have no chance to identify the threat or not before it's already too late. [Decentraleyes](https://github.com/Synzvato/decentraleyes) reduce the attack surface.
 * [Extension system based attacks](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-sanchez-rola.pdf)
-* [NoCoin](https://github.com/keraf/NoCoin), prevents background mining via opt-in
+* [NoCoin](https://github.com/keraf/NoCoin), prevents background mining via opt-in.
 * [Urchin Tracking Module (UTM)](https://support.google.com/urchin/answer/28307?hl=en)
 * [uBeacons](https://www.ubuduasia.com/single-post/2015/12/02/Leverage-Data-Analytics-to-reevaluate-your-marketing-effort-using-uBeacons-)
 * Fake identity, Identify theft (not fixable) & Fake Comments
@@ -395,7 +395,7 @@ Keep in mind
 
 ## Browser Benchmarks
 
-Keep in mind that a Browser Benchmark doesn't reflect the real-world performance of a website, as explained over [here].(https://news.softpedia.com/news/google-to-drop-support-for-octane-browser-benchmark-514942.shtml)
+Keep in mind that a Browser Benchmark doesn't reflect the real-world performance of a website, as explained over [here](https://news.softpedia.com/news/google-to-drop-support-for-octane-browser-benchmark-514942.shtml).
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- | 
