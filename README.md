@@ -78,6 +78,7 @@ Keep in mind
 * [Common Spoofing attacks](https://en.wikipedia.org/wiki/Spoofing_attack)
 * [ASN Squatting Attacks](http://securityskeptic.typepad.com/the-security-skeptic/2011/06/asn-squatting-attacks.html)
 * Power consumption and wave signal based tests (not fixable without breaking the signals!).
+* [IDN homograph attack](https://en.wikipedia.org/wiki/IDN_homograph_attack)
 * Stuff which is documented and mentioned over [here](https://github.com/CHEF-KOCH/NSABlocklist) or [here](https://wiki.mozilla.org/Fingerprinting)
 
 
