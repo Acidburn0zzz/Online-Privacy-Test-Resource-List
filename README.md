@@ -159,6 +159,7 @@ Keep in mind
 | [WebRTC Leak Test](https://diafygi.github.io/webrtc-ips/) | WebRTC Leak Test | `No` | `Yes` |
 | [WebRTC Test](https://test.webrtc.org/) | WebRTC Official test | `N/A` | `Yes` |
 | [WebRTC What's My IP Check](http://whatismyipaddress.com/webrtc-test) | WebRTC IP Check | `Yes` | `Yes` |
+| [Web RTC Chrome vulnerability check](https://internet-israel.com/internet_files/webrtc/index.html) | See ([Bug 709952](https://bugs.chromium.org/p/chromium/issues/detail?id=709952) | `No` | `No` |
 | [Anonymster WebRTC check](https://anonymster.com/web-rtc-leak-test/) | Another WebRTC check | `No` | `Yes` |
 
 
@@ -295,182 +296,112 @@ Keep in mind
 
 ## Advanced Fingerprint Tests
 
-Am I Unique?:
-https://amiunique.org/fp
-
-Browser Spy (Multiple Tests):
-http://browserspy.dk/
-
-Cross Browser Fingerprinting Test (User must to disable its ad-blocker!):
-http://fingerprint.pet-portal.eu/
-
-Jondonym Full Anonymity Test:
-http://ip-check.info/?lang=en
-
-Panopticlick:
-https://panopticlick.eff.org/
-
-Browserprint.Info:
-https://browserprint.info/test
-
-Browserprint check (offline):
-https://fingerprint.pet-portal.eu/
-
-PC Flank:
-http://www.pcflank.com/index.htm
-
-Onion Leak Test:
-http://cure53.de/leak/onion.php
-
-Whoer:
-https://whoer.net/
-
-Popup Test:
-http://www.popuptest.com/
-
-Privacy Check:
-http://do-know.com/privacy-test.html
-
-Audio Fingerprint Test (see also [here](https://github.com/Gitoffthelawn)):
-https://audiofingerprint.openwpm.com/
-
-Browser 'auto-download' Security Vulnerability (Chrome, IDM affected at time of writing):
-https://binaer.xyz/haifei-li/test.html
-
-Check2IP:
-http://check2ip.com/
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- |
+| [Am I Unique?](https://amiunique.org/fp) | Is your Machine / Browser unique? | `N/A` | `Yes` |
+| [Browser Spy](http://browserspy.dk/) | Multiple Browser Tests | `N/A` | `Yes` |
+| [Cross Browser Fingerprinting Test](http://fingerprint.pet-portal.eu/) | Multiple Browser Test | `N/A` | `Yes` User must to disable its ad-blocker! |
+| [Jondonym Full Anonymity Test](http://ip-check.info/?lang=en) | The first and original annonymity test | `No` | `Yes` |
+| [Panopticlick](https://panopticlick.eff.org/) | The most well-known Browser Fingerprint check by EFF | `Yes` collects stats and stores them in a database | `Yes` |
+| [Browserprint.Info](https://browserprint.info/test) | Another JavaScript based Fingerprinting Test |`Yes` collects stats and stores them in a database | `Yes` |
+| [Browserprint check](https://fingerprint.pet-portal.eu/) | Another advance fingerprinting check | `No` | `Yes` - Currently (?) Offline |
+| [PC Flank](http://www.pcflank.com/index.htm) | Random Browser Check | `N/A` | `Yes` |
+| [Onion Leak Test](http://cure53.de/leak/onion.php) | Check your .onion | `N/A` | `Yes` |
+| [Whoer](https://whoer.net/) | Advance Browser check | `Yes` Sells the results | `Yes` for advance informations/tests |
+| [Popup Test](http://www.popuptest.com/) | Check how good your Browser performs against Popups | `N/A` | `Yes` |
+| [Privacy Check](http://do-know.com/privacy-test.html) | Another overall Browser header/leak test | `Yes` | `Yes` |
+| [Audio Fingerprint Test](https://audiofingerprint.openwpm.com/) | The original audio fingerprint test | `No` | `Yes` [Source Code](https://github.com/Gitoffthelawn) |
+| [Browser 'auto-download' Security Vulnerability](https://binaer.xyz/haifei-li/test.html) | Check Chrome, IDM and other Downloader against a security attack | `N/A` | `No` |
+| [Check2IP](http://check2ip.com/) | One of the oldest advance Browser/IP tests | `No` | `Yes` only for advance tests but also works without |
 
 
 ## HTTP Strict Transport Security (HSTS)
 
-Chromium's HSTS preload list submission website:
-https://hstspreload.org
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- |
+| [Chromium's HSTS preload list submission website](https://hstspreload.org) | Chromium's HSTS preload list submission website | `N/A` | `N/A` |
 
 
-## Tor Network & Finterprint checks
+## Tor Network & Finterprint Test
 
-TorCheck at Xenobite.eu:
-https://torcheck.xenobite.eu/index.php
-
-Tor Fingerprint Test:
-https://tor.triop.se/
-
-
-## Cryptography
-
-Shattered SHA1 attack (SHA1 collusion example):
-https://shattered.io
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- |
+| [TorCheck at Xenobite.eu](https://torcheck.xenobite.eu/index.php) | Advance Tor Network Check | `No` | `Yes` |
+| [Tor Fingerprint Test](https://tor.triop.se/) | Basic Tor Network Check | `N/A` | `No` |
 
 
-## Chrome WebRTC check
+## Cryptography Test
 
-Web RTC Chrome vulnerability check:
-https://internet-israel.com/internet_files/webrtc/index.html ([Bug 709952](https://bugs.chromium.org/p/chromium/issues/detail?id=709952))
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- |
+| [Shattered SHA1 attack](https://shattered.io) | SHA1 collusion attack example | `No` | `No` |
 
 
 ## ISP Throttling check
 
-Internet Health Test:
-https://www.battleforthenet.com/internethealthtest/
-
-BitTorrent Traffic Shaping:
-https://neubot.nexacenter.org/download
-
-Neubot:
-https://neubot.nexacenter.org/download
-
-The Internet Health Test:
-https://www.battleforthenet.com/internethealthtest/
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- | 
+| [Internet Health Test](https://www.battleforthenet.com/internethealthtest/) | Test if your ISP is throttling you | `N/A` | `No` |
+| [BitTorrent Traffic Shaping](https://neubot.nexacenter.org/download) | Check if your ISP is throttling BitTorrent Traffic | `N/A` | `No` |
+| [Neubot](https://neubot.nexacenter.org/download) | Tool to check if your ISP is throttling your download speed | `N/A` | `No` |
+| [The Internet Health Test](https://www.battleforthenet.com/internethealthtest/) | Test if your ISP is throttling you | `Yes` collects an database and possible sells it (needs confirmation) | `No` |
 
 
-## Web Search Engine which can show/inspect the source code
+## Web Search Engine which can show & inspect the source code
 
-Source Code Search Engine:
-https://publicwww.com
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- | 
+| [Source Code Search Engine](https://publicwww.com) | Inspect the Page Source Code | `Yes` logs and collect databases | `Yes` |
 
 
-## Firewall Tests
+## Firewall Test
 
-Test your Metal:
-http://metal.fortiguard.com/tests/
-
-Port Checker:
-https://portchecker.co/
-
-ShieldsUp!!:
-https://www.grc.com/faq-shieldsup.htm
-
-PenTest yourself. Don't get hacked:
-https://pentest-tools.com/home
-
-HackerWatch:
-https://www.hackerwatch.org/probe/
-
-Hacker Target:
-https://hackertarget.com/firewall-test/
-
-CanYouSeeMe.org:
-http://canyouseeme.org/
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- | 
+| [Test your Metal](http://metal.fortiguard.com/tests/) | Check your firewall online against known ports | `Yes` logs and collect databases | `Yes` |
+| [Port Checker](https://portchecker.co/) | Check your Firewall against known or custom ports | `Yes` logs and collect databases | `Yes` |
+| [ShieldsUp!](https://www.grc.com/faq-shieldsup.htm) | Check your Firewall against known or custom Ports | `No` | `No` |
+| [PenTest yourself. Don't get hacked](https://pentest-tools.com/home) | Check your Firewall against a pre-made list | `N/A` | `No` |
+| [HackerWatch](https://www.hackerwatch.org/probe/) | Check your Firewall against a pre-made list | `Yes` collects an statistic offline database  | `Yes` |
+| [Hacker Target](https://hackertarget.com/firewall-test/) | Check your Firewall against a pre-made list | `Yes` collects an statistic offline database  | `Yes` |
+| [CanYouSeeMe.org](http://canyouseeme.org/) | Basic Firewall test | `N/A` | `No` |
 
 
 ## Torrent
 
-ipMagnet:
-http://ipmagnet.services.cbcdn.com/
-
-Check My Torrent IP:
-https://torguard.net/checkmytorrentipaddress.php
-
-I know what you downloaded:
-https://iknowwhatyoudownload.com/en/peer/
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- | 
+| [ipMagnet](http://ipmagnet.services.cbcdn.com/) | Magnet IP expose check | `N/A` | `No` |
+| [Check My Torrent IP](https://torguard.net/checkmytorrentipaddress.php) | Check which IP your Torrent Network sees | `Yes` collects a statistic database | `No` |
+| [I know what you downloaded](https://iknowwhatyoudownload.com/en/peer/) | Check what your peer sees about you | `N/A` | `No` |
 
 
-## Ransomware
+## Ransomware Decrypter 
 
-NoMoreRansom:
-https://www.nomoreransom.org
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- | 
+| [NoMoreRansom](https://www.nomoreransom.org) | Official against Ransomware page for help, decrypter and information | `N/A` | `No` |
 
 
 ## Identify theft check
 
-Have I Been Pwned:
-https://haveibeenpwned.com
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- | 
+| [Have I Been Pwned](https://haveibeenpwned.com) | Check if your identiy (email etc) was used/stolen by someone else | `Yes` collects an database (need confirmation if sold to 3rd-parties) | `Partial` |
+| [Shodan.io](https://www.shodan.io/) | Search for devices, vuln. etc | `Yes` collects an database (need confirmation if sold to 3rd-parties) | `Yes` |
+| [New York Attorney General Eric Schneiderman tool](https://ag.ny.gov/fakecomments) | Tool which check fake comments based on a database of known fakers | `Yes` collects an database (need confirmation if sold to 3rd-parties) | `N/A` |
 
 
 ## Browser Benchmarks
 
-Speedometer:
-http://browserbench.org/Speedometer/
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- | 
+| [Speedometer](http://browserbench.org/Speedometer/) | JavaScript based Browser Benchmark | `Yes` collects an database (need confirmation if sold to 3rd-parties) | `Yes` |
+| [ARES 6](http://browserbench.org/ARES-6/) | JavaScript based Browser Benchmark | `Yes` collects an database (need confirmation if sold to 3rd-parties) | `Yes` |
+| [Motion Mark](http://browserbench.org/MotionMark/) | JavaScript based Browser Benchmark | `Yes` collects an database (need confirmation if sold to 3rd-parties) | `Yes` |
+| [JetStream](http://browserbench.org/JetStream/) | JavaScript based Browser Benchmark | `Yes` collects an database (need confirmation if sold to 3rd-parties) | `Yes` |
+| [Lite Brite](https://testdrive-archive.azurewebsites.net/Performance/LiteBrite/) | JavaScript based Browser Benchmark | `Yes` collects an database (need confirmation if sold to 3rd-parties) | `Yes` |
+| [Octane](https://chromium.github.io/octane/) | JavaScript based Browser Benchmark | `Yes` collects an database (need confirmation if sold to 3rd-parties) | `Yes` |
+| [Dromaeo](http://dromaeo.com) | JavaScript based Browser Benchmark | `Yes` collects an database (need confirmation if sold to 3rd-parties) | `Yes` |
+| [Acid 3](http://acid3.acidtests.org/) | JavaScript based Browser Benchmark | `Yes` collects an database (need confirmation if sold to 3rd-parties) | `Yes` |
 
-ARES 6:
-http://browserbench.org/ARES-6/
-
-Motion Mark:
-http://browserbench.org/MotionMark/
-
-JetStream:
-http://browserbench.org/JetStream/
-
-Lite Brite:
-https://testdrive-archive.azurewebsites.net/Performance/LiteBrite/
-
-Octane:
-https://chromium.github.io/octane/
-
-Dromaeo:
-http://dromaeo.com
-
-Acid 3:
-http://acid3.acidtests.org/
-
-
-## Hardware Device Search engine
-
-Shodan.io:
-https://www.shodan.io/
-
-
-## Identity check
-
-New York Attorney General Eric Schneiderman tool:
-https://ag.ny.gov/fakecomments
