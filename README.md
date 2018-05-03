@@ -213,166 +213,87 @@ Keep in mind
 | [Arthured Elstein resource:// URIs leak information page](https://arthuredelstein.github.io/tordemos/resource-locale.html) | resource:// URIs leak information test page | `N/A` | `No` |
 
 
-## SSL Test
+## SSL, RSA & SSH Test
 
-Bad SSL:
-https://badssl.com/
-
-FREAK Attack - Client Check:
-https://freakattack.com/clienttest.html
-
-Heartbleed Test:
-https://filippo.io/Heartbleed/
-
-RC4 Fallback Test:
-https://rc4.io/
-
-How's My SSL:
-https://www.howsmyssl.com/
-
-SSL Cipher Suite Details:
-https://cc.dcsec.uni-hannover.de/
-
-Weak Diffie-Hellman and the Logjam Attack:
-https://weakdh.org/
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- |
+| [Bad SSL](https://badssl.com/) | Check against Bad SSL attack | `N/A` | `No` |
+| [FREAK Attack - Client Check](https://freakattack.com/clienttest.html) | Client-side FREAK attack check | `N/A` | `No` |
+| [Heartbleed Test](https://filippo.io/Heartbleed/) | Heartbleed attack Test | `N/A` | `No` |
+| [RC4 Fallback Test](https://rc4.io/) | Is you browser still using obsolete and weak RC 4? | `N/A` | `No` |
+| [How's My SSL](https://www.howsmyssl.com/) | Check your SSL or anothers page SSL configuration | `Yes` | `Yes` |
+| [SSL Cipher Suite Details](https://cc.dcsec.uni-hannover.de/) | SSL Cipher Suite Check which also shows lots of Details | `N/A` | `No` |
+| [Weak Diffie-Hellman and the Logjam Attack](https://weakdh.org/) | Diffie-Hellman attack Test | `N/A` | `No` |
+| [The ROBOT Attack](https://robotattack.org/#check) | ROBOT Attack Test and Tool | `No` | `No` [ROBOT Attack checking tool](https://github.com/robotattackorg/robot-detect) (Open Source) |
+| [SSH Audit](https://github.com/arthepsy/ssh-audit) | Check your SSH configuration and audit it | `No` | `No` (Open Source) |
 
 
-## RSA Test
+## Do Not Track (DNT), Evercookie, Headers, Javascript,...
 
-The ROBOT Attack
-https://robotattack.org/#check ([ROBOT Attack checking tool](https://github.com/robotattackorg/robot-detect))
-
-
-## SSH Test
-
-SSH Audit:
-https://github.com/arthepsy/ssh-audit
-
-
-## Random Tests (DNT, Evercookie, Headers, Javascript,...)
-
-BrowserRecon (Header/HTTP) Test:
-http://www.computec.ch/projekte/browserrecon/?s=scan
-
-What Is My Referer?:
-https://www.whatismyreferer.com/
-
-Browser Referer Headers:
-https://www.darklaunch.com/tools/test-referer
-
-Do Not Track Test:
-https://www.browserleaks.com/donottrack 
-
-Evercookie Test:
-http://samy.pl/evercookie/
-
-JavaScript Browser Information:
-https://www.browserleaks.com/javascript
-
-Popup Blocking Tests:
-http://www.kephyr.com/popupkillertest/index.html
-
-Redirect Page Test:
-https://jigsaw.w3.org/HTTP/300/Overview.html
-
-System Fonts Detection Test:
-https://www.browserleaks.com/fonts
-
-FluxFonts:
-https://ctrl.blog/entry/fluxfonts
-
-JavaScript/CSS Font Detector:
-http://www.lalit.org/lab/javascript-css-font-detect/
-
-Universal Plug n'Play (UPnP) Internet Exposure Test:
-https://www.grc.com/x/ne.dll?rh1dkyd2
-
-JavaScript: PasteJacking:
-https://www.sempervideo.de/pastejacking/
-
-Punycode converter:
-https://www.punycoder.com/
-
-Unique Machine:
-http://uniquemachine.org/ ([Source](https://github.com/Song-Li/cross_browser))
-
-Mozilla Observatory:
-https://observatory.mozilla.org/
-
-PrivacyScore:
-https://privacyscore.org/
-
-CryptCheck:
-https://tls.imirhil.fr
-
-Webbkoll ([source](https://github.com/andersju/webbkoll)):
-https://webbkoll.dataskydd.net/en
-
-Qualys SSL Labs:
-https://www.ssllabs.com/ssltest/
-
-securityheaders.io:
-https://securityheaders.io
-
-Hardenize:
-https://www.hardenize.com
-
-Google Chrome drive-by exploit tester:
-http://www.sempervideo.de/chrome-driveby/
-
-The Privacy.net Analyzer:
-http://analyze.privacy.net
-
-Spectre Vulnerability Check:
-http://xlab.tencent.com/special/spectre/spectre_check.html
-
-Are You Trackable?:
-http://ubercookie.robinlinus.com/ ([Source](https://github.com/RobinLinus/ubercookie))
-
-Ubercookie Test:
-http://jcarlosnorte.com/assets/ubercookie/
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- |
+| [BrowserRecon (Header/HTTP) Test](http://www.computec.ch/projekte/browserrecon/?s=scan) | Browser Header Check | `N/A` | `No` |
+| [What Is My Referer?](https://www.whatismyreferer.com/) | Check your Browser Referer | `Yes` | `Yes` |
+| [Browser Referer Headers](https://www.darklaunch.com/tools/test-referer) | Another Browser Referer Check | `N/A` | `No` |
+| [Do Not Track Test](https://www.browserleaks.com/donottrack) | Does my Browser sends DNT? | `No` | `Yes` |
+| [Evercookie Test](http://samy.pl/evercookie/) | Evercookies Test | `N/A` | `No` |
+| [JavaScript Browser Information](https://www.browserleaks.com/javascript) | Basic JavaScript Browser check | `Yes` collects an offline database| `Yes` |
+| [Popup Blocking Tests](http://www.kephyr.com/popupkillertest/index.html) | Test your Browser against popups | `N/A` | `Yes` |
+| [Redirect Page Test](https://jigsaw.w3.org/HTTP/300/Overview.html) | Redirect Page Test | `Yes` collects an offline database| `Yes` |
+| [System Fonts Detection Test](https://www.browserleaks.com/fonts) | Detect which Fonts your Browser sends away | `No` | `Yes` |
+| [FluxFonts](https://ctrl.blog/entry/fluxfonts) | Browser Font Test Page | `N/A` | `No` |
+| [JavaScript/CSS Font Detector](http://www.lalit.org/lab/javascript-css-font-detect/) | CSS and JavaScript based Font Detector | `N/A` | `Yes` |
+| [Universal Plug n'Play (UPnP) Internet Exposure Test](https://www.grc.com/x/ne.dll?rh1dkyd2) | Detect UPnP based leaks | `No` | `No` |
+| [JavaScript: PasteJacking](https://www.sempervideo.de/pastejacking/) | PasteJacking Test | `No` | `No` |
+| [Punycode converter](https://www.punycoder.com/) | Punnycode Converter Tool | `No` | `No` |
+| [Unique Machine](http://uniquemachine.org/) | Is your Machine unqiue? | `No` | `No` [Source Code](https://github.com/Song-Li/cross_browser) |
+| [Mozilla Observatory](https://observatory.mozilla.org/) | `Yes` Mozilla collects all tests in a database 'to improve their products' they also use their findings in Ghostery (Clicks) and other products | `No` |
+| [PrivacyScore](https://privacyscore.org/) | Which Score has your privacy setup? | `Yes` | `Yes` |
+| [CryptCheck](https://tls.imirhil.fr) | Simple Domain, TLS, SSH checks | `No` | `No` |
+| [Qualys SSL Labs](https://www.ssllabs.com/ssltest/) | SSL Test, eMail and Domain tools | `N/A` | `No` |
+| [securityheaders.io](https://securityheaders.io) | URL/Domain Scan sponsored by Sophos | `N/A` | `No` |
+| [Hardenize](https://www.hardenize.com) | Header, Browser check | `Yes` collects data and shares them | `No` |
+| [Google Chrome drive-by exploit tester](http://www.sempervideo.de/chrome-driveby/) | Drive-by test for Chrome weakness | `No` | `No` |
+| [The Privacy.net Analyzer](http://analyze.privacy.net) | Basic Header check which also provides several other tools | `Yes` collects an offline database | `No` |
+| [Spectre Vulnerability Check](http://xlab.tencent.com/special/spectre/spectre_check.html) | Spectre Vulnerability Check | `No` but holes a offline database it's unclear if it's sold or shared | `No` |
+| [Are You Trackable?](http://ubercookie.robinlinus.com/) | How trackable is your Browser? |  `No` | `No` [Source Code](https://github.com/RobinLinus/ubercookie)| 
+| [Ubercookie Test](http://jcarlosnorte.com/assets/ubercookie/) | Uvercookie test | `Yes` collects an offline database | `No` |
 
 
-## DNSSEC
+## DNSSEC Test
 
-DNSSEC Resolver Test:
-http://dnssec.vs.uni-due.de/
-
-DS Algorithm Test:
-https://rootcanary.org/test.html
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- |
+| [DNSSEC Resolver Test](http://dnssec.vs.uni-due.de/) | Test the Resolver if it supports DNSSEC | `N/A` | `No` |
+| [DS Algorithm Test](https://rootcanary.org/test.html) | Check if DNSSEC is weak against DS | `N/A` | `No` |
 
 
 ## Government Internet Speed Test
 
-Breitbandmessung:
-http://breitbandmessung.de
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- |
+| [Breitbandmessung](http://breitbandmessung.de) | Official German Internet Speed Test | `Yes` collects an online database shares and sells them to ISP's and others you need to agree in everything before you can use it | `Yes` |
 
 
-## Mouse 
+## Mouse Rate/Fingerprint Check
 
-Enotus mouse test (Tracking speed and polling rate): 
-http://enotus.at.tut.by/Articles/MouseTest/index.html (link broken but the tool is mirrored)
-
-Outerspace's Max IPS logger (Tracking speeds and will show if theres negative/positive acceleration when you hit a certain speed):
-http://maxouterspace.com/
-
-Mouse Rate Checker (polling rate):
-http://tscherwitschke.de/old/download.html
-
-Mouse reaction time tester:
-http://www.humanbenchmark.com/tests/reactiontime
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- |
+| [Enotus mouse test](http://enotus.at.tut.by/Articles/MouseTest/index.html) | Original Tracking speed and polling rate test | `No` | `No` Page down but mirrored here under /Offline |
+| [Outerspace's Max IPS logger](http://maxouterspace.com/) | Tracking speeds and will show if theres negative/positive acceleration when you hit a certain speed | `N/A` | `No` |
+| [Mouse Rate Checker](http://tscherwitschke.de/old/download.html) | Simple polling rate detection | `N/A` | `Yes` |
+| [Mouse reaction time tester](http://www.humanbenchmark.com/tests/reactiontime) | Online mouse reaction test | `Yes` collects an online statistic database | `No` |
 
 
 ## Keyboard
 
-Javascript Key Event Test Script
-http://unixpapa.com/js/testkey.html
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- |
+| [Javascript Key Event Test Script](http://unixpapa.com/js/testkey.html) | Basically a JS keylogger check | `N/A` | `Yes` |
+| [JavaScript Event KeyCode Test Page](http://www.asquare.net/javascript/tests/KeyCode.html) | Another keystroke test | `N/A` | `Yes` |
 
-JavaScript Event KeyCode Test Page
-http://www.asquare.net/javascript/tests/KeyCode.html
 
-
-## Advanced Tests
+## Advanced Fingerprint Tests
 
 Am I Unique?:
 https://amiunique.org/fp
