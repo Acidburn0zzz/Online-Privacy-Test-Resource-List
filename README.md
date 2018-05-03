@@ -87,7 +87,7 @@ Keep in mind
 * HTML5 several stuff like Canvas, Font, ... (will never be fixed, you have to use  in order to spoof such data)
 * Cookies in general are not fixable since your visited page may need it, Amazon for shopping as an example (addons/filter-lists may help to whitelist). But you can disable the cookie collection and work instead with a whitelist, every Browser does support this.
 * CPU & Mouse wheel fingerprinting which needs to be fixed also within the OS (this is a wontfix!) 
-* Network layer based leaks like MAC address leakage. Disabling(blocking IPv6, if not necessary/needed is enough. 
+* Network layer based leaks like MAC address leakage. Disabling/blocking IPv6, if not necessary/needed is enough. See [RFC 3041](https://tools.ietf.org/html/rfc3041).
 * WebRTC since Chrome 48+ and Firefox 42+, both getting an new menu to allow it per-page (whitelist). There exist also for both several addons, workarounds to compile it without WebRTC support). [Unofficial Chromium builds](http://chromium.woolyss.com) also come without WebRTC or sync.
 * PopUps aren't possible anymore, if not Canvas/JS related). You see a permission dialog or can control this behavior directly via Browser settings. Some [Browsers also come with their own Ads-blocking features](https://www.theverge.com/2018/2/14/17011266/google-chrome-ad-blocker-features).
 
