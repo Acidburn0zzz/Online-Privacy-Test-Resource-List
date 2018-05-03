@@ -11,13 +11,16 @@ Please do not ask or open any new ticket which is on the following todo list alr
 - [x] ~~Add an page index to easier navigate to the specific sections~~
 - [x] ~~Better view - table view? (low-prio)~~
 - [x] Mention [HTTPS Client Identification Using SSL/TLS](https://www.muni.cz/research/publications/1299983?lang=en)
-- [ ] Mention document fingerprinting (basically metadata), same goes to pictures, ... 
-- [ ] Add small overview what the page exactly do
+- [x] Mention document fingerprinting (basically metadata), same goes to pictures, ... 
+- [x] Add small overview what the page exactly do
 - [x] ~Add a warning that all of these pages mostly require JavaScript which must be e.g allowed via NoScript/umatrix.~
 - [ ] Integrate googles fingerprinting ? -> [source](http://www.scottsmitelli.com/articles/youtube-audio-content-id) + mention if it's impossible to [prevent](http://www.w3.org/wiki/images/7/7d/Is_preventing_browser_fingerprinting_a_lost_cause.pdf).
 - [ ] Some pages itself may collecting a online/offline database?! Research + proof needed. But it would make sense if they sell the collected data to Google, Amazon and others ... 
 - [ ] Mark deprecated (because fixed by OS/Browser) test with an icon? It would help to identify if that is already fixed or not to avoid to submit unnecessary data and of course it would costs your time ... 
 - [x] ~Add (maybe) gitter chat~
+- [ ] Every service with N/A got already an eMail from me in order to clear the data collection status, please don't ask me about this it's already in process. 
+
+--------
 
 
 **I like to add the following page:**
