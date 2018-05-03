@@ -1,6 +1,6 @@
 ﻿# - POTARC -
 
-Privacy Online Test And Resource Compendium© project original created under the MIT license 2016 - 2018 by CHEF-KOCH and community.
+Privacy Online Test And Resource Compendium© (short: POTARC) project original created under the MIT license 2016 - 2018 by CHEF-KOCH and community.
 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40CHEF-KOCH)](https://twitter.com/CKsTechNews)
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/CHEF-KOCH)
@@ -8,9 +8,9 @@ Privacy Online Test And Resource Compendium© project original created under the
 
 # Privacy Online Test And Resource Compendium
 
-This list is designed to show all available (and useful) online tests, we may not add each test if it's unclear if it collects only data to hand/sell it to 3th-party developer or people which pay for it to use it for 'bad' things. 
+The list is designed to show all available and useful online/offline tests in order to build strategies to harden your OS/Internet/Browser configuration against fingerprinting methods. Some of those services might collect only data to hand/sell it to 3th-party developer or people which pay for it to use it for 'bad' things, such services are (if known) marked and aren't preferable added - so keep this in mind before you request a site. 
 
-I see this as a 'community' based project since everyone can contribute and no one ever will excluded (only with good reasons like spamming, ...). I/we not accept any donations because we all doing this in our free time and it's up to everyone. The information should be available for free for everyone. 
+POTARC itself is more a community driven project because everyone can contribute to it and no pull request or discussion will be rejacted, only with good reasons like spamming, etc. . This project does not accept any donations because we all doing this in our free time and it's up to everyone. The information should be available for free for everyone. 
 
 
 **Known Fingerprinting Techniques:**
