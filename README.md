@@ -60,7 +60,7 @@ Keep in mind
 * [Resource Starvation Attacks](https://msdn.microsoft.com/en-us/library/ee798408(v=cs.20).aspx)
 * [Network Bandwidth Attacks](https://msdn.microsoft.com/en-us/library/ee798452(v=cs.20).aspx)
 * [ISP throttling checks](https://thenextweb.com/apps/2015/05/21/quick-test-shows-if-isps-are-secretly-throttling-your-internet-speeds/)
-* CDN {Web Cache Deception Attack](https://omergil.blogspot.ch/2017/02/web-cache-deception-attack.html)
+* CDN [Web Cache Deception Attack](https://omergil.blogspot.ch/2017/02/web-cache-deception-attack.html). CDN's are in general a security problem, once infected or compromised you have no chance to identify the threat or not before it's already too late. [Decentraleyes](https://github.com/Synzvato/decentraleyes) reduce the attack surface.
 * [Extension system based attacks](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-sanchez-rola.pdf)
 * [NoCoin](https://github.com/keraf/NoCoin), prevents background mining via opt-in
 * [Urchin Tracking Module (UTM)](https://support.google.com/urchin/answer/28307?hl=en)
@@ -288,6 +288,9 @@ https://twofactorauth.org/
 
 ASN Blocklist:
 https://www.enjen.net/asn-blocklist/
+
+Nextcloud Security Scan:
+https://scan.nextcloud.com
 
 
 ## Resource:// URIs checks 
