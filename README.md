@@ -383,6 +383,13 @@ Keep in mind
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- | 
 | [NoMoreRansom](https://www.nomoreransom.org) | Official against Ransomware page for help, decrypter and information | `N/A` | `No` |
+| [Free Ransomware Decryptors - Kaspersky Lab](https://noransom.kaspersky.com/) | Kaspersky's Ransomware Help Page | `N/A` | `N/A` |
+| [Avast Free Ransomware Decryption Tools](https://www.avast.com/ransomware-decryption-tools) | Free Ransomware Decryption Tools by Avast | `N/A` | `N/A` |
+| [Emsisoft Decrypter Tools](https://decrypter.emsisoft.com/) | Emsisoft Decrypter | `N/A` | `N/A` |
+| [Trend Micro Ransomware File Decryptor Tool](https://success.trendmicro.com/solution/1114221-downloading-and-using-the-trend-micro-ransomware-file-decryptor) | Several decrypter powered by TrendMicro | `N/A` | `N/A` |
+| [Heimdal Decrypter Tools](https://heimdalsecurity.com/blog/ransomware-decryption-tools/) | Bunch of decrypter utilities | `N/A` | `N/A` |
+| [Free Ransomware Decryption Tools](https://www.avg.com/en-ww/ransomware-decryption-tools) | Decrypter tools by Avast | `N/A` | `N/A` |
+| [Download All Known Ransomware Decryption Tools](https://www.mdsny.com/decryption-tools/) | MDS collection of all known Ransomware decryoter | `N/A` | `N/A` |
 
 
 ## Identify theft check
