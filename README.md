@@ -42,6 +42,7 @@ Keep in mind
 * [Plugin/Extension tracking](https://webdevwonders.com/detecting-browser-plugins/) (Silverlight, Adobe Flash, ...)
 * [Tor node detection](https://check.torproject.org/)
 * [DNS leakage or bypasses](https://www.dnsleaktest.com/what-is-a-dns-leak.html)
+* [Cross-Origin Identifier](https://www.torproject.org/projects/torbrowser/design/#identifier-linkability)
 * [Do not track (DNT) detection](https://econsultancy.com/blog/6921-the-ftc-s-do-not-track-proposal-useless-harmful-or-both)
 * [Font detection & vulnerabilities](https://support.microsoft.com/en-us/kb/2639658)
 * [Caching attacks](https://en.wikipedia.org/wiki/Timing_attack)
@@ -76,6 +77,7 @@ Keep in mind
 * [Digital video fingerprinting](https://en.wikipedia.org/wiki/Digital_video_fingerprinting)
 * [Public key fingerprint](https://en.wikipedia.org/wiki/Public_key_fingerprint)
 * [Common Spoofing attacks](https://en.wikipedia.org/wiki/Spoofing_attack)
+* [Tor Browser Security Design](https://www.torproject.org/projects/torbrowser/design/)
 * [ASN Squatting Attacks](http://securityskeptic.typepad.com/the-security-skeptic/2011/06/asn-squatting-attacks.html)
 * Power consumption and wave signal based tests (not fixable without breaking the signals!).
 * [IDN homograph attack](https://en.wikipedia.org/wiki/IDN_homograph_attack)
