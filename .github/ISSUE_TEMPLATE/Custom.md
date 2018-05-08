@@ -18,7 +18,7 @@ Please do not ask or open any new ticket which is on the following todo list alr
 - [ ] Some pages itself may collecting a online/offline database?! Research + proof needed. But it would make sense if they sell the collected data to Google, Amazon and others ... 
 - [ ] Mark deprecated (because fixed by OS/Browser) test with an icon? It would help to identify if that is already fixed or not to avoid to submit unnecessary data and of course it would costs your time ... 
 - [x] ~Add (maybe) gitter chat~
-- [ ] Every service with N/A got already an eMail from me in order to clear the data collection status, please don't ask me about this it's already in process. 
+- [ ] Current service with N/A got already an eMail from me in order to clear the data collection status, please don't ask me about this it's already in process. 
 
 --------
 
@@ -26,8 +26,11 @@ Please do not ask or open any new ticket which is on the following todo list alr
 **I like to add the following page:**
 Small descibtion and overview of the requested site.
 
+**Is the page open source?**
+Yes / No / N/A
+
 **Why you think PORTAC needs this page - is it unique or already covered by other sites?**
-Describe why we need it.
+Describe why we need to add it.
 
 **Does the Site collects (and if yes) even sells collected statistics?**
-Please provide research regardings to this. If it's not mentioned or covered set it to N/A.
+Please provide research regardings to this. If it's not mentioned or covered set it to N/A. Usually pages without any information or privacy guidelines will not be added - you'll be warned.
