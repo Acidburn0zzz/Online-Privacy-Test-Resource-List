@@ -163,7 +163,7 @@ Keep in mind
 | [WebRTC Leak Test](https://diafygi.github.io/webrtc-ips/) | WebRTC Leak Test | `No` | `Yes` |
 | [WebRTC Test](https://test.webrtc.org/) | WebRTC Official test | `N/A` | `Yes` |
 | [WebRTC What's My IP Check](http://whatismyipaddress.com/webrtc-test) | WebRTC IP Check | `Yes` | `Yes` |
-| [Web RTC Chrome vulnerability check](https://internet-israel.com/internet_files/webrtc/index.html) | See ([Bug 709952](https://bugs.chromium.org/p/chromium/issues/detail?id=709952) | `No` | `No` |
+| [Web RTC Chrome vulnerability check](https://internet-israel.com/internet_files/webrtc/index.html) | See ([Bug 709952](https://bugs.chromium.org/p/chromium/issues/detail?id=709952)) | `No` | `No` |
 | [Anonymster WebRTC check](https://anonymster.com/web-rtc-leak-test/) | Another WebRTC check | `No` | `Yes` |
 
 
@@ -315,7 +315,7 @@ Keep in mind
 | [Whoer](https://whoer.net/) | Advance Browser check | `Yes` Sells the results | `Yes` for advance informations/tests |
 | [Popup Test](http://www.popuptest.com/) | Check how good your Browser performs against Popups | `N/A` | `Yes` |
 | [Privacy Check](http://do-know.com/privacy-test.html) | Another overall Browser header/leak test | `Yes` | `Yes` |
-| [Audio Fingerprint Test](https://audiofingerprint.openwpm.com/) | The original audio fingerprint test | `No` | `Yes` [Source Code](https://github.com/Gitoffthelawn) |
+| [Audio Fingerprint Test](https://audiofingerprint.openwpm.com/) | The original audio fingerprint test | `No` | `Yes` ([Source Code](https://github.com/Gitoffthelawn)) |
 | [Browser 'auto-download' Security Vulnerability](https://binaer.xyz/haifei-li/test.html) | Check Chrome, IDM and other Downloader against a security attack | `N/A` | `No` |
 | [Check2IP](http://check2ip.com/) | One of the oldest advance Browser/IP tests | `No` | `Yes` only for advance tests but also works without |
 | [HTML5 Canvas Fingerprinting](https://browserleaks.com/canvas) | Canvas HTML5 API Browser Test | `N/A` | `Yes` | 
