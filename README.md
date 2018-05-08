@@ -106,7 +106,7 @@ Keep in mind
 | [Flash Player System Test](https://www.browserleaks.com/flash) | Checks if and what version or Adobe Flash Player is installed | `No` |
 | [Adobe official Flash Player Test](https://www.adobe.com/software/flash/about/) | Official Adobe Flash Player Test | `Yes` collects statistics and sells them. |
 | [Java Test](https://www.java.com/en/download/installed.jsp) | Official Java Browser verification page. | `Yes` collects statistics and sells them. |
-| [Inofficial Microsoft Silverlight Test](https://www.browserleaks.com/silverlight) | Browserleaks Silverlight Test Page | `No` |
+| [Unofficial Microsoft Silverlight Test](https://www.browserleaks.com/silverlight) | Browserleaks Silverlight Test Page | `No` |
 
 
 ## Add-ons e10s check
@@ -209,6 +209,7 @@ Keep in mind
 | [Overview of all supported Two-Factor Auth (2FA) pages](https://twofactorauth.org/) | Lists all 2FA supported pages | `N/A` | `No` |
 | [ASN Blocklist](https://www.enjen.net/asn-blocklist/) | Lists and shows ASN Providers | `N/A` | `No` |
 | [Nextcloud Security Scan](https://scan.nextcloud.com) | Nextcloud Security Scan | `Yes` | `Yes` |
+| [Test your IPv6 connectivity](https://test-ipv6.com/) | Open Source IPv6 test | [No](https://test-ipv6.com/faq.html.en_US) | `No` |
 
 
 ## Resource:// URIs leak checks 
