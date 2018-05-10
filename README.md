@@ -420,3 +420,20 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 | [Dromaeo](http://dromaeo.com) | JavaScript based Browser Benchmark | `Yes` collects an database (need confirmation if sold to 3rd-parties) | `Yes` |
 | [Acid 3](http://acid3.acidtests.org/) | JavaScript based Browser Benchmark | `Yes` collects an database (need confirmation if sold to 3rd-parties) | `Yes` |
 
+
+## Sandboxes Virus/Malware/HTTP analyzer 
+
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- | 
+| [BitBlaze](http://bitblaze.cs.berkeley.edu/) | The BitBlaze Binary Analysis Platform | `No`, it's open source | `No` |
+| [Hybrid Analysis](https://www.hybrid-analysis.com/) + [Mirror](https://www.reverse.it/) | Free Malware analysis service for the community that detects and analyzes unknown threats using a unique Hybrid Analysis technology | `N/A` | `Yes` for the WebInterface. |
+| [Jevereg](http://jevereg.amnpardaz.com/) | Jevereg analyses the behavior of potential malicious executables | `N/A` | `No` |
+| [Sunbelt Sandbox](https://www.threattrack.com/malware-analysis.aspx) | Dig Deep with Malware Analysis | `Yes` Tracks IP, collects data and sells them. | `Yes` |
+| [ThreatExpert](http://www.threatexpert.com/) | ThreatExpert is an advanced automated threat analysis system designed to analyze and report the behavior of computer viruses, worms, trojans, adware, spyware, and other security-related risks in a fully automated mode. | `N/A` | `N/A` |
+| [ViCheck](https://vicheck.ca/) | Advanced Detection Tools to Stop Malware | `N/A` | `No` |
+| [detux](https://detux.org/) | Multiplatform Linux Sandbox | `N/A` | `No` |
+| [Nviso](https://apkscan.nviso.be/) | Nviso APK scan | `N/A` | `Yes` |
+| [Java Script Beatify](http://jsbeautifier.org/) | Beautify, unpack or deobfuscate JavaScript and HTML, make JSON/JSONP readable, etc. | `N/A` | `Yes` |
+| [PDF Examiner](http://www.malwaretracker.com/pdf.php) | Scan PDF files | `N/A` | `No` |
+| [Rex Swain's HTTP Viewer](http://www.rexswain.com/httpview.html) | See exactly what an HTTP request returns to your browser | `N/A` | `N/A` |
+
