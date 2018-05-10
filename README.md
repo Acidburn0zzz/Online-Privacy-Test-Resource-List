@@ -436,4 +436,18 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 | [Java Script Beatify](http://jsbeautifier.org/) | Beautify, unpack or deobfuscate JavaScript and HTML, make JSON/JSONP readable, etc. | `N/A` | `Yes` |
 | [PDF Examiner](http://www.malwaretracker.com/pdf.php) | Scan PDF files | `N/A` | `No` |
 | [Rex Swain's HTTP Viewer](http://www.rexswain.com/httpview.html) | See exactly what an HTTP request returns to your browser | `N/A` | `N/A` |
+| [JSUNPACK](http://jsunpack.jeek.org/dec/go) | jsunpack was designed for security researchers and computer professionals | `N/A` | `N/A` |
+| [Google VirusTotal](https://www.virustotal.com/) | Analyze suspicious files and URLs to detect types of malware, automatically share them with the security community. | `Yes`, see [privacy policy](https://support.virustotal.com/hc/en-us/articles/115002168385-Privacy-Policy). | `N/A` |
+| [Jotti](https://virusscan.jotti.org/) | Jotti's malware scan is a free service that lets you scan suspicious files with several anti-virus programs. | `Yes`, see [Privacy Policy](https://virusscan.jotti.org/en-US/doc/privacy). | `N/A` |
 
+
+# Online Link Checkers
+
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- | 
+| [Dr.Web Online Scanner](https://vms.drweb-av.de/online/) | URL link checker | `Yes` | `Yes` |
+| [Google Safe Browsing](https://transparencyreport.google.com/safe-browsing/search?url=putyourlinkhere.com) | Change putyourlinkhere.com to url you want to check! | `Yes`, see [here](https://support.google.com/transparencyreport/). | `Yes` |
+| [Norton Safe Web](https://safeweb.norton.com/) | Look up a site. Get our rating. | `Yes`, see [privacy policy](http://nortonsafe.search.ask.com/docs/privacy?geo=&prt=cr&o=APN11908&chn=&ver=) | `Yes` |
+| [URL Void](http://www.urlvoid.com/) | Website Reputation Checker Tool | `Yes`, see [terms and privacy](http://www.privalicy.com/privacy-policy/21312665/) | `Yes` |
+| [vURL Online](http://vurl.mysteryfcm.co.uk/) | Quickly and safely dissect malicious or suspect websites | `Yes`, IP address of the requesting computer is recorded along with the URL accessed. Stored for 1 week. | `No` |
+| [Online Link Scan](http://onlinelinkscan.com/) | Prevent infection and data theft with Online Link Scan. | `N/A` | `N/A` |
