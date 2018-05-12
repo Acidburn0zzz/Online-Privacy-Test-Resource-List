@@ -212,6 +212,7 @@ Keep in mind
 | [Nextcloud Security Scan](https://scan.nextcloud.com) | Nextcloud Security Scan | `Yes` | `Yes` |
 | [Test your IPv6 connectivity](https://test-ipv6.com/) | Open Source IPv6 test | [No](https://test-ipv6.com/faq.html.en_US) | `No` |
 | [IP Duh](http://ipduh.com/anonymity-check/) | eTag, Ip and other checks | `Yes` | `N/A` | 
+| [Zscaler](http://securitypreview.zscaler.com/) | Security Check | `Yes` | `Yes` |
 
 
 
