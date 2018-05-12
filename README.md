@@ -223,7 +223,7 @@ Keep in mind
 | [Arthured Elstein resource:// URIs leak information page](https://arthuredelstein.github.io/tordemos/resource-locale.html) | resource:// URIs leak information test page | `N/A` | `No` |
 
 
-## SSL, RSA & SSH Test
+## SSL/TLS, RSA & SSH Test
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
@@ -236,6 +236,8 @@ Keep in mind
 | [Weak Diffie-Hellman and the Logjam Attack](https://weakdh.org/) | Diffie-Hellman attack Test | `N/A` | `No` |
 | [The ROBOT Attack](https://robotattack.org/#check) | ROBOT Attack Test and Tool | `No` | `No` [ROBOT Attack checking tool](https://github.com/robotattackorg/robot-detect) (Open Source) |
 | [SSH Audit](https://github.com/arthepsy/ssh-audit) | Check your SSH configuration and audit it | `No` | `No` (Open Source) |
+| [Fortify](https://www.fortify.net/sslcheck.html) | SSL / TLS check | `Yes`, 1 week. | `Yes` | 
+
 
 
 ## Do Not Track (DNT), Evercookie, Headers, Javascript,...
