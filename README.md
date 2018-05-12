@@ -152,7 +152,8 @@ Keep in mind
 | [Battery Status API](http://pstadler.sh/battery.js/) | Checks if you browser supports Battery Status API | `No` | `No` |
 | [Battery Status API](https://pazguille.github.io/demo-battery-api/) | Another Battery Status API Test | `No` | `Yes` |
 | [Canvas Fingerprinting](https://www.browserleaks.com/canvas) | Checks your Canvas Fingerprint | `N/A` | `Yes` |
-| [canvas.toBlob test](https://blueimp.github.io/JavaScript-Canvas-to-Blob/test/) | Checks your Canvas Blob Fingerprint | `N/A` | `Yes` |
+| [Canvas.toBlob test](https://blueimp.github.io/JavaScript-Canvas-to-Blob/test/) | Checks your Canvas Blob Fingerprint | `N/A` | `Yes` |
+| [Canvas Blocking Detection](https://kkapsner.github.io/CanvasBlocker/test/detectionTest.html) | Detects if you block Canvas | `No` | `No` |
 | [get.Image Canvas test](http://tutorialspark.com/html5/HTML5_Canvas_get_Image_Data_Demo.php) | Checks your get.Image Fingerprint | `N/A` | `Yes` |
 | [HTML5 Features Detection](https://www.browserleaks.com/modernizr) | Detects which HTML5 features your Browser is capatible of | `N/A` | `Yes` |
 | [Hard Drive Fill Test](http://www.filldisk.com/) | Hard Drive Fill Test | `Yes` | `Yes` |
