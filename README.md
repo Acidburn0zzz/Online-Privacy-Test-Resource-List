@@ -133,7 +133,8 @@ Keep in mind
 | **Page or Addon** | **Description** | **Collects or sells user data?** |
 | --- | --- | --- |
 | [Revocation Awareness Test](https://www.grc.com/revocation.htm) | Certificate based revocation test | `No` |
-| [Check Provider-TLS](https://www.checktls.com/) | Check provider TLS certificates | `N/A` |
+| [Check Provider-TLS](https://www.checktls.com/) | Check provider TLS certificates | `N/A` | 
+| [Intermediate CA Cache Fingerprinting](https://fiprinca.0x90.eu/poc/) | Intermediate CA Cache Fingerprinting | `No` |
 
 
 
@@ -156,7 +157,7 @@ Keep in mind
 | [Canvas Blocking Detection](https://kkapsner.github.io/CanvasBlocker/test/detectionTest.html) | Detects if you block Canvas | `No` | `No` |
 | [get.Image Canvas test](http://tutorialspark.com/html5/HTML5_Canvas_get_Image_Data_Demo.php) | Checks your get.Image Fingerprint | `N/A` | `Yes` |
 | [HTML5 Features Detection](https://www.browserleaks.com/modernizr) | Detects which HTML5 features your Browser is capatible of | `N/A` | `Yes` |
-| [Hard Drive Fill Test](http://www.filldisk.com/) | Hard Drive Fill Test | `Yes` | `Yes` |
+| [Hard Drive Fill Test](http://www.filldisk.com/) | Hard Drive Fill Test (local Storage) | `Yes` | `Yes` |
 | [HTML5 Geolocation Test](https://www.browserleaks.com/geo) | HTML5 based Geolocation Test | `No` | `Yes` |
 | [HTML5 Test](http://html5test.com/) | Official HTML5 test landing page | `No` | `Yes` |
 | [HTML5 Security Cheatsheet](https://html5sec.org/) | HTML5 Security checklist | `N/A` | `Yes` |
@@ -184,7 +185,7 @@ Keep in mind
 | [IP Leak](https://ipleak.net/) | Most well-known IP leak check | `Yes` | `Yes` |
 | [DNS Leak Test](https://www.dnsleaktest.com/) | Most well-known DNS leak check | `Yes` | `Yes` |
 | [Content Filters and Proxy Test](https://www.browserleaks.com/proxy) | Check your filter list and Proxy configuration | `N/A` | `Yes` |
-|[DNS Spoofability Test](https://www.grc.com/dns/dns.htm) | Is your DNS spoofed? | `Yes` | `Yes` |
+| [DNS Spoofability Test](https://www.grc.com/dns/dns.htm) | Is your DNS spoofed? | `Yes` | `Yes` |
 | [IPv4/IPv6 Discovery / Detection Test](https://www.perfect-privacy.com/check-ip/) | Checks your current IPv4/IPv6 configuration | `N/A` | `Yes` |
 | [IP Magnet Test](http://ipmagnet.services.cbcdn.com/) | Allows you to see which IP address your BitTorrent Client is handing out to its peers and trackers! | `No` | `No` |
 | [Whois Test](https://www.browserleaks.com/whois) | Basic Whois Test for Windows Users | `No` | `Yes` |
