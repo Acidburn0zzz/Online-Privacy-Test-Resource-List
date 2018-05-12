@@ -316,6 +316,7 @@ Keep in mind
 | --- | --- | --- | --- |
 | [Javascript Key Event Test Script](http://unixpapa.com/js/testkey.html) | Basically a JS keylogger check | `N/A` | `Yes` |
 | [JavaScript Event KeyCode Test Page](http://www.asquare.net/javascript/tests/KeyCode.html) | Another keystroke test | `N/A` | `Yes` |
+| [Keyboard Event Viewer]( https://w3c.github.io/uievents/tools/key-event-viewer.html) | `N/A` | `No` |
 
 
 ## Advanced Fingerprint Tests
@@ -325,7 +326,7 @@ Keep in mind
 | [Am I Unique?](https://amiunique.org/fp) | Is your Machine / Browser unique? | `N/A` | `Yes` |
 | [Browser Spy](http://browserspy.dk/) | Multiple Browser Tests | `N/A` | `Yes` |
 | [Cross Browser Fingerprinting Test](http://fingerprint.pet-portal.eu/) | Multiple Browser Test | `N/A` | `Yes` User must to disable its ad-blocker! |
-| [Jondonym Full Anonymity Test](http://ip-check.info/?lang=en) | The first and original annonymity test | `No` | `Yes` |
+| [Jondonym Full Anonymity Test](http://ip-check.info/?lang=en) | The first and original anonymity test | `No` | `Yes` |
 | [Panopticlick](https://panopticlick.eff.org/) | The most well-known Browser Fingerprint check by EFF | `Yes` collects stats and stores them in a database | `Yes` |
 | [Browserprint.Info](https://browserprint.info/test) | Another JavaScript based Fingerprinting Test |`Yes` collects stats and stores them in a database | `Yes` |
 | [Browserprint check](https://fingerprint.pet-portal.eu/) | Another advance fingerprinting check | `No` | `Yes` - Currently (?) Offline |
@@ -339,6 +340,7 @@ Keep in mind
 | [Check2IP](http://check2ip.com/) | One of the oldest advance Browser/IP tests | `No` | `Yes` only for advance tests but also works without |
 | [HTML5 Canvas Fingerprinting](https://browserleaks.com/canvas) | Canvas HTML5 API Browser Test | `N/A` | `Yes` | 
 | [5who](http://5who.net/?type=extend) | Multiple tests | `N/A` | `Yes` |
+| [Punycode](https://www.xn--80ak6aa92e.com) | See the [Article](https://www.xudongz.com/blog/2017/idn-phishing/) | `N/A` | `No` |
 
 
 ## HTTP Strict Transport Security (HSTS)
