@@ -214,6 +214,7 @@ Keep in mind
 | [IP Duh](http://ipduh.com/anonymity-check/) | eTag, Ip and other checks | `Yes` | `N/A` | 
 | [Zscaler](http://securitypreview.zscaler.com/) | Security Check | `Yes` | `Yes` |
 | [GRC](https://www.grc.com/fingerprints.htm) | GRC Fingerprints check | `N/A` | `No` |
+| [CSS Keylogger with no CSP](https://no-csp-css-keylogger.badsite.io) | This site has no Content Security Policy to protect against CSS injections, and demonstrates a keylogger using only injected CSS with React as the controlled JavaScript framework. | `N/A` | `No` | 
 
 
 
