@@ -128,6 +128,13 @@ Keep in mind
 | [Check Your GPG Fingerprints](https://evil32.com/) | Check if your GPG key is leaked or not | `No` |
 
 
+
+## Window Measurements
+| **Page or Addon** | **Description** | **Collects or sells user data?** |
+| --- | --- | --- |
+| [Inner Window Measurements](https://fiprinca.0x90.eu/poc/) | Detects the Browser Window Size | `No` |
+
+
 ## Certificate 
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** |
