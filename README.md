@@ -237,6 +237,7 @@ Keep in mind
 | [The ROBOT Attack](https://robotattack.org/#check) | ROBOT Attack Test and Tool | `No` | `No` [ROBOT Attack checking tool](https://github.com/robotattackorg/robot-detect) (Open Source) |
 | [SSH Audit](https://github.com/arthepsy/ssh-audit) | Check your SSH configuration and audit it | `No` | `No` (Open Source) |
 | [Fortify](https://www.fortify.net/sslcheck.html) | SSL / TLS check | `Yes`, 1 week. | `Yes` | 
+| [Symantec](https://cryptoreport.websecurity.symantec.com/checker/views/sslCheck.jsp) | Symantec SSL Check | `Yes`, 1 month. | `Yes` |
 
 
 
