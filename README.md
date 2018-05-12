@@ -231,6 +231,7 @@ Keep in mind
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
 | [Arthured Elstein resource:// URIs leak information page](https://arthuredelstein.github.io/tordemos/resource-locale.html) | resource:// URIs leak information test page | `N/A` | `No` |
+| [Resource://URI](https://www.browserleaks.com/firefox) | Resource://URI check for Firefox | `N/A` | `No` |
 
 
 ## SSL/TLS, RSA & SSH Test
@@ -351,7 +352,7 @@ Keep in mind
 | HSTS [sniffly](http://zyan.scripts.mit.edu/sniffly/) | A practical timing attack to sniff browser history using HSTS in Chrome and Firefox. Please disable HTTPS Everywhere for best results. | `N/A` | `N/A` |
 
 
-## Tor Network & Finterprint Test
+## Tor Network & Fingerprint Test
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
