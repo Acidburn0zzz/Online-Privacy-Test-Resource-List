@@ -226,6 +226,7 @@ Keep in mind
 | [CSS Keylogger with no CSP](https://no-csp-css-keylogger.badsite.io) | This site has no Content Security Policy to protect against CSS injections, and demonstrates a keylogger using only injected CSS with React as the controlled JavaScript framework. | `N/A` | `No` | 
 | [HTTP Request & Response Service](https://httpbin.org/) | Check eTAg | `N/A` | `No` | 
 | [Browser Audit](https://browseraudit.com/) | Several browser tests | `N/A` | `Yes` | 
+| [FP Central](https://fpcentral.irisa.fr/) | Statistics to Fingerprints (global), Tor, JavaScript tests etc | `No`, it's [open source](https://github.com/plaperdr/fp-central). | `Yes` | 
 
 
 
