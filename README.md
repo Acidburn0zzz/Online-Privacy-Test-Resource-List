@@ -273,7 +273,8 @@ Keep in mind
 | [Spectre Vulnerability Check](http://xlab.tencent.com/special/spectre/spectre_check.html) | Spectre Vulnerability Check | `No` but holes a offline database it's unclear if it's sold or shared | `No` |
 | [Are You Trackable?](http://ubercookie.robinlinus.com/) | How trackable is your Browser? |  `No` | `No` [Source Code](https://github.com/RobinLinus/ubercookie)| 
 | [Ubercookie Test](http://jcarlosnorte.com/assets/ubercookie/) | Ubercookie test | `Yes` collects an offline database | `No` |
-| [CSS Exfil Vulnerability Tester](https://www.mike-gualtieri.com/css-exfil-vulnerability-tester) | The page tests to see if your browser is vulnerable to Cascading Style Sheets (CSS) data leakage. If you are vulnerable, one way to protect yourself is to install the CSS Exfil Protection plugin for your browser. | `No` | `No` |
+| [CSS Exfil Vulnerability Tester](https://www.mike-gualtieri.com/css-exfil-vulnerability-tester) | The page tests to see if your browser is vulnerable to Cascading Style Sheets (CSS) data leakage. If you are vulnerable, one way to protect yourself is to install the CSS Exfil Protection plugin for your browser. | `No` | `No` | 
+| [CSS History Leak](http://lcamtuf.coredump.cx/yahh/) | CSS History Leak check | `N/A` | `No` |
 
 
 ## DNSSEC Test
