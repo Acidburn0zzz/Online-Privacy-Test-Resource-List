@@ -321,6 +321,7 @@ Keep in mind
 | [Browser 'auto-download' Security Vulnerability](https://binaer.xyz/haifei-li/test.html) | Check Chrome, IDM and other Downloader against a security attack | `N/A` | `No` |
 | [Check2IP](http://check2ip.com/) | One of the oldest advance Browser/IP tests | `No` | `Yes` only for advance tests but also works without |
 | [HTML5 Canvas Fingerprinting](https://browserleaks.com/canvas) | Canvas HTML5 API Browser Test | `N/A` | `Yes` | 
+| [5who](http://5who.net/?type=extend) | Multiple tests | `N/A` | `Yes` |
 
 
 ## HTTP Strict Transport Security (HSTS)
