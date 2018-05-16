@@ -196,7 +196,6 @@ Keep in mind
 | [Content Filters and Proxy Test](https://www.browserleaks.com/proxy) | Check your filter list and Proxy configuration | `N/A` | `Yes` |
 | [DNS Spoofability Test](https://www.grc.com/dns/dns.htm) | Is your DNS spoofed? | `Yes` | `Yes` |
 | [IPv4/IPv6 Discovery / Detection Test](https://www.perfect-privacy.com/check-ip/) | Checks your current IPv4/IPv6 configuration | `N/A` | `Yes` |
-| [IP Magnet Test](http://ipmagnet.services.cbcdn.com/) | Allows you to see which IP address your BitTorrent Client is handing out to its peers and trackers! | `No` | `No` |
 | [Whois Test](https://www.browserleaks.com/whois) | Basic Whois Test for Windows Users | `No` | `Yes` |
 | [Mirai Vulnerability Scanner](https://www.incapsula.com/mirai-scanner/) | Basic Network Vulnerability Scanner | `N/A` | `Yes` |
 | [Galhi US Test](http://ip.galih.us) | Simple IP check | `No` | `No` |
@@ -409,6 +408,7 @@ Keep in mind
 | [ipMagnet](http://ipmagnet.services.cbcdn.com/) | Magnet IP expose check | `N/A` | `No` |
 | [Check My Torrent IP](https://torguard.net/checkmytorrentipaddress.php) | Check which IP your Torrent Network sees | `Yes` collects a statistic database | `No` |
 | [I know what you downloaded](https://iknowwhatyoudownload.com/en/peer/) | Check what your peer sees about you | `N/A` | `No` |
+| [IP Magnet Test](http://ipmagnet.services.cbcdn.com/) | Allows you to see which IP address your BitTorrent Client is handing out to its peers and trackers! | `No` | `No` |
 
 
 ## Ransomware Decrypter 
