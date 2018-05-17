@@ -83,6 +83,7 @@ Keep in mind
 * [IDN homograph attack](https://en.wikipedia.org/wiki/IDN_homograph_attack)
 * [Clickjacking](https://www.vojtechruzicka.com/preventing-clickjacking/)
 * Stuff which is documented and mentioned over [here](https://github.com/CHEF-KOCH/NSABlocklist) or [here](https://wiki.mozilla.org/Fingerprinting)
+* [SameSite cookies](https://tools.ietf.org/html/draft-ietf-httpbis-rfc6265bis-02#section-5.3.7)
 
 
 ### Already fixed within the Browser (ensure you using the latest product [always])
