@@ -130,6 +130,11 @@ Keep in mind
 | [Check Your GPG Fingerprints](https://evil32.com/) | Check if your GPG key is leaked or not | `No` |
 
 
+## Pishing
+| **Page** | **Description** | **Collects or sells user data?** |
+| --- | --- | --- |
+| [KnowBe4](https://www.knowbe4.com/phishing-security-test-offer) | Login to get your phishing test template | [Yes](https://www.knowbe4.com/privacy-policy).
+
 
 ## Window Measurements
 | **Page or Addon** | **Description** | **Collects or sells user data?** |
