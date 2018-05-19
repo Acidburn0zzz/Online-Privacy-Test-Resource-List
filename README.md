@@ -136,6 +136,12 @@ Keep in mind
 | [KnowBe4](https://www.knowbe4.com/phishing-security-test-offer) | Login to get your phishing test template | [Yes](https://www.knowbe4.com/privacy-policy).
 
 
+## Browser Prerender test
+| **Page** | **Description** | **Collects or sells user data?** |
+| --- | --- | --- |
+| [Prerender test](http://prerender-test.appspot.com/) | [Prerender](https://www.keycdn.com/blog/resource-hints/) resource test | `No` |
+
+
 ## Window Measurements
 | **Page or Addon** | **Description** | **Collects or sells user data?** |
 | --- | --- | --- |
