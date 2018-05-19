@@ -136,10 +136,11 @@ Keep in mind
 | [KnowBe4](https://www.knowbe4.com/phishing-security-test-offer) | Login to get your phishing test template | [Yes](https://www.knowbe4.com/privacy-policy).
 
 
-## Browser Prerender test
+## Browser Prerender & feature Tests
 | **Page** | **Description** | **Collects or sells user data?** |
 | --- | --- | --- |
 | [Prerender test](http://prerender-test.appspot.com/) | [Prerender](https://www.keycdn.com/blog/resource-hints/) resource test | `No` |
+| [Web platform's features check](http://paulirish.github.io/web-feature-availability/) | Test which Web Feature your Browser supports | Yes, StatCounter & caniuse.com |
 
 
 ## Window Measurements
@@ -155,7 +156,6 @@ Keep in mind
 | [Revocation Awareness Test](https://www.grc.com/revocation.htm) | Certificate based revocation test | `No` |
 | [Check Provider-TLS](https://www.checktls.com/) | Check provider TLS certificates | `N/A` | 
 | [Intermediate CA Cache Fingerprinting](https://fiprinca.0x90.eu/poc/) | Intermediate CA Cache Fingerprinting | `No` |
-
 
 
 ## Crypto mining detecttion and Malware
