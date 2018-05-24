@@ -1,4 +1,4 @@
-## - POTARC -
+ ## - POTARC -
 
 Privacy Online Test And Resource Compendium© (short: POTARC) project original created under the MIT license 2016 - 2018 by CHEF-KOCH and community.
 
@@ -130,7 +130,7 @@ Keep in mind
 | [Check Your GPG Fingerprints](https://evil32.com/) | Check if your GPG key is leaked or not | `No` |
 
 
-## Pishing
+## Phishing
 | **Page** | **Description** | **Collects or sells user data?** |
 | --- | --- | --- |
 | [KnowBe4](https://www.knowbe4.com/phishing-security-test-offer) | Login to get your phishing test template | [Yes](https://www.knowbe4.com/privacy-policy).
@@ -158,7 +158,7 @@ Keep in mind
 | [Intermediate CA Cache Fingerprinting](https://fiprinca.0x90.eu/poc/) | Intermediate CA Cache Fingerprinting | `No` |
 
 
-## Crypto mining detecttion and Malware
+## Crypto-mining detection and Malware
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** |
 | --- | --- | --- |
@@ -212,6 +212,8 @@ Keep in mind
 | [Mirai Vulnerability Scanner](https://www.incapsula.com/mirai-scanner/) | Basic Network Vulnerability Scanner | `N/A` | `Yes` |
 | [Galhi US Test](http://ip.galih.us) | Simple IP check | `No` | `No` |
 | [Check your current IP](http://checkip.dyn.com) | Yet another IP checker alternative | `N/A` | `No` |
+| [ipx.ac](https://ipx.ac/run) | Offers IPv6, Geo, DNS, WebRTC FlashIP, Battery, user-Agent and more tests | `No` | `No` |
+
 
 
 ## Privacy Management
