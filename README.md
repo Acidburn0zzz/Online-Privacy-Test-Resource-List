@@ -84,6 +84,7 @@ Keep in mind
 * [Clickjacking](https://www.vojtechruzicka.com/preventing-clickjacking/)
 * Stuff which is documented and mentioned over [here](https://github.com/CHEF-KOCH/NSABlocklist) or [here](https://wiki.mozilla.org/Fingerprinting)
 * [SameSite cookies](https://tools.ietf.org/html/draft-ietf-httpbis-rfc6265bis-02#section-5.3.7)
+* [DNS cookies](http://dnscookie.com/)
 
 
 ### Already fixed within the Browser (ensure you using the latest product [always])
@@ -128,6 +129,7 @@ Keep in mind
 | [Have I Been Pwned?](https://haveibeenpwned.com/) | Database which checks if you affected by several holes | `No` | 
 | [Pwnedlist](https://pwnedlist.com/) | Database which checks if you affected by several holes | `Yes` - Currently down |
 | [Check Your GPG Fingerprints](https://evil32.com/) | Check if your GPG key is leaked or not | `No` |
+| [Have I Been Sold?](https://haveibeensold.app/) | Quickly check if your email has been sold. | `No`, database lookup needs JS
 
 
 ## Phishing
