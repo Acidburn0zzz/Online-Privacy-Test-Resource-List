@@ -101,6 +101,7 @@ Keep in mind
 * Browser based download attacks by exposing sensible information. 
 
 
+
 ## Obsolete Add-ons & Plugin Tests
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** |
@@ -112,11 +113,13 @@ Keep in mind
 | [Unofficial Microsoft Silverlight Test](https://www.browserleaks.com/silverlight) | Browserleaks Silverlight Test Page | `No` |
 
 
+
 ## Add-ons e10s check
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** |
 | --- | --- | --- |
 | [Firefox Compatible check](https://www.arewee10syet.com/) | Checks if your Firefox Browser is e10s compatible | `N/A` |
+
 
 
 ## eMail
@@ -132,10 +135,12 @@ Keep in mind
 | [Have I Been Sold?](https://haveibeensold.app/) | Quickly check if your email has been sold. | `No`, database lookup needs JS
 
 
+
 ## Phishing
 | **Page** | **Description** | **Collects or sells user data?** |
 | --- | --- | --- |
 | [KnowBe4](https://www.knowbe4.com/phishing-security-test-offer) | Login to get your phishing test template | [Yes](https://www.knowbe4.com/privacy-policy).
+
 
 
 ## Browser Prerender & feature Tests
@@ -145,10 +150,12 @@ Keep in mind
 | [Web platform's features check](http://paulirish.github.io/web-feature-availability/) | Test which Web Feature your Browser supports | Yes, StatCounter & caniuse.com |
 
 
+
 ## Window Measurements
 | **Page or Addon** | **Description** | **Collects or sells user data?** |
 | --- | --- | --- |
 | [Inner Window Measurements](https://fiprinca.0x90.eu/poc/) | Detects the Browser Window Size | `No` |
+
 
 
 ## Certificate 
@@ -158,6 +165,7 @@ Keep in mind
 | [Revocation Awareness Test](https://www.grc.com/revocation.htm) | Certificate based revocation test | `No` |
 | [Check Provider-TLS](https://www.checktls.com/) | Check provider TLS certificates | `N/A` | 
 | [Intermediate CA Cache Fingerprinting](https://fiprinca.0x90.eu/poc/) | Intermediate CA Cache Fingerprinting | `No` |
+
 
 
 ## Crypto-mining detection and Malware
@@ -192,11 +200,13 @@ Keep in mind
 | [Anonymster WebRTC check](https://anonymster.com/web-rtc-leak-test/) | Another WebRTC check | `No` | `Yes` |
 
 
+
 ## CSS Fingerprint Test
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
 | [Crooked Style Sheets](http://crookedss.bplaced.net/) | Crooked Style Sheets fingerprinting test page | `No` | `Yes` ([Source Code](https://github.com/jbtronics/CrookedStyleSheets))|
+
 
 
 ## IP, DNS & Magnet Leak Tests
@@ -253,6 +263,15 @@ Keep in mind
 | --- | --- | --- | --- |
 | [Arthured Elstein resource:// URIs leak information page](https://arthuredelstein.github.io/tordemos/resource-locale.html) | resource:// URIs leak information test page | `N/A` | `No` |
 | [Resource://URI](https://www.browserleaks.com/firefox) | Resource://URI check for Firefox | `N/A` | `No` |
+
+
+
+## Web API Test
+
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- |
+| [Permission Site](https://permission.site/) | A site to test the interaction of web APIs and browser permissions.  | `No` | `Partial`, [source code](https://github.com/chromium/permission.site) |
+
 
 
 ## SSL/TLS, RSA & SSH Test
