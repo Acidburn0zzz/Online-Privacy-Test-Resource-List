@@ -175,6 +175,13 @@ Keep in mind
 | [MALWARE DETECTED WITH THREAT EMULATION](http://www.cpcheckme.com/checkme/) | Check if your security setup is ready against crypto mining and other threats | `Yes` |
 
 
+
+## DNS Rebinding
+
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- |
+| [DNS Rebinding Demo](http://rebind.network/) | Checks if you're vulnerable to DNS rebinding attacks |  `Partial`, the [source code](https://github.com/brannondorsey/dns-rebind-toolkit) is given but the demo page collects open statistics, they don't sell the data | `Yes` |
+
 ## HTML5 based features test
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
