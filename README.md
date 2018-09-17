@@ -421,7 +421,6 @@ Keep in mind
 | --- | --- | --- | --- | 
 | [Internet Health Test](https://www.battleforthenet.com/internethealthtest/) | Test if your ISP is throttling you | `N/A` | `No` |
 | [BitTorrent Traffic Shaping](https://neubot.nexacenter.org/download) | Check if your ISP is throttling BitTorrent Traffic | `N/A` | `No` |
-| [Neubot](https://neubot.nexacenter.org/download) | Tool to check if your ISP is throttling your download speed | `N/A` | `No` |
 | [The Internet Health Test](https://www.battleforthenet.com/internethealthtest/) | Test if your ISP is throttling you | `Yes` collects an database and possible sells it (needs confirmation) | `No` |
 
 
