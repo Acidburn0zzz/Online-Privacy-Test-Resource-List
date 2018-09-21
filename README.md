@@ -422,6 +422,7 @@ Keep in mind
 | [Internet Health Test](https://www.battleforthenet.com/internethealthtest/) | Test if your ISP is throttling you | `N/A` | `No` |
 | [BitTorrent Traffic Shaping](https://neubot.nexacenter.org/download) | Check if your ISP is throttling BitTorrent Traffic | `N/A` | `No` |
 | [The Internet Health Test](https://www.battleforthenet.com/internethealthtest/) | Test if your ISP is throttling you | `Yes` collects an database and possible sells it (needs confirmation) | `No` |
+| [Switzerland](https://www.eff.org/pages/switzerland-network-testing-tool) | [Tool](https://sourceforge.net/projects/switzerland/) from EFF to check if your ISP blocks or interfering into VOIP traffic |  `No` | `No` |
 
 
 ## Web Search Engine which can show & inspect the source code
@@ -452,7 +453,6 @@ Keep in mind
 | [Check My Torrent IP](https://torguard.net/checkmytorrentipaddress.php) | Check which IP your Torrent Network sees | `Yes` collects a statistic database | `No` |
 | [I know what you downloaded](https://iknowwhatyoudownload.com/en/peer/) | Check what your peer sees about you | `N/A` | `No` |
 | [IP Magnet Test](http://ipmagnet.services.cbcdn.com/) | Allows you to see which IP address your BitTorrent Client is handing out to its peers and trackers! | `No` | `No` |
-| [Switzerland](https://www.eff.org/pages/switzerland-network-testing-tool) | [Tool](https://sourceforge.net/projects/switzerland/) from EFF to check if your ISP blocks or interfering into VOIP traffic |  `No` | `No` |
 
 
 ## Ransomware Decrypter 
