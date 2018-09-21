@@ -452,6 +452,7 @@ Keep in mind
 | [Check My Torrent IP](https://torguard.net/checkmytorrentipaddress.php) | Check which IP your Torrent Network sees | `Yes` collects a statistic database | `No` |
 | [I know what you downloaded](https://iknowwhatyoudownload.com/en/peer/) | Check what your peer sees about you | `N/A` | `No` |
 | [IP Magnet Test](http://ipmagnet.services.cbcdn.com/) | Allows you to see which IP address your BitTorrent Client is handing out to its peers and trackers! | `No` | `No` |
+| [Switzerland](https://www.eff.org/pages/switzerland-network-testing-tool) | [Tool](https://sourceforge.net/projects/switzerland/) from EFF to check if your ISP blocks or interfering into VOIP traffic |  `No` | `No` |
 
 
 ## Ransomware Decrypter 
