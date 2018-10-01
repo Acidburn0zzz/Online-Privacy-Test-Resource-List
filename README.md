@@ -23,7 +23,7 @@ Collection of [device fingerprints](https://en.wikipedia.org/wiki/Device_fingerp
 
 The document section is for research and evidence purposes, topics without any proof are not reliable and the project doesn't accept any submissions without any documents or research based on the matter.
 
-Keep in mind
+#### Keep in mind
 > Some of the integrated services & pages collect the results and store it offline and some even sell the results to 3rd-parties! I'm not responsible for this behavior, the list will add an indicator for services which doing it soon.
 
 
@@ -139,7 +139,7 @@ Keep in mind
 ## Phishing
 | **Page** | **Description** | **Collects or sells user data?** |
 | --- | --- | --- |
-| [KnowBe4](https://www.knowbe4.com/phishing-security-test-offer) | Login to get your phishing test template | [Yes](https://www.knowbe4.com/privacy-policy).
+| [KnowBe4](https://www.knowbe4.com/phishing-security-test-offer) | Login to get your phishing test template | [Yes](https://www.knowbe4.com/privacy-policy)
 | [Are you leaking Windows/VPN Login-Data?](https://msleak.perfect-privacy.com/) | [Understanding the Windows Credential Leak Flaw and How to Prevent It](https://www.bleepingcomputer.com/news/security/understanding-the-windows-credential-leak-flaw-and-how-to-prevent-it/) | [No](https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/network-security-restrict-ntlm-outgoing-ntlm-traffic-to-remote-servers)
 
 
@@ -336,6 +336,7 @@ Keep in mind
 | [CSS History Leak](http://lcamtuf.coredump.cx/yahh/) | CSS History Leak check | `N/A` | `No` |
 
 
+
 ## DNSSEC Test
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
@@ -344,11 +345,13 @@ Keep in mind
 | [DS Algorithm Test](https://rootcanary.org/test.html) | Check if DNSSEC is weak against DS | `N/A` | `No` |
 
 
+
 ## Government Internet Speed Test
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
 | [Breitbandmessung](http://breitbandmessung.de) | Official German Internet Speed Test | `Yes` collects an online database shares and sells them to ISP's and others you need to agree in everything before you can use it | `Yes` |
+
 
 
 ## Mouse Rate/Fingerprint Check
@@ -361,6 +364,7 @@ Keep in mind
 | [Mouse reaction time tester](http://www.humanbenchmark.com/tests/reactiontime) | Online mouse reaction test | `Yes` collects an online statistic database | `No` |
 
 
+
 ## Keyboard
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
@@ -368,6 +372,7 @@ Keep in mind
 | [Javascript Key Event Test Script](http://unixpapa.com/js/testkey.html) | Basically a JS keylogger check | `N/A` | `Yes` |
 | [JavaScript Event KeyCode Test Page](http://www.asquare.net/javascript/tests/KeyCode.html) | Another keystroke test | `N/A` | `Yes` |
 | [Keyboard Event Viewer]( https://w3c.github.io/uievents/tools/key-event-viewer.html) | `N/A` | `No` |
+
 
 
 ## Advanced Fingerprint Tests
@@ -394,12 +399,14 @@ Keep in mind
 | [Punycode](https://www.xn--80ak6aa92e.com) | See the [Article](https://www.xudongz.com/blog/2017/idn-phishing/) | `N/A` | `No` |
 
 
+
 ## HTTP Strict Transport Security (HSTS)
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
 | [Chromium's HSTS preload list submission website](https://hstspreload.org) | Chromium's HSTS preload list submission website | `N/A` | `N/A` |
 | HSTS [sniffly](http://zyan.scripts.mit.edu/sniffly/) | A practical timing attack to sniff browser history using HSTS in Chrome and Firefox. Please disable HTTPS Everywhere for best results. | `N/A` | `N/A` |
+
 
 
 ## Tor Network & Fingerprint Test
@@ -410,11 +417,13 @@ Keep in mind
 | [Tor Fingerprint Test](https://tor.triop.se/) | Basic Tor Network Check | `N/A` | `No` |
 
 
+
 ## Cryptography Test
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
 | [Shattered SHA1 attack](https://shattered.io) | SHA1 collusion attack example | `No` | `No` |
+
 
 
 ## ISP Throttling check
@@ -427,11 +436,13 @@ Keep in mind
 | [Switzerland](https://www.eff.org/pages/switzerland-network-testing-tool) | [Tool](https://sourceforge.net/projects/switzerland/) from EFF to check if your ISP blocks or interfering into VOIP traffic |  `No` | `No` |
 
 
+
 ## Web Search Engine which can show & inspect the source code
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- | 
 | [Source Code Search Engine](https://publicwww.com) | Inspect the Page Source Code | `Yes` logs and collect databases | `Yes` |
+
 
 
 ## Firewall Test
@@ -447,6 +458,7 @@ Keep in mind
 | [CanYouSeeMe.org](http://canyouseeme.org/) | Basic Firewall test | `N/A` | `No` |
 
 
+
 ## Torrent
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
@@ -455,6 +467,7 @@ Keep in mind
 | [Check My Torrent IP](https://torguard.net/checkmytorrentipaddress.php) | Check which IP your Torrent Network sees | `Yes` collects a statistic database | `No` |
 | [I know what you downloaded](https://iknowwhatyoudownload.com/en/peer/) | Check what your peer sees about you | `N/A` | `No` |
 | [IP Magnet Test](http://ipmagnet.services.cbcdn.com/) | Allows you to see which IP address your BitTorrent Client is handing out to its peers and trackers! | `No` | `No` |
+
 
 
 ## Ransomware Decrypter 
@@ -471,6 +484,7 @@ Keep in mind
 | [Download All Known Ransomware Decryption Tools](https://www.mdsny.com/decryption-tools/) | MDS collection of all known Ransomware decryoter | `N/A` | `N/A` |
 
 
+
 ## Identify theft check
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
@@ -478,6 +492,7 @@ Keep in mind
 | [Have I Been Pwned](https://haveibeenpwned.com) | Check if your identiy (email etc) was used/stolen by someone else | `Yes` collects an database (need confirmation if sold to 3rd-parties) | `Partial` |
 | [Shodan.io](https://www.shodan.io/) | Search for devices, vuln. etc | `Yes` collects an database (need confirmation if sold to 3rd-parties) | `Yes` |
 | [New York Attorney General Eric Schneiderman tool](https://ag.ny.gov/fakecomments) | Tool which check fake comments based on a database of known fakers | `Yes` collects an database (need confirmation if sold to 3rd-parties) | `N/A` |
+
 
 
 ## Browser Benchmarks
@@ -494,6 +509,7 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 | [Octane](https://chromium.github.io/octane/) | JavaScript based Browser Benchmark | `Yes` collects an database (need confirmation if sold to 3rd-parties) | `Yes` |
 | [Dromaeo](http://dromaeo.com) | JavaScript based Browser Benchmark | `Yes` collects an database (need confirmation if sold to 3rd-parties) | `Yes` |
 | [Acid 3](http://acid3.acidtests.org/) | JavaScript based Browser Benchmark | `Yes` collects an database (need confirmation if sold to 3rd-parties) | `Yes` |
+
 
 
 ## Sandboxes Virus/Malware/HTTP analyzer 
@@ -514,6 +530,7 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 | [JSUNPACK](http://jsunpack.jeek.org/dec/go) | jsunpack was designed for security researchers and computer professionals | `N/A` | `N/A` |
 | [Google VirusTotal](https://www.virustotal.com/) | Analyze suspicious files and URLs to detect types of malware, automatically share them with the security community. | `Yes`, see [privacy policy](https://support.virustotal.com/hc/en-us/articles/115002168385-Privacy-Policy). | `N/A` |
 | [Jotti](https://virusscan.jotti.org/) | Jotti's malware scan is a free service that lets you scan suspicious files with several anti-virus programs. | `Yes`, see [Privacy Policy](https://virusscan.jotti.org/en-US/doc/privacy). | `N/A` |
+
 
 
 # Online Link Checkers
