@@ -140,6 +140,7 @@ Keep in mind
 | **Page** | **Description** | **Collects or sells user data?** |
 | --- | --- | --- |
 | [KnowBe4](https://www.knowbe4.com/phishing-security-test-offer) | Login to get your phishing test template | [Yes](https://www.knowbe4.com/privacy-policy).
+| Are you leaking Windows/VPN Login-Data? | [Understanding the Windows Credential Leak Flaw and How to Prevent It](https://www.bleepingcomputer.com/news/security/understanding-the-windows-credential-leak-flaw-and-how-to-prevent-it/) | [No](https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/network-security-restrict-ntlm-outgoing-ntlm-traffic-to-remote-servers)
 
 
 
