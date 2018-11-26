@@ -85,6 +85,8 @@ The document section is for research and evidence purposes, topics without any p
 * Stuff which is documented and mentioned over [here](https://github.com/CHEF-KOCH/NSABlocklist) or [here](https://wiki.mozilla.org/Fingerprinting)
 * [SameSite cookies](https://tools.ietf.org/html/draft-ietf-httpbis-rfc6265bis-02#section-5.3.7)
 * [DNS cookies](http://dnscookie.com/)
+* [Web Browser Address Bar Spoofing](https://www.netsparker.com/blog/web-security/web-browser-address-bar-spoofing/)
+* [WWW Subdomain on Cookie Security](https://www.netsparker.com/blog/web-security/impact-www-subdomain-cookie-security/)
 
 
 ### Already fixed within the Browser (ensure you using the latest product [always])
