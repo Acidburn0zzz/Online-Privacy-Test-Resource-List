@@ -10,7 +10,9 @@ Privacy Online Test And Resource Compendium© (short: POTARC) project original c
 
 The list is designed to show all available and useful online/offline tests in order to build strategies to harden your OS/Internet/Browser configuration against fingerprinting methods. Some of those services might collect only data to hand/sell it to 3th-party developer or people which pay for it to use it for 'bad' things, such services are (if known) marked and aren't preferable added - so keep this in mind before you request a site. 
 
-POTARC itself is more a community driven project because everyone can contribute to it and no pull request or discussion will be rejected, only with good reasons like spamming, etc. . This project does not accept any donations because we all doing this in our free time and it's up to everyone. The information should be available for free for everyone.
+POTARC itself is more a community driven project because everyone can contribute to it and no pull request or discussion will be rejected, only with good reasons like spamming, etc. This project does not accept any donations because we all doing this in our free time and it's up to everyone to provide some information or not, from my perspective the information should be available for free.
+
+Keep in mind that reducing the fingerprint doesn't mean you're secured against all attacks (including new upcoming ones) because security is a process and not something you gain by installing the correct extensions, plugins or programs.
 
 ## Contribution
 
