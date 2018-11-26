@@ -37,7 +37,7 @@ The document section is for research and evidence purposes, topics without any p
 * [UberCookie](http://ubercookie.robinlinus.com/faq.html)/[Cookies](https://en.wikipedia.org/wiki/HTTP_cookie)/[EverCookie](https://en.wikipedia.org/wiki/Evercookie)/[Supercookies](https://en.wikipedia.org/wiki/HTTP_cookie#Supercookie)
 * [Database fingerprints](https://github.com/Valve/fingerprintjs2)
 * [Measuring time](https://en.wikipedia.org/wiki/Timing_attack) (Timezone/[NTP](http://www.securityweek.com/ntp-servers-exposed-long-distance-wireless-attacks))
-* getClientRects fingerprinting via [DOM](http://www.water.ca.gov/waterquality/docs/Fingerprinting%20Sources%20of%20DOM%20-%20Ngatia.pdf)
+* [getClientRects fingerprinting](https://browserleaks.com/rects) via [DOM](http://www.water.ca.gov/waterquality/docs/Fingerprinting%20Sources%20of%20DOM%20-%20Ngatia.pdf)
 * Hardware implemented fingerprint methods such as [hardware based DRM](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/hardware-drm)
 * [Plugin/Extension tracking](https://webdevwonders.com/detecting-browser-plugins/) (Silverlight, Adobe Flash, ...)
 * [Tor node detection](https://check.torproject.org/)
