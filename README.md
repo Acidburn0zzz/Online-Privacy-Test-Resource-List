@@ -90,7 +90,7 @@ The document section is for research and evidence purposes, topics without any p
 
 
 ### Already fixed within the Browser (ensure you using the latest product [always])
-* SSL / TLS (ciphers) [if you only browsing on pages like GitHub ~ you can even more '[harden](https://tools.ietf.org/html/draft-sheffer-tls-bcp-00)' it]
+* ~~SSL / TLS (ciphers) [if you only browsing on pages like GitHub ~ you can even more '[harden](https://tools.ietf.org/html/draft-sheffer-tls-bcp-00)' it]~~ TLS 1.3 is the new common default and most platforms abbandoned TLS 1.0/1.1/1.2 
 * OpenSSL fixed (heartbleed,...) 
 * Tor (several fingerprint methods are still possible, it's on the todo and will be fixed soon (?))
 * Java/Adobe Flash, both are dead and replaced by HTML5 (which has it's own weaknesses) 
@@ -100,7 +100,8 @@ The document section is for research and evidence purposes, topics without any p
 * Network layer based leaks like MAC address leakage. Disabling/blocking IPv6, if not necessary/needed is enough. See [RFC 3041](https://tools.ietf.org/html/rfc3041).
 * WebRTC since Chrome 48+ and Firefox 42+, both getting an new menu to allow it per-page (whitelist). There exist also for both several addons, workarounds to compile it without WebRTC support). [Unofficial Chromium builds](http://chromium.woolyss.com) also come without WebRTC or sync.
 * PopUps aren't possible anymore, if not Canvas/JS related). You see a permission dialog or can control this behavior directly via Browser settings. Some [Browsers also come with their own Ads-blocking feature](https://www.theverge.com/2018/2/14/17011266/google-chrome-ad-blocker-features).
-* Browser based download attacks by exposing sensible information. 
+* Browser based download attacks by exposing sensible information.
+* Third-party cookie "isolation" (blocking)
 
 
 
