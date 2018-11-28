@@ -242,7 +242,7 @@ The document section is for research and evidence purposes, topics without any p
 
 
 
-## Privacy Management
+## Account Management
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
@@ -442,7 +442,7 @@ The document section is for research and evidence purposes, topics without any p
 
 
 
-## Web Search Engine which can show & inspect the source code
+## Web Search Engine which can show & Inspect the Source Code
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- | 
@@ -464,7 +464,7 @@ The document section is for research and evidence purposes, topics without any p
 
 
 
-## Torrent
+## Torrent Leak Test
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- | 
@@ -538,7 +538,7 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 
 
 
-# Online Link Checkers
+## Online Link Checkers
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- | 
@@ -548,3 +548,13 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 | [URL Void](http://www.urlvoid.com/) | Website Reputation Checker Tool | `Yes`, see [terms and privacy](http://www.privalicy.com/privacy-policy/21312665/) | `Yes` |
 | [vURL Online](http://vurl.mysteryfcm.co.uk/) | Quickly and safely dissect malicious or suspect websites | `Yes`, IP address of the requesting computer is recorded along with the URL accessed. Stored for 1 week. | `No` |
 | [Online Link Scan](http://onlinelinkscan.com/) | Prevent infection and data theft with Online Link Scan. | `N/A` | `N/A` |
+
+
+
+## Online IP Scanner
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- | 
+| [GreyNoise Visualizer](https://viz.greynoise.io/) | Tracks _every_ IP + mass scanning/attacking the Internet and Visalize them | `No` | `No` | 
+| TCPIPUtils now [DNSLytics](https://dnslytics.com/) | One of the biggest and oldest IP/Domain tracking service | `Yes` | `Yes` |
+
+
