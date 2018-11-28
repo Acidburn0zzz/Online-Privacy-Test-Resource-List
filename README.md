@@ -230,6 +230,7 @@ The document section is for research and evidence purposes, topics without any p
 | [GeoTek Datentechnik - Web Privacy Check](https://ipinfo.info/html/privacy-check.php) | Basic Web Privacy Check | `No` | `Yes` |
 | [DoiLeak](https://www.doileak.com/) | Checks if you real IP is leaking behind Proxy/VPN | `N/A` | `Yes` |
 | [IP Leak](https://ipleak.net/) | Most well-known IP leak check | `Yes` | `Yes` |
+| [Tenta-Test](https://tenta.com/test/) | Browser Privacy Test by Tenta VPN Browser | `Yes` | `Yes` |
 | [DNS Leak Test](https://www.dnsleaktest.com/) | Most well-known DNS leak check | `Yes` | `Yes` |
 | [Content Filters and Proxy Test](https://www.browserleaks.com/proxy) | Check your filter list and Proxy configuration | `N/A` | `Yes` |
 | [DNS Spoofability Test](https://www.grc.com/dns/dns.htm) | Is your DNS spoofed? | `Yes` | `Yes` |
@@ -402,6 +403,11 @@ The document section is for research and evidence purposes, topics without any p
 | [HTML5 Canvas Fingerprinting](https://browserleaks.com/canvas) | Canvas HTML5 API Browser Test | `N/A` | `Yes` | 
 | [5who](http://5who.net/?type=extend) | Multiple tests | `N/A` | `Yes` |
 | [Punycode](https://www.xn--80ak6aa92e.com) | See the [Article](https://www.xudongz.com/blog/2017/idn-phishing/) | `N/A` | `No` |
+| [FingerPrintJS2](https://valve.github.io/fingerprintjs2/) | Check your Browser fingerprint | `N/A` | `Yes` |
+| [BrowserPlugs](https://www.browserplugs.com/fingerprint-test/index.html) | Check your Browser fingerprint with 3 different test scenarios | `N/A` | `Yes`, for the first test |
+
+
+
 
 
 
