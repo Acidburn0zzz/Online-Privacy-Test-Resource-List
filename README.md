@@ -190,6 +190,15 @@ The document section is for research and evidence purposes, topics without any p
 | [DNS Rebinding Demo](http://rebind.network/) | Checks if you're vulnerable to DNS rebinding attacks |  `Partial`, the [source code](https://github.com/brannondorsey/dns-rebind-toolkit) is given but the demo page collects open statistics, they don't sell the data | `Yes` |
 
 
+
+## DNS-over-HTTPS (DoH) 
+
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- |
+|[Cloudflare's Browsing Experience Security Check page](https://www.cloudflare.com/ssl/encrypted-sni/) | The web page will now perform a variety of tests to see if you are using Secure DNS, DNSSEC, TLS 1.3, or Encrypted SNI. | `Yes` | `Yes` |
+
+
+
 ## HTML5 based features test
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
