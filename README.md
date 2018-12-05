@@ -90,6 +90,7 @@ The document section is for research and evidence purposes, topics without any p
 * [Web Browser Address Bar Spoofing](https://www.netsparker.com/blog/web-security/web-browser-address-bar-spoofing/)
 * [WWW Subdomain on Cookie Security](https://www.netsparker.com/blog/web-security/impact-www-subdomain-cookie-security/)
 * [Spectre](https://alephsecurity.com/2018/06/26/spectre-browser-query-cache/) - Allows an attacker to read secret data.
+* [Secure Messenger](https://github.com/dessalines/Messaging-Services-Comparison)
 
 
 ### Already fixed within the Browser (ensure you using the latest product [always])
