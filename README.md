@@ -151,11 +151,12 @@ The document section is for research and evidence purposes, topics without any p
 
 
 
-## Browser Prerender & feature Tests
+## Browser Prerender & Feature Tests
 | **Page** | **Description** | **Collects or sells user data?** |
 | --- | --- | --- |
 | [Prerender test](http://prerender-test.appspot.com/) | [Prerender](https://www.keycdn.com/blog/resource-hints/) resource test | `No` |
 | [Web platform's features check](http://paulirish.github.io/web-feature-availability/) | Test which Web Feature your Browser supports | Yes, StatCounter & caniuse.com |
+| [Third-Party redirection test](https://ndossougbe.github.io/web-sandbox/interventions/3p-redirect/) | Third-party redirection Test site - Pass if not redirected | `No` |
 
 
 
