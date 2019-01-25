@@ -140,7 +140,7 @@ The document section is for research and evidence purposes, topics without any p
 | [Pwnedlist](https://pwnedlist.com/) | Database which checks if you affected by several holes | `Yes` - Currently down |
 | [Check Your GPG Fingerprints](https://evil32.com/) | Check if your GPG key is leaked or not | `No` |
 | [Have I Been Sold?](https://haveibeensold.app/) | Quickly check if your email has been sold. | `No`, database lookup needs JS
-
+| [Is someone spying on you?](https://sec.hpi.de/ilc/search) | Same like Have I Been Pwned? it checks your pass/email against a database | `No` |  
 
 
 ## Phishing
