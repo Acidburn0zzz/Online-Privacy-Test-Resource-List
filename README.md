@@ -106,6 +106,8 @@ The document section is for research and evidence purposes, topics without any p
 * PopUps aren't possible anymore, if not Canvas/JS related). You see a permission dialog or can control this behavior directly via Browser settings. Some [Browsers also come with their own Ads-blocking feature](https://www.theverge.com/2018/2/14/17011266/google-chrome-ad-blocker-features).
 * Browser based download attacks by exposing sensible information.
 * Third-party cookie "isolation" (blocking)
+* HTTP Public Key Pinning (HPKP) sniffing attacks (removed in Chrome 72+)
+* File Transfer Protocol (FTP) - Will be removed soon or later from every Browser. 
 
 
 
