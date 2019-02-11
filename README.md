@@ -92,6 +92,7 @@ The document section is for research and evidence purposes, topics without any p
 * [Spectre](https://alephsecurity.com/2018/06/26/spectre-browser-query-cache/) - Allows an attacker to read secret data.
 * [Secure Messenger](https://github.com/dessalines/Messaging-Services-Comparison)
 * [CSS based attacks](https://www.mike-gualtieri.com/posts/stealing-data-with-css-attack-and-defense)
+* [DOMrect](https://developer.mozilla.org/en-US/docs/Web/API/DOMRect)
 
 
 ### Already fixed within the Browser (ensure you using the latest product [always])
