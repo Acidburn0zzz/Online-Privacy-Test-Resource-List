@@ -1,6 +1,6 @@
  ## - POTARC -
 
-Privacy Online Test And Resource Compendium© (short: POTARC) project original created under the MIT license 2016 - 2018 by CHEF-KOCH and community.
+Privacy Online Test And Resource Compendium© (short: POTARC) project original created under the MIT license 2016 - 2019 by CHEF-KOCH and community.
 
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40CHEF-KOCH)](https://twitter.com/CKsTechNews)
 [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/CHEF-KOCH)
@@ -91,6 +91,7 @@ The document section is for research and evidence purposes, topics without any p
 * [WWW Subdomain on Cookie Security](https://www.netsparker.com/blog/web-security/impact-www-subdomain-cookie-security/)
 * [Spectre](https://alephsecurity.com/2018/06/26/spectre-browser-query-cache/) - Allows an attacker to read secret data.
 * [Secure Messenger](https://github.com/dessalines/Messaging-Services-Comparison)
+* [CSS based attacks](https://www.mike-gualtieri.com/posts/stealing-data-with-css-attack-and-defense)
 
 
 ### Already fixed within the Browser (ensure you using the latest product [always])
@@ -234,6 +235,7 @@ The document section is for research and evidence purposes, topics without any p
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
 | [Crooked Style Sheets](http://crookedss.bplaced.net/) | Crooked Style Sheets fingerprinting test page | `No` | `Yes` ([Source Code](https://github.com/jbtronics/CrookedStyleSheets))|
+| [CSS Exfil Vulnerability Tester](https://www.mike-gualtieri.com/css-exfil-vulnerability-tester) | Tests to see if your browser is vulnerable to Cascading Style Sheets (CSS) data leakage | `No` | `Yes`
 
 
 
