@@ -93,6 +93,7 @@ The document section is for research and evidence purposes, topics without any p
 * [Secure Messenger](https://github.com/dessalines/Messaging-Services-Comparison)
 * [CSS based attacks](https://www.mike-gualtieri.com/posts/stealing-data-with-css-attack-and-defense)
 * [DOMrect](https://developer.mozilla.org/en-US/docs/Web/API/DOMRect)
+* [TLS downgrade attacks](https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2019/february/downgrade-attack-on-tls-1.3-and-vulnerabilities-in-major-tls-libraries/?Year=2019&Month=2)
 
 
 ### Already fixed within the Browser (ensure you using the latest product [always])
