@@ -87,6 +87,7 @@ The document section is for research and evidence purposes, topics without any p
 * Stuff which is documented and mentioned over [here](https://github.com/CHEF-KOCH/NSABlocklist) or [here](https://wiki.mozilla.org/Fingerprinting)
 * [SameSite cookies](https://tools.ietf.org/html/draft-ietf-httpbis-rfc6265bis-02#section-5.3.7)
 * [DNS cookies](http://dnscookie.com/)
+* [DNS Spoofing](https://en.wikipedia.org/wiki/DNS_spoofing)
 * [Web Browser Address Bar Spoofing](https://www.netsparker.com/blog/web-security/web-browser-address-bar-spoofing/)
 * [WWW Subdomain on Cookie Security](https://www.netsparker.com/blog/web-security/impact-www-subdomain-cookie-security/)
 * [Spectre](https://alephsecurity.com/2018/06/26/spectre-browser-query-cache/) - Allows an attacker to read secret data.
@@ -194,7 +195,7 @@ The document section is for research and evidence purposes, topics without any p
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
-| [DNS Rebinding Demo](http://rebind.network/) | Checks if you're vulnerable to DNS rebinding attacks |  `Partial`, the [source code](https://github.com/brannondorsey/dns-rebind-toolkit) is given but the demo page collects open statistics, they don't sell the data | `Yes` |
+| [DNS Rebinding Demo](http://rebind.network/) | Checks if you're vulnerable to rebinding attacks |  `Partial`, the [source code](https://github.com/brannondorsey/dns-rebind-toolkit) is given but the demo page collects open statistics, they don't sell the data | `Yes` |
 
 
 
@@ -258,7 +259,7 @@ The document section is for research and evidence purposes, topics without any p
 | [Galhi US Test](http://ip.galih.us) | Simple IP check | `No` | `No` |
 | [Check your current IP](http://checkip.dyn.com) | Yet another IP checker alternative | `N/A` | `No` |
 | [ipx.ac](https://ipx.ac/run) | Offers IPv6, Geo, DNS, WebRTC FlashIP, Battery, user-Agent and more tests | `No` | `No` |
-
+| [DNS spoofing test](https://www.grc.com/dns/dns.htm) | DNS Nameserver Spoofability Test | `no` | `No` |
 
 
 ## Account Management
