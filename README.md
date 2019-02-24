@@ -306,6 +306,7 @@ The document section is for research and evidence purposes, topics without any p
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
 | [Permission Site](https://permission.site/) | A site to test the interaction of web APIs and browser permissions.  | `No` | `Partial`, [source code](https://github.com/chromium/permission.site) |
+| [Browser Storage Abuser](https://demo.agektmr.com/storage/) | Experiment for your browser storage limitation on LocalStorage, SessionStorage, WebSQL Database, IndexedDB API and FileSystem API. | `Yes` + [source code](https://github.com/agektmr/BrowserStorageAbuser) |
 
 
 
