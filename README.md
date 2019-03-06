@@ -95,6 +95,7 @@ The document section is for research and evidence purposes, topics without any p
 * [CSS based attacks](https://www.mike-gualtieri.com/posts/stealing-data-with-css-attack-and-defense)
 * [DOMrect](https://developer.mozilla.org/en-US/docs/Web/API/DOMRect)
 * [TLS downgrade attacks](https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2019/february/downgrade-attack-on-tls-1.3-and-vulnerabilities-in-major-tls-libraries/?Year=2019&Month=2)
+* [Captive Portal based attacks](https://rootsh3ll.com/captive-portal-guide/)
 
 
 ### Already fixed within the Browser (ensure you using the latest product [always])
