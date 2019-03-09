@@ -568,6 +568,7 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 | --- | --- | --- | --- | 
 | [Dr.Web Online Scanner](https://vms.drweb-av.de/online/) | URL link checker | `Yes` | `Yes` |
 | [Google Safe Browsing](https://transparencyreport.google.com/safe-browsing/search?url=putyourlinkhere.com) | Change putyourlinkhere.com to url you want to check! | `Yes`, see [here](https://support.google.com/transparencyreport/). | `Yes` |
+| [Google Safe Browsing Testing Links](https://testsafebrowsing.appspot.com) | The tests are safe to use, it basically checks your Browser settings | `Yes`, for some tests |
 | [Norton Safe Web](https://safeweb.norton.com/) | Look up a site. Get our rating. | `Yes`, see [privacy policy](http://nortonsafe.search.ask.com/docs/privacy?geo=&prt=cr&o=APN11908&chn=&ver=) | `Yes` |
 | [URL Void](http://www.urlvoid.com/) | Website Reputation Checker Tool | `Yes`, see [terms and privacy](http://www.privalicy.com/privacy-policy/21312665/) | `Yes` |
 | [vURL Online](http://vurl.mysteryfcm.co.uk/) | Quickly and safely dissect malicious or suspect websites | `Yes`, IP address of the requesting computer is recorded along with the URL accessed. Stored for 1 week. | `No` |
