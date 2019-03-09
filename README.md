@@ -2,8 +2,8 @@
 
 Privacy Online Test And Resource Compendium© (short: POTARC) project original created under the MIT license 2016 - 2019 by CHEF-KOCH and community.
 
-[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40CHEF-KOCH)](https://twitter.com/CKsTechNews)
-[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/CHEF-KOCH)
+![Matrix](https://img.shields.io/matrix/cknews:matrix.org.svg?label=CK%27s%20Technology%20News%20-%20Matrix%20Chat&server_fqdn=matrix.org&style=popout)
+![Twitter Follow](https://img.shields.io/twitter/follow/@CKsTechNews.svg?label=Follow%20%40CKsTechNews&style=social)
 [![Discord](https://discordapp.com/api/guilds/418256415874875402/widget.png)](https://discord.me/CHEF-KOCH)
 
 ## Privacy Online Test And Resource Compendium
@@ -26,7 +26,7 @@ Collection of [device fingerprints](https://en.wikipedia.org/wiki/Device_fingerp
 The document section is for research and evidence purposes, topics without any proof are not reliable and the project doesn't accept any submissions without any documents or research based on the matter.
 
 #### Keep in mind
-> Some of the integrated services & pages collect the results and store it offline and some even sell the results to 3rd-parties! I'm not responsible for this behavior, the list will add an indicator for services which doing it soon.
+> Some of the integrated services & pages collect the results and store it offline and some other pages even sell the results to 3rd-parties! I'm not responsible for this behavior, the list added an indicator in order to inform you.
 
 
 ### Known Fingerprinting Techniques
