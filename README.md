@@ -99,6 +99,7 @@ The document section is for research and evidence purposes, topics without any p
 
 
 ### Already fixed within the Browser (ensure you using the latest product [always])
+* ~~* Detection of incognito mode~~
 * ~~SSL / TLS (ciphers) [if you only browsing on pages like GitHub ~ you can even more '[harden](https://tools.ietf.org/html/draft-sheffer-tls-bcp-00)' it]~~ TLS 1.3 is the new common default and most platforms abbandoned TLS 1.0/1.1/1.2 
 * OpenSSL fixed (heartbleed,...) 
 * Tor (several fingerprint methods are still possible, it's on the todo and will be fixed soon (?))
@@ -150,6 +151,7 @@ The document section is for research and evidence purposes, topics without any p
 | [Is someone spying on you?](https://sec.hpi.de/ilc/search) | Same like Have I Been Pwned? it checks your pass/email against a database | `No` |  
 
 
+
 ## Phishing
 | **Page** | **Description** | **Collects or sells user data?** |
 | --- | --- | --- |
@@ -189,6 +191,14 @@ The document section is for research and evidence purposes, topics without any p
 | **Page or Addon** | **Description** | **Collects or sells user data?** |
 | --- | --- | --- |
 | [MALWARE DETECTED WITH THREAT EMULATION](http://www.cpcheckme.com/checkme/) | Check if your security setup is ready against crypto mining and other threats | `Yes` |
+
+
+
+## Incognito Detection
+
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- |
+|Check if the Chrome is in Incognito Mode](https://jsfiddle.net/w49x9f1a/) | Quick JavaScript test to detect Chrome's FileSystem API | `No` | `Yes` |
 
 
 
