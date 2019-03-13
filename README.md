@@ -371,8 +371,7 @@ The document section is for research and evidence purposes, topics without any p
 | [Ubercookie Test](http://jcarlosnorte.com/assets/ubercookie/) | Ubercookie test | `Yes` collects an offline database | `No` |
 | [CSS Exfil Vulnerability Tester](https://www.mike-gualtieri.com/css-exfil-vulnerability-tester) | The page tests to see if your browser is vulnerable to Cascading Style Sheets (CSS) data leakage. If you are vulnerable, one way to protect yourself is to install the CSS Exfil Protection plugin for your browser. | `No` | `No` | 
 | [CSS History Leak](http://lcamtuf.coredump.cx/yahh/) | CSS History Leak check | `N/A` | `No` |
-| [Third Party Fingerprinting test](https://cezaraugusto.github.io/privacy-checks/fingerprinting/third-party/) | Basic Third Party Fingerprinting test page | `No` | `No` | 
-
+| [Third Party Fingerprinting test](https://cezaraugusto.github.io/privacy-checks/fingerprinting/third-party/) | Basic Third Party Fingerprinting test page | `No` | `Yes` | 
 
 
 
@@ -553,7 +552,7 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 
 
 
-## Sandboxes Virus/Malware/HTTP analyzer 
+## Sandboxes Virus/Malware/HTTP Analyzer 
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- | 
