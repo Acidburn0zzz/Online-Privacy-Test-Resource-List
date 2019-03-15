@@ -198,7 +198,8 @@ The document section is for research and evidence purposes, topics without any p
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
-|Check if the Chrome is in Incognito Mode](https://jsfiddle.net/w49x9f1a/) | Quick JavaScript test to detect Chrome's FileSystem API | `No` | `Yes` |
+| [Check if the Chrome is in Incognito Mode](https://jsfiddle.net/w49x9f1a/) | Small JavaScript test to detect Chrome's FileSystem API | `No` | `Yes` |
+| [Check if Firefox is in Private Mode](https://codepen.io/fadupla/pen/EWxKRW) | Small JavaScript test to detect Firefox Private Mode | `No` | `Yes` |
 
 
 
