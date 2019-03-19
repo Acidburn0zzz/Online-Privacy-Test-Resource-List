@@ -242,6 +242,7 @@ The document section is for research and evidence purposes, topics without any p
 | [WebRTC check by PrivacyTools.io](https://www.privacytools.io/webrtc.html) | WebRTC IP Check | `No`, [source code is here](https://github.com/diafygi/webrtc-ips). | `No` |
 | [Web RTC Chrome vulnerability check](https://internet-israel.com/internet_files/webrtc/index.html) | See ([Bug 709952](https://bugs.chromium.org/p/chromium/issues/detail?id=709952)) | `No` | `No` |
 | [Anonymster WebRTC check](https://anonymster.com/web-rtc-leak-test/) | Another WebRTC check | `No` | `Yes` |
+| [AutoPlay test](https://videojs.github.io/autoplay-tests/) | Test if your Browser blocks Video/Audio autoplay | `No` | `Yes` |
 
 
 
