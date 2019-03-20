@@ -194,6 +194,20 @@ The document section is for research and evidence purposes, topics without any p
 
 
 
+## Mozilla (Firefox) specific test pages
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- |
+| [Windows Hello Test Page](https://webauthn.org/) | Check if Firefox 66+ supports Windows Hello  | `No` | `Yes` |
+| [Windows Hello Test Page (mirror)](https://webauthn.io/) | Check if Firefox 66+ supports Windows Hello  | `No` | `Yes` |
+| [Windows Hello Test Page (mirror)](https://webauthn.me/) | Check if Firefox 66+ supports Windows Hello  | `No` | `Yes` |
+| [Windows Hello Test Page (mirror)](https://webauthndemo.appspot.com/) | Check if Firefox 66+ supports Windows Hello  | `No` | `Yes` |
+| [Tracking Protection](https://itisatrap.org/firefox/its-a-tracker.html) | Test page for Firefox's built-in Tracking Protection | `No` | `Yes` |
+| [Phising Protection](https://itisatrap.org/firefox/its-a-trap.html) | Test page for Firefox's built-in Phising Protection ("Web forgeries") | `No` | `Yes` |
+| [Malware Protection](https://itisatrap.org/firefox/its-an-attack.html) | Test page for Firefox's built-in Malware Protection (attack page) | `No` | `Yes` |
+| [Malware Protection](https://itisatrap.org/firefox/unwanted.html) | Test page for Firefox's built-in Malware Protection (attack page) | `No` | `Yes` |
+
+
+
 ## Incognito Detection
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
