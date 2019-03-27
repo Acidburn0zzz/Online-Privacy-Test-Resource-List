@@ -96,6 +96,7 @@ The document section is for research and evidence purposes, topics without any p
 * [DOMrect](https://developer.mozilla.org/en-US/docs/Web/API/DOMRect)
 * [TLS downgrade attacks](https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2019/february/downgrade-attack-on-tls-1.3-and-vulnerabilities-in-major-tls-libraries/?Year=2019&Month=2)
 * [Captive Portal based attacks](https://rootsh3ll.com/captive-portal-guide/)
+* Attacks on PWA apps
 
 
 ### Already fixed within the Browser (ensure you using the latest product [always])
@@ -153,6 +154,7 @@ The document section is for research and evidence purposes, topics without any p
 
 
 ## Phishing
+
 | **Page** | **Description** | **Collects or sells user data?** |
 | --- | --- | --- |
 | [KnowBe4](https://www.knowbe4.com/phishing-security-test-offer) | Login to get your phishing test template | [Yes](https://www.knowbe4.com/privacy-policy)
@@ -161,6 +163,7 @@ The document section is for research and evidence purposes, topics without any p
 
 
 ## Browser Prerender & Feature Tests
+
 | **Page** | **Description** | **Collects or sells user data?** |
 | --- | --- | --- |
 | [Prerender test](http://prerender-test.appspot.com/) | [Prerender](https://www.keycdn.com/blog/resource-hints/) resource test | `No` |
@@ -195,6 +198,7 @@ The document section is for research and evidence purposes, topics without any p
 
 
 ## Mozilla (Firefox) specific test pages
+
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
 | [Windows Hello Test Page](https://webauthn.org/) | Check if Firefox 66+ supports Windows Hello  | `No` | `Yes` |
@@ -334,6 +338,7 @@ The document section is for research and evidence purposes, topics without any p
 | --- | --- | --- | --- |
 | [Permission Site](https://permission.site/) | A site to test the interaction of web APIs and browser permissions.  | `No` | `Partial`, [source code](https://github.com/chromium/permission.site) |
 | [Browser Storage Abuser](https://demo.agektmr.com/storage/) | Experiment for your browser storage limitation on LocalStorage, SessionStorage, WebSQL Database, IndexedDB API and FileSystem API. | `No` + [source code](https://github.com/agektmr/BrowserStorageAbuser) | `Yes`
+| [PWA.rocks](https://pwa.rocks/) | Test if your Browser supports [Progressive Web Apps (PWA)](https://developers.google.com/web/progressive-web-apps/) | `No` | `Partial`
 
 
 
