@@ -97,6 +97,7 @@ The document section is for research and evidence purposes, topics without any p
 * [TLS downgrade attacks](https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2019/february/downgrade-attack-on-tls-1.3-and-vulnerabilities-in-major-tls-libraries/?Year=2019&Month=2)
 * [Captive Portal based attacks](https://rootsh3ll.com/captive-portal-guide/)
 * Attacks on PWA apps
+* [DNS exfiltration over DNS over HTTPS (DoH) with godoh](https://sensepost.com/blog/2018/waiting-for-godoh/)
 
 
 ### Already fixed within the Browser (ensure you using the latest product [always])
