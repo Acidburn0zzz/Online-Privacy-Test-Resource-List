@@ -616,3 +616,11 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 | [GreyNoise Visualizer](https://viz.greynoise.io/) | Tracks _every_ IP + mass scanning/attacking the Internet and Visalize them | `No` | `No` | 
 | TCPIPUtils now [DNSLytics](https://dnslytics.com/) | One of the biggest and oldest IP/Domain tracking service | `Yes` | `Yes` |
 
+
+
+## Opt-Out of targeting based Ads
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- | 
+|[Stop Targeting Ads at Me](https://stoptargetingads.me/) | Helps you turn off targeted ads on 41 websites, apps, and devices | `No` | `Yes` |
+| [Your Online Choice](http://www.youronlinechoices.com/uk/your-ad-choices) | Take control over your ad choices | `Yes` | `Yes` |
+| [YourAdChoices](http://optout.aboutads.info/?c=2&lang=EN) | WebChoices checks whether your browser can set opt out requests | `Yes` | `Yes` |
