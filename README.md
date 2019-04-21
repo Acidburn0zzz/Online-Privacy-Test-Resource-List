@@ -558,6 +558,8 @@ The document section is for research and evidence purposes, topics without any p
 | [Have I Been Pwned](https://haveibeenpwned.com) | Check if your identiy (email etc.) was used/stolen by someone else | `Yes` collects an database (need confirmation if sold to 3rd-parties) | `Partial` |
 | [Shodan.io](https://www.shodan.io/) | Search for devices, vuln. etc | `Yes` collects an database (need confirmation if sold to 3rd-parties) | `Yes` |
 | [New York Attorney General Eric Schneiderman tool](https://ag.ny.gov/fakecomments) | Tool which check fake comments based on a database of known fakers | `Yes` collects an database (need confirmation if sold to 3rd-parties) | `N/A` |
+| [Censys.io](https://censys.io/) | Get the information you need to prevent threats and improve overall security. | `N/A` | `Partial` |
+| [ZoomEye](https://www.zoomeye.org/) | Cyberspace Search Engine | `No` | `Partial` |
 
 
 
