@@ -297,6 +297,7 @@ The document section is for research and evidence purposes, topics without any p
 | [DNS spoofing test](https://www.grc.com/dns/dns.htm) | DNS Nameserver Spoofability Test | `no` | `No` |
 
 
+
 ## Account Management
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
@@ -508,6 +509,13 @@ The document section is for research and evidence purposes, topics without any p
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- | 
 | [Source Code Search Engine](https://publicwww.com) | Inspect the Page Source Code | `Yes` logs and collect databases | `Yes` |
+
+
+
+## Cookie Test
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- | 
+| [Test if you leak cookies (after disabling them)](http://raymondhill.net/httpsb/httpsb-test-cookie-1.php) | Cookie test to check if your extensions which are supposed to block cookies doing their job | `No` | `No` |
 
 
 
