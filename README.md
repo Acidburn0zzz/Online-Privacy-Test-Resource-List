@@ -363,6 +363,7 @@ The document section is for research and evidence purposes, topics without any p
 | [Fortify](https://www.fortify.net/sslcheck.html) | SSL / TLS check | `Yes`, 1 week. | `Yes` | 
 | [Symantec](https://cryptoreport.websecurity.symantec.com/checker/views/sslCheck.jsp) | Symantec SSL Check | `Yes`, 1 month. | `Yes` |
 | [Fingerprinting TLS clients with JA3](https://jwlss.pw/ja3/) | A website qhich explains and demonstrate Fingerprinting on TLS CLients | `No` | `Yes` [(Open Source)](https://github.com/CapacitorSet/ja3-server) | 
+| [Vulmap](https://vulmon.com/) | Vulmap Online Local Vulnerability Scanners Project | `No` | `No` [(Open Source)](https://github.com/vulmon/Vulmap) |
 
 
 
@@ -559,7 +560,7 @@ The document section is for research and evidence purposes, topics without any p
 
 
 
-## Identify theft check
+## Identify Theft Check
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- | 
