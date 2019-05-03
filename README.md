@@ -98,6 +98,7 @@ The document section is for research and evidence purposes, topics without any p
 * [Captive Portal based attacks](https://rootsh3ll.com/captive-portal-guide/)
 * Attacks on PWA apps
 * [DNS exfiltration over DNS over HTTPS (DoH) with godoh](https://sensepost.com/blog/2018/waiting-for-godoh/)
+* [Tracking Users across the Web via TLS Session Resumption](https://browserprivacy.wordpress.com/2013/11/19/requiring-better-cryptography-in-firefox-and-thunderbird-breaks-update-functionality/)
 
 
 ### Already fixed within the Browser (ensure you using the latest product [always])
