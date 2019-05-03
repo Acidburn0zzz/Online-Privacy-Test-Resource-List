@@ -639,3 +639,4 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 |[Stop Targeting Ads at Me](https://stoptargetingads.me/) | Helps you turn off targeted ads on 41 websites, apps, and devices | `No` | `Yes` |
 | [Your Online Choice](http://www.youronlinechoices.com/uk/your-ad-choices) | Take control over your ad choices | `Yes` | `Yes` |
 | [YourAdChoices](http://optout.aboutads.info/?c=2&lang=EN) | WebChoices checks whether your browser can set opt out requests | `Yes` | `Yes` |
+| [Simple Opt-Out](http://simpleoptout.com/) | A (HTTP only) website which allows you to out of data sharing by 50+ companies | `No` | `No` |
