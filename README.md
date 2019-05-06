@@ -8,7 +8,7 @@ Privacy Online Test And Resource Compendium© (short: POTARC) project original c
 
 ## Privacy Online Test And Resource Compendium
 
-The list is designed to show all available and useful online/offline tests in order to build strategies to harden your OS/Internet/Browser configuration against fingerprinting methods. Some of those services might collect only data to hand/sell it to 3th-party developer or people which pay for it to use it for 'bad' things, such services are (if known) marked and aren't preferable added - so keep this in mind before you request a site. 
+The list is designed to show all available and useful online/offline tests in order to build strategies to harden your OS/Internet/Browser configuration against fingerprinting methods. Some of those services might collect only data to hand/sell it to 3th-party developer or people which pay for it to use it for 'bad' things, such services are (if known) marked and aren't preferable added - so keep this in mind before you request a site.
 
 POTARC itself is more a community driven project because everyone can contribute to it and no pull request or discussion will be rejected, only with good reasons like spamming, etc. This project does not accept any donations because we all doing this in our free time and it's up to everyone to provide some information or not, from my perspective the information should be available for free.
 
@@ -16,7 +16,7 @@ Keep in mind that reducing the fingerprint doesn't mean you're secured against a
 
 ## Contribution
 
-See [CONTRIBUTING.md](https://github.com/CHEF-KOCH/Online-Privacy-Test-Resource-List/blob/master/CONTRIBUTING.md). Before you create a new issue ticket, ensure you read the issue template and check if the things you like to request is not already on the todo list in order to avoid duplicates or already known things. 
+See [CONTRIBUTING.md](https://github.com/CHEF-KOCH/Online-Privacy-Test-Resource-List/blob/master/CONTRIBUTING.md). Before you create a new issue ticket, ensure you read the issue template and check if the things you like to request is not already on the todo list in order to avoid duplicates or already known things.
 
 
 ## How to handle the information and test results?
@@ -30,93 +30,94 @@ The document section is for research and evidence purposes, topics without any p
 
 
 ### Known Fingerprinting Techniques
-* [Audio fingerprint tests](https://github.com/worldveil/dejavu), [example](https://github.com/dpwe/audfprint).
-* [OSI model fingerprints](https://searchnetworking.techtarget.com/tip/OSI-Securing-the-Stack-Layer-4-Fingerprinting) (based on [HTTP](https://github.com/wireghoul/lbmap), Header, User Agent, Firewall, ...)
-* [CPU Fingerprint](http://yinzhicao.org/TrackingFree/crossbrowsertracking_NDSS17.pdf)
-* [Mouse & CPU fingerprinting](http://jcarlosnorte.com/security/2016/03/06/advanced-tor-browser-fingerprinting.html)
-* [User fingerprinting problem (Canvas, IP, ...)](https://en.wikipedia.org/wiki/Canvas_fingerprinting)
-* [Screen resolution](http://www.b3rn3d.com/blog/2014/05/29/fingerprinting-resolution/)
-* [UberCookie](http://ubercookie.robinlinus.com/faq.html)/[Cookies](https://en.wikipedia.org/wiki/HTTP_cookie)/[EverCookie](https://en.wikipedia.org/wiki/Evercookie)/[Supercookies](https://en.wikipedia.org/wiki/HTTP_cookie#Supercookie)
-* [Database fingerprints](https://github.com/Valve/fingerprintjs2)
-* [Measuring time](https://en.wikipedia.org/wiki/Timing_attack) (Timezone/[NTP](http://www.securityweek.com/ntp-servers-exposed-long-distance-wireless-attacks))
-* [getClientRects fingerprinting](https://browserleaks.com/rects) via [DOM](http://www.water.ca.gov/waterquality/docs/Fingerprinting%20Sources%20of%20DOM%20-%20Ngatia.pdf)
-* Hardware implemented fingerprint methods such as [hardware based DRM](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/hardware-drm)
-* [Plugin/Extension tracking](https://webdevwonders.com/detecting-browser-plugins/) (Silverlight, Adobe Flash, ...)
-* [Tor node detection](https://check.torproject.org/)
-* [DNS leakage or bypasses](https://www.dnsleaktest.com/what-is-a-dns-leak.html)
-* [Cross-Origin Identifier](https://www.torproject.org/projects/torbrowser/design/#identifier-linkability)
-* [Do not track (DNT) detection](https://econsultancy.com/blog/6921-the-ftc-s-do-not-track-proposal-useless-harmful-or-both)
-* [Font detection & vulnerabilities](https://support.microsoft.com/en-us/kb/2639658)
-* [Caching attacks](https://en.wikipedia.org/wiki/Timing_attack)
-* [PushAPI](https://developer.mozilla.org/en-US/docs/Web/API/Push_API)
-* [ServiceWorker](http://www.html5rocks.com/en/tutorials/service-worker/introduction/)
-* [TLS](https://github.com/LeeBrotherston/tls-fingerprinting)
-* [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
-* [Battery API](https://www.w3.org/TR/battery-status/)
-* [AJAX](http://www.symantec.com/connect/articles/ajax-security-basics)
-* [CORS (ajax)](http://www.html5rocks.com/en/tutorials/cors/)
-* [WebSocket](http://resources.infosecinstitute.com/websocket-security-issues/)
-* [Password sniffing](http://cng.seas.rochester.edu/CNG/docs/Security/node8.html)
-* [Canvas](http://cseweb.ucsd.edu/~hovav/dist/canvas.pdf)
-* Several [HTTP authorization detection](https://en.wikipedia.org/wiki/Security_testing#Authentication) which is not fixable because it's protocol and meta-data depending and would require new metadata less protocols.
-* [CPU Starvation Attacks](https://msdn.microsoft.com/en-us/library/ee810608(v=cs.20).aspx)
-* [Memory Starvation Attacks](https://msdn.microsoft.com/en-us/library/ee810601(v=cs.20).aspx)
-* [Resource Starvation Attacks](https://msdn.microsoft.com/en-us/library/ee798408(v=cs.20).aspx)
-* [Network Bandwidth Attacks](https://msdn.microsoft.com/en-us/library/ee798452(v=cs.20).aspx)
-* [ISP throttling checks](https://thenextweb.com/apps/2015/05/21/quick-test-shows-if-isps-are-secretly-throttling-your-internet-speeds/)
-* CDN [Web Cache Deception Attack](https://omergil.blogspot.ch/2017/02/web-cache-deception-attack.html). CDN's are in general a security problem, once infected or compromised you have no chance to identify the threat or not before it's already too late. [Decentraleyes](https://github.com/Synzvato/decentraleyes) reduce the attack surface.
-* [Extension system based attacks](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-sanchez-rola.pdf)
-* [NoCoin](https://github.com/keraf/NoCoin), prevents background mining via opt-in.
-* [Urchin Tracking Module (UTM)](https://support.google.com/urchin/answer/28307?hl=en)
-* [uBeacons](https://www.ubuduasia.com/single-post/2015/12/02/Leverage-Data-Analytics-to-reevaluate-your-marketing-effort-using-uBeacons-)
+* Attacks on Progressive Web Apps (PWA) apps
+* CDN [Web Cache Deception Attack based attacks](https://omergil.blogspot.ch/2017/02/web-cache-deception-attack.html). CDN's are in general a security problem, once infected or compromised you have no chance to identify the threat or not before it's already too late. [Decentraleyes](https://github.com/Synzvato/decentraleyes) reduce the attack surface.
 * Fake identity, Identify theft (not fixable) & Fake Comments
-* [Crooked Style Sheets](https://www.mike-gualtieri.com/posts/stealing-data-with-css-attack-and-defense) [Discussion](https://news.ycombinator.com/item?id=16157773)
-* [User agent detection](https://en.wikipedia.org/wiki/Usage_share_of_web_browsers#User_agent_spoofing)
-* [Zero With Detection](https://umpox.github.io/zero-width-detection/)
-* [Acoustic fingerprinting](https://en.wikipedia.org/wiki/Acoustic_fingerprint)
-* [Automatic content recognition](https://en.wikipedia.org/wiki/Automatic_content_recognition)
-* [Canvas fingerprinting](https://en.wikipedia.org/wiki/Canvas_fingerprinting)
-* [Digital video fingerprinting](https://en.wikipedia.org/wiki/Digital_video_fingerprinting)
-* [Public key fingerprint](https://en.wikipedia.org/wiki/Public_key_fingerprint)
-* [Common Spoofing attacks](https://en.wikipedia.org/wiki/Spoofing_attack)
-* [Tor Browser Security Design](https://www.torproject.org/projects/torbrowser/design/)
-* [ASN Squatting Attacks](http://securityskeptic.typepad.com/the-security-skeptic/2011/06/asn-squatting-attacks.html)
+* Hardware implemented fingerprint methods such as [hardware based DRM](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/hardware-drm)
 * Power consumption and wave signal based tests (not fixable without breaking the signals!).
-* [IDN homograph attack](https://en.wikipedia.org/wiki/IDN_homograph_attack)
-* [Clickjacking](https://www.vojtechruzicka.com/preventing-clickjacking/)
+* Several [HTTP authorization detection](https://en.wikipedia.org/wiki/Security_testing#Authentication) which is not fixable because it's protocol and meta-data depending and would require new metadata less protocols.
 * Stuff which is documented and mentioned over [here](https://github.com/CHEF-KOCH/NSABlocklist) or [here](https://wiki.mozilla.org/Fingerprinting)
-* [SameSite cookies](https://tools.ietf.org/html/draft-ietf-httpbis-rfc6265bis-02#section-5.3.7)
-* [DNS cookies](http://dnscookie.com/)
-* [DNS Spoofing](https://en.wikipedia.org/wiki/DNS_spoofing)
-* [Web Browser Address Bar Spoofing](https://www.netsparker.com/blog/web-security/web-browser-address-bar-spoofing/)
-* [WWW Subdomain on Cookie Security](https://www.netsparker.com/blog/web-security/impact-www-subdomain-cookie-security/)
-* [Spectre](https://alephsecurity.com/2018/06/26/spectre-browser-query-cache/) - Allows an attacker to read secret data.
-* [Secure Messenger](https://github.com/dessalines/Messaging-Services-Comparison)
+* [AJAX](http://www.symantec.com/connect/articles/ajax-security-basics)
+* [ASN Squatting Attacks](http://securityskeptic.typepad.com/the-security-skeptic/2011/06/asn-squatting-attacks.html)
+* [Acoustic fingerprinting](https://en.wikipedia.org/wiki/Acoustic_fingerprint)
+* [Audio fingerprint tests](https://github.com/worldveil/dejavu), [example](https://github.com/dpwe/audfprint).
+* [Automatic content recognition](https://en.wikipedia.org/wiki/Automatic_content_recognition)
+* [Battery API](https://www.w3.org/TR/battery-status/)
+* [CORS (ajax)](http://www.html5rocks.com/en/tutorials/cors/)
+* [CPU Fingerprint](http://yinzhicao.org/TrackingFree/crossbrowsertracking_NDSS17.pdf)
+* [CPU Starvation Attacks](https://msdn.microsoft.com/en-us/library/ee810608(v=cs.20).aspx)
 * [CSS based attacks](https://www.mike-gualtieri.com/posts/stealing-data-with-css-attack-and-defense)
-* [DOMrect](https://developer.mozilla.org/en-US/docs/Web/API/DOMRect)
-* [TLS downgrade attacks](https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2019/february/downgrade-attack-on-tls-1.3-and-vulnerabilities-in-major-tls-libraries/?Year=2019&Month=2)
+* [Caching attacks](https://en.wikipedia.org/wiki/Timing_attack)
+* [Canvas fingerprinting](https://en.wikipedia.org/wiki/Canvas_fingerprinting)
+* [Canvas](http://cseweb.ucsd.edu/~hovav/dist/canvas.pdf)
 * [Captive Portal based attacks](https://rootsh3ll.com/captive-portal-guide/)
-* Attacks on PWA apps
+* [Clickjacking](https://www.vojtechruzicka.com/preventing-clickjacking/)
+* [Common Spoofing attacks](https://en.wikipedia.org/wiki/Spoofing_attack)
+* [Crooked Style Sheets](https://www.mike-gualtieri.com/posts/stealing-data-with-css-attack-and-defense) [Discussion](https://news.ycombinator.com/item?id=16157773)
+* [Cross-Origin Identifier](https://www.torproject.org/projects/torbrowser/design/#identifier-linkability)
+* [DNS Spoofing](https://en.wikipedia.org/wiki/DNS_spoofing)
+* [DNS cookies](http://dnscookie.com/)
 * [DNS exfiltration over DNS over HTTPS (DoH) with godoh](https://sensepost.com/blog/2018/waiting-for-godoh/)
+* [DNS leakage or bypasses](https://www.dnsleaktest.com/what-is-a-dns-leak.html)
+* [DOMrect](https://developer.mozilla.org/en-US/docs/Web/API/DOMRect)
+* [Database fingerprints](https://github.com/Valve/fingerprintjs2)
+* [Digital video fingerprinting](https://en.wikipedia.org/wiki/Digital_video_fingerprinting)
+* [Do not track (DNT) detection](https://econsultancy.com/blog/6921-the-ftc-s-do-not-track-proposal-useless-harmful-or-both) & [Companies that have implemented Do Not Track](https://allaboutdnt.com/companies/)
+* [Extension system based attacks](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-sanchez-rola.pdf)
+* [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+* [Font detection & vulnerabilities](https://support.microsoft.com/en-us/kb/2639658)
+* [IDN homograph attack](https://en.wikipedia.org/wiki/IDN_homograph_attack)
+* [ISP throttling checks](https://thenextweb.com/apps/2015/05/21/quick-test-shows-if-isps-are-secretly-throttling-your-internet-speeds/)
+* [Measuring time](https://en.wikipedia.org/wiki/Timing_attack) (Timezone/[NTP](http://www.securityweek.com/ntp-servers-exposed-long-distance-wireless-attacks))
+* [Memory Starvation Attacks](https://msdn.microsoft.com/en-us/library/ee810601(v=cs.20).aspx)
+* [Mouse & CPU fingerprinting](http://jcarlosnorte.com/security/2016/03/06/advanced-tor-browser-fingerprinting.html)
+* [Network Bandwidth Attacks](https://msdn.microsoft.com/en-us/library/ee798452(v=cs.20).aspx)
+* [NoCoin](https://github.com/keraf/NoCoin), prevents background mining via opt-in.
+* [OSI model fingerprints](https://searchnetworking.techtarget.com/tip/OSI-Securing-the-Stack-Layer-4-Fingerprinting) (based on [HTTP](https://github.com/wireghoul/lbmap), Header, User Agent, Firewall, ...)
+* [Password sniffing](http://cng.seas.rochester.edu/CNG/docs/Security/node8.html)
+* [Plugin/Extension tracking](https://webdevwonders.com/detecting-browser-plugins/) (Silverlight, Adobe Flash, ...)
+* [Public key fingerprint](https://en.wikipedia.org/wiki/Public_key_fingerprint)
+* [PushAPI](https://developer.mozilla.org/en-US/docs/Web/API/Push_API)
+* [Resource Starvation Attacks](https://msdn.microsoft.com/en-us/library/ee798408(v=cs.20).aspx)
+* [SameSite cookies](https://tools.ietf.org/html/draft-ietf-httpbis-rfc6265bis-02#section-5.3.7)
+* [Screen resolution](http://www.b3rn3d.com/blog/2014/05/29/fingerprinting-resolution/)
+* [Secure Messenger](https://github.com/dessalines/Messaging-Services-Comparison)
+* [ServiceWorker](http://www.html5rocks.com/en/tutorials/service-worker/introduction/)
+* [Spectre](https://alephsecurity.com/2018/06/26/spectre-browser-query-cache/) - Allows an attacker to read secret data.
+* [TLS downgrade attacks](https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2019/february/downgrade-attack-on-tls-1.3-and-vulnerabilities-in-major-tls-libraries/?Year=2019&Month=2)
+* [TLS](https://github.com/LeeBrotherston/tls-fingerprinting)
+* [Tor Browser Security Design](https://www.torproject.org/projects/torbrowser/design/)
+* [Tor node detection](https://check.torproject.org/)
 * [Tracking Users across the Web via TLS Session Resumption](https://browserprivacy.wordpress.com/2013/11/19/requiring-better-cryptography-in-firefox-and-thunderbird-breaks-update-functionality/)
+* [UberCookie](http://ubercookie.robinlinus.com/faq.html)/[Cookies](https://en.wikipedia.org/wiki/HTTP_cookie)/[EverCookie](https://en.wikipedia.org/wiki/Evercookie)/[Supercookies](https://en.wikipedia.org/wiki/HTTP_cookie#Supercookie)
+* [Urchin Tracking Module (UTM)](https://support.google.com/urchin/answer/28307?hl=en)
+* [User agent detection](https://en.wikipedia.org/wiki/Usage_share_of_web_browsers#User_agent_spoofing)
+* [User fingerprinting problem (Canvas, IP, ...)](https://en.wikipedia.org/wiki/Canvas_fingerprinting)
+* [WWW Subdomain on Cookie Security](https://www.netsparker.com/blog/web-security/impact-www-subdomain-cookie-security/)
+* [Web Browser Address Bar Spoofing](https://www.netsparker.com/blog/web-security/web-browser-address-bar-spoofing/)
+* [WebSocket](http://resources.infosecinstitute.com/websocket-security-issues/)
+* [Zero With Detection](https://umpox.github.io/zero-width-detection/)
+* [getClientRects fingerprinting](https://browserleaks.com/rects) via [DOM](http://www.water.ca.gov/waterquality/docs/Fingerprinting%20Sources%20of%20DOM%20-%20Ngatia.pdf)
+* [uBeacons](https://www.ubuduasia.com/single-post/2015/12/02/Leverage-Data-Analytics-to-reevaluate-your-marketing-effort-using-uBeacons-)
 
 
-### Already fixed within the Browser (ensure you using the latest product [always])
-* ~~* Detection of incognito mode~~
-* ~~SSL / TLS (ciphers) [if you only browsing on pages like GitHub ~ you can even more '[harden](https://tools.ietf.org/html/draft-sheffer-tls-bcp-00)' it]~~ TLS 1.3 is the new common default and most platforms abbandoned TLS 1.0/1.1/1.2 
-* OpenSSL fixed (heartbleed,...) 
-* Tor (several fingerprint methods are still possible, it's on the todo and will be fixed soon (?))
-* Java/Adobe Flash, both are dead and replaced by HTML5 (which has it's own weaknesses) 
-* HTML5 which includes stuff like Canvas, Fonts & more (will never be fixed, you have to use  in order to spoof such data)
-* Cookies in general are not fixable since your visited page may need it, Amazon for shopping as an example (addons/filter-lists may help to whitelist). But you can disable the cookie collection and work instead with a whitelist, every Browser does support this. Some pages like [Facebook already started to track user via first-party cookies](https://marketingland.com/facebook-to-release-first-party-pixel-for-ads-web-analytics-from-browsers-like-safari-249478).  
-* CPU & Mouse wheel fingerprinting which needs to be fixed also within the OS (this is a wontfix!) 
-* Network layer based leaks like MAC address leakage. Disabling/blocking IPv6, if not necessary/needed is enough. See [RFC 3041](https://tools.ietf.org/html/rfc3041).
-* WebRTC since Chrome 48+ and Firefox 42+, both getting an new menu to allow it per-page (whitelist). There exist also for both several addons, workarounds to compile it without WebRTC support). [Unofficial Chromium builds](http://chromium.woolyss.com) also come without WebRTC or sync.
-* PopUps aren't possible anymore, if not Canvas/JS related). You see a permission dialog or can control this behavior directly via Browser settings. Some [Browsers also come with their own Ads-blocking feature](https://www.theverge.com/2018/2/14/17011266/google-chrome-ad-blocker-features).
+### Already fixed within the Browser (ensure you use the latest product [always!])
 * Browser based download attacks by exposing sensible information.
-* Third-party cookie "isolation" (blocking)
+* CPU & Mouse wheel fingerprinting which needs to be fixed also within the OS (this is a wont-fix!)
+* Cookies in general, daily pages like e.g. Amazon/Facebook as an example need them to function probably (addons/filter-lists may help to whitelist). But you can disable/restrict the Cookie collection and work instead with a whitelist, every Browser does support this. Some pages like [Facebook already started to track user via first-party cookies](https://marketingland.com/facebook-to-release-first-party-pixel-for-ads-web-analytics-from-browsers-like-safari-249478).
+* HTML5 which includes stuff like Canvas, Fonts & more (will never be fixed, you have to use  in order to spoof such data)
 * HTTP Public Key Pinning (HPKP) sniffing attacks (removed in Chrome 72+)
-* File Transfer Protocol (FTP) - Will be removed soon or later from every Browser. 
+* Network layer based leaks like MAC address leakage. Disabling/blocking IPv6, if not necessary/needed is enough. See [RFC 3041](https://tools.ietf.org/html/rfc3041).
+* PopUps aren't possible anymore, if not Canvas/JS related). You see a permission dialog or can control this behavior directly via Browser settings. Some [Browsers also come with their own Ads-blocking feature](https://www.theverge.com/2018/2/14/17011266/google-chrome-ad-blocker-features).
+* Third-party cookie "isolation" (blocking)
+* Tor (several fingerprint methods are still possible)
+* WebRTC since Chrome 48+ and Firefox 42+, both getting an new menu to allow it per-page (whitelist). There exist also for both several addons, workarounds to compile it without WebRTC support). [Unofficial Chromium builds](http://chromium.woolyss.com) also come without WebRTC or sync.
+* ~~* Detection of incognito mode~~
+* ~~Adobe Flash~~ (EOL), replaced by HTML5 (which has it's own _weaknesses_ [see below])
+* ~~File Transfer Protocol (FTP)~~ - Will be removed soon or later from every Browser.
+* ~~OpenSSL fixed (HeartBleed,CloudBleed...)~~
+* ~~SSL / TLS (ciphers) [if you only browsing on pages like GitHub ~ you can even more '[harden](https://tools.ietf.org/html/draft-sheffer-tls-bcp-00)' it]~~ TLS 1.3 is the new common default and most platforms abandoned TLS 1.0/1.1/1.2
+
 
 
 
@@ -136,7 +137,7 @@ The document section is for research and evidence purposes, topics without any p
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** |
 | --- | --- | --- |
-| [Firefox Compatible check](https://www.arewee10syet.com/) | Checks if your Firefox Browser is e10s compatible | `N/A` |
+| [Firefox Compatible check](https://www.arewee10syet.com/) | Checks if your Firefox Browser is e10s compatible | `No` |
 
 
 
@@ -147,11 +148,11 @@ The document section is for research and evidence purposes, topics without any p
 | [Email IP Leak Test](http://emailipleak.com/) | Checks if your email provider shows your real IP address to its recipients. | `N/A` |
 | [Email Privacy Tester](https://emailprivacytester.com/) | Checks email addresses | `Yes` see [here](https://www.emailprivacytester.com/privacy) |
 | [Email Trace](http://www.ip-adress.com/trace_email/) | Checks email addresses | `Yes` |
-| [Have I Been Pwned?](https://haveibeenpwned.com/) | Database which checks if you affected by several holes | `No` | 
+| [Have I Been Pwned?](https://haveibeenpwned.com/) | Database which checks if you affected by several holes | `No` |
 | [Pwnedlist](https://pwnedlist.com/) | Database which checks if you affected by several holes | `Yes` - Currently down |
 | [Check Your GPG Fingerprints](https://evil32.com/) | Check if your GPG key is leaked or not | `No` |
 | [Have I Been Sold?](https://haveibeensold.app/) | Quickly check if your email has been sold. | `No`, database lookup needs JS
-| [Is someone spying on you?](https://sec.hpi.de/ilc/search) | Same like Have I Been Pwned? it checks your pass/email against a database | `No` |  
+| [Is someone spying on you?](https://sec.hpi.de/ilc/search) | Same like Have I Been Pwned? it checks your pass/email against a database | `No` |
 
 
 
@@ -181,12 +182,12 @@ The document section is for research and evidence purposes, topics without any p
 
 
 
-## Certificate 
+## Certificate
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** |
 | --- | --- | --- |
 | [Revocation Awareness Test](https://www.grc.com/revocation.htm) | Certificate based revocation test | `No` |
-| [Check Provider-TLS](https://www.checktls.com/) | Check provider TLS certificates | `N/A` | 
+| [Check Provider-TLS](https://www.checktls.com/) | Check provider TLS certificates | `N/A` |
 | [Intermediate CA Cache Fingerprinting](https://fiprinca.0x90.eu/poc/) | Intermediate CA Cache Fingerprinting | `No` |
 
 
@@ -213,7 +214,7 @@ The document section is for research and evidence purposes, topics without any p
 | [Malware Protection](https://itisatrap.org/firefox/unwanted.html) | Test page for Firefox's built-in Malware Protection (attack page) | `No` | `Yes` |
 | [Firefox Stoage Test](https://firefox-storage-test.glitch.me/) | Test if your IndexedDB file is broken or corrupt | `No` | `Yes` |
 | [Mozilla Plugin Privacy Test Database](https://nullsweep.com/launching-the-mozilla-plugin-privacy-test-database/) | The tests attempt to determine whether plugins passively gather data about users browsing habits | `No` | `No` [(Open Source)](https://github.com/Charlie-belmer/mozilla_privacy_plugin_tester) |
-| [Cloudflare ESNI Checker](https://www.cloudflare.com/ssl/encrypted-sni/) | Can not only be used with Firefox but was designed for test reasons, it automatically tests whether your DNS queries and answers are encrypted |  `Yes`, statistics | `Yes` | 
+| [Cloudflare ESNI Checker](https://www.cloudflare.com/ssl/encrypted-sni/) | Can not only be used with Firefox but was designed for test reasons, it automatically tests whether your DNS queries and answers are encrypted |  `Yes`, statistics | `Yes` |
 
 
 
@@ -234,7 +235,7 @@ The document section is for research and evidence purposes, topics without any p
 
 
 
-## DNS-over-HTTPS (DoH) 
+## DNS-over-HTTPS (DoH)
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
@@ -317,19 +318,19 @@ The document section is for research and evidence purposes, topics without any p
 | [ASN Blocklist](https://www.enjen.net/asn-blocklist/) | Lists and shows ASN Providers | `N/A` | `No` |
 | [Nextcloud Security Scan](https://scan.nextcloud.com) | Nextcloud Security Scan | `Yes` | `Yes` |
 | [Test your IPv6 connectivity](https://test-ipv6.com/) | Open Source IPv6 test | [No](https://test-ipv6.com/faq.html.en_US) | `No` |
-| [IP Duh](http://ipduh.com/anonymity-check/) | eTag, Ip and other checks | `Yes` | `N/A` | 
+| [IP Duh](http://ipduh.com/anonymity-check/) | eTag, Ip and other checks | `Yes` | `N/A` |
 | [Zscaler](http://securitypreview.zscaler.com/) | Security Check | `Yes` | `Yes` |
 | [GRC](https://www.grc.com/fingerprints.htm) | GRC Fingerprints check | `N/A` | `No` |
-| [CSS Keylogger with no CSP](https://no-csp-css-keylogger.badsite.io) | This site has no Content Security Policy to protect against CSS injections, and demonstrates a keylogger using only injected CSS with React as the controlled JavaScript framework. | `N/A` | `No` | 
-| [HTTP Request & Response Service](https://httpbin.org/) | Check eTAg | `N/A` | `No` | 
-| [Browser Audit](https://browseraudit.com/) | Several browser tests | `N/A` | `Yes` | 
-| [FP Central](https://fpcentral.irisa.fr/) | Statistics to Fingerprints (global), Tor, JavaScript tests etc | `No`, it's [open source](https://github.com/plaperdr/fp-central). | `Yes` | 
+| [CSS Keylogger with no CSP](https://no-csp-css-keylogger.badsite.io) | This site has no Content Security Policy to protect against CSS injections, and demonstrates a keylogger using only injected CSS with React as the controlled JavaScript framework. | `N/A` | `No` |
+| [HTTP Request & Response Service](https://httpbin.org/) | Check eTAg | `N/A` | `No` |
+| [Browser Audit](https://browseraudit.com/) | Several browser tests | `N/A` | `Yes` |
+| [FP Central](https://fpcentral.irisa.fr/) | Statistics to Fingerprints (global), Tor, JavaScript tests etc | `No`, it's [open source](https://github.com/plaperdr/fp-central). | `Yes` |
 | [PoC for cookieless tracking via cache](http://cookieless-user-tracking.herokuapp.com/) |  It can't be defeated except by periodically clearing your Browser cache. [Original Article](https://robertheaton.com/2014/01/20/cookieless-user-tracking-for-douchebags/) | `No` | `No`, [source code](https://github.com/robert/cookieless-user-tracking). |
 | [Third-Party redirection test](https://ndossougbe.github.io/web-sandbox/interventions/3p-redirect/) | Check for enable-framebusting-needs-sameorigin-or-usergesture Chrome flag (third-party redirection) | `No` | `No` |
 
 
 
-## Resource:// URIs leak checks 
+## Resource:// URIs leak checks
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
@@ -361,14 +362,14 @@ The document section is for research and evidence purposes, topics without any p
 | [Weak Diffie-Hellman and the Logjam Attack](https://weakdh.org/) | Diffie-Hellman attack Test | `N/A` | `No` |
 | [The ROBOT Attack](https://robotattack.org/#check) | ROBOT Attack Test and Tool | `No` | `No` [ROBOT Attack checking tool](https://github.com/robotattackorg/robot-detect) (Open Source) |
 | [SSH Audit](https://github.com/arthepsy/ssh-audit) | Check your SSH configuration and audit it | `No` | `No` (Open Source) |
-| [Fortify](https://www.fortify.net/sslcheck.html) | SSL / TLS check | `Yes`, 1 week. | `Yes` | 
+| [Fortify](https://www.fortify.net/sslcheck.html) | SSL / TLS check | `Yes`, 1 week. | `Yes` |
 | [Symantec](https://cryptoreport.websecurity.symantec.com/checker/views/sslCheck.jsp) | Symantec SSL Check | `Yes`, 1 month. | `Yes` |
-| [Fingerprinting TLS clients with JA3](https://jwlss.pw/ja3/) | A website qhich explains and demonstrate Fingerprinting on TLS CLients | `No` | `Yes` [(Open Source)](https://github.com/CapacitorSet/ja3-server) | 
+| [Fingerprinting TLS clients with JA3](https://jwlss.pw/ja3/) | A website qhich explains and demonstrate Fingerprinting on TLS CLients | `No` | `Yes` [(Open Source)](https://github.com/CapacitorSet/ja3-server) |
 | [Vulmap](https://vulmon.com/) | Vulmap Online Local Vulnerability Scanners Project | `No` | `No` [(Open Source)](https://github.com/vulmon/Vulmap) |
 
 
 
-## Do Not Track (DNT), Evercookie, Headers, Javascript,...
+## Do Not Track (DNT), Evercookie, Headers & Javascript
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
@@ -396,11 +397,11 @@ The document section is for research and evidence purposes, topics without any p
 | [Google Chrome drive-by exploit tester](http://www.sempervideo.de/chrome-driveby/) | Drive-by test for Chrome weakness | `No` | `No` |
 | [The Privacy.net Analyzer](http://analyze.privacy.net) | Basic Header check which also provides several other tools | `Yes` collects an offline database | `No` |
 | [Spectre Vulnerability Check](http://xlab.tencent.com/special/spectre/spectre_check.html) | Spectre Vulnerability Check | `No` but holes a offline database it's unclear if it's sold or shared | `No` |
-| [Are You Trackable?](http://ubercookie.robinlinus.com/) | How trackable is your Browser? |  `No` | `No` [Source Code](https://github.com/RobinLinus/ubercookie)| 
+| [Are You Trackable?](http://ubercookie.robinlinus.com/) | How trackable is your Browser? |  `No` | `No` [Source Code](https://github.com/RobinLinus/ubercookie)|
 | [Ubercookie Test](http://jcarlosnorte.com/assets/ubercookie/) | Ubercookie test | `Yes` collects an offline database | `No` |
-| [CSS Exfil Vulnerability Tester](https://www.mike-gualtieri.com/css-exfil-vulnerability-tester) | The page tests to see if your browser is vulnerable to Cascading Style Sheets (CSS) data leakage. If you are vulnerable, one way to protect yourself is to install the CSS Exfil Protection plugin for your browser. | `No` | `No` | 
+| [CSS Exfil Vulnerability Tester](https://www.mike-gualtieri.com/css-exfil-vulnerability-tester) | The page tests to see if your browser is vulnerable to Cascading Style Sheets (CSS) data leakage. If you are vulnerable, one way to protect yourself is to install the CSS Exfil Protection plugin for your browser. | `No` | `No` |
 | [CSS History Leak](http://lcamtuf.coredump.cx/yahh/) | CSS History Leak check | `N/A` | `No` |
-| [Third Party Fingerprinting test](https://cezaraugusto.github.io/privacy-checks/fingerprinting/third-party/) | Basic Third Party Fingerprinting test page | `No` | `Yes` | 
+| [Third Party Fingerprinting test](https://cezaraugusto.github.io/privacy-checks/fingerprinting/third-party/) | Basic Third Party Fingerprinting test page | `No` | `Yes` |
 
 
 
@@ -461,7 +462,7 @@ The document section is for research and evidence purposes, topics without any p
 | [Audio Fingerprint Test](https://audiofingerprint.openwpm.com/) | The original audio fingerprint test | `No` | `Yes` ([Source Code](https://github.com/Gitoffthelawn)) |
 | [Browser 'auto-download' Security Vulnerability](https://binaer.xyz/haifei-li/test.html) | Check Chrome, IDM and other Downloader against a security attack | `N/A` | `No` |
 | [Check2IP](http://check2ip.com/) | One of the oldest advance Browser/IP tests | `No` | `Yes` only for advance tests but also works without |
-| [HTML5 Canvas Fingerprinting](https://browserleaks.com/canvas) | Canvas HTML5 API Browser Test | `N/A` | `Yes` | 
+| [HTML5 Canvas Fingerprinting](https://browserleaks.com/canvas) | Canvas HTML5 API Browser Test | `N/A` | `Yes` |
 | [5who](http://5who.net/?type=extend) | Multiple tests | `N/A` | `Yes` |
 | [Punycode](https://www.xn--80ak6aa92e.com) | See the [Article](https://www.xudongz.com/blog/2017/idn-phishing/) | `N/A` | `No` |
 | [FingerPrintJS2](https://valve.github.io/fingerprintjs2/) | Check your Browser fingerprint | `N/A` | `Yes` |
@@ -498,7 +499,7 @@ The document section is for research and evidence purposes, topics without any p
 ## ISP Throttling check
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
-| --- | --- | --- | --- | 
+| --- | --- | --- | --- |
 | [Internet Health Test](https://www.battleforthenet.com/internethealthtest/) | Test if your ISP is throttling you | `N/A` | `No` |
 | [BitTorrent Traffic Shaping](https://neubot.nexacenter.org/download) | Check if your ISP is throttling BitTorrent Traffic | `N/A` | `No` |
 | [The Internet Health Test](https://www.battleforthenet.com/internethealthtest/) | Test if your ISP is throttling you | `Yes` collects an database and possible sells it (needs confirmation) | `No` |
@@ -509,14 +510,14 @@ The document section is for research and evidence purposes, topics without any p
 ## Web Search Engine which can show & Inspect the Source Code
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
-| --- | --- | --- | --- | 
+| --- | --- | --- | --- |
 | [Source Code Search Engine](https://publicwww.com) | Inspect the Page Source Code | `Yes` logs and collect databases | `Yes` |
 
 
 
 ## Cookie Test
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
-| --- | --- | --- | --- | 
+| --- | --- | --- | --- |
 | [Test if you leak cookies (after disabling them)](http://raymondhill.net/httpsb/httpsb-test-cookie-1.php) | Cookie test to check if your extensions which are supposed to block cookies doing their job | `No` | `No` |
 
 
@@ -524,7 +525,7 @@ The document section is for research and evidence purposes, topics without any p
 ## Firewall Test
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
-| --- | --- | --- | --- | 
+| --- | --- | --- | --- |
 | [Test your Metal](http://metal.fortiguard.com/tests/) | Check your firewall online against known ports | `Yes` logs and collect databases | `Yes` |
 | [Port Checker](https://portchecker.co/) | Check your Firewall against known or custom ports | `Yes` logs and collect databases | `Yes` |
 | [ShieldsUp!](https://www.grc.com/faq-shieldsup.htm) | Check your Firewall against known or custom Ports | `No` | `No` |
@@ -538,7 +539,7 @@ The document section is for research and evidence purposes, topics without any p
 ## Torrent Leak Test
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
-| --- | --- | --- | --- | 
+| --- | --- | --- | --- |
 | [ipMagnet](http://ipmagnet.services.cbcdn.com/) | Magnet IP expose check | `N/A` | `No` |
 | [Check My Torrent IP](https://torguard.net/checkmytorrentipaddress.php) | Check which IP your Torrent Network sees | `Yes` collects a statistic database | `No` |
 | [I know what you downloaded](https://iknowwhatyoudownload.com/en/peer/) | Check what your peer sees about you | `N/A` | `No` |
@@ -546,10 +547,10 @@ The document section is for research and evidence purposes, topics without any p
 
 
 
-## Ransomware Decrypter 
+## Ransomware Decrypter
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
-| --- | --- | --- | --- | 
+| --- | --- | --- | --- |
 | [NoMoreRansom](https://www.nomoreransom.org) | Official against Ransomware page for help, decrypter and information | `N/A` | `No` |
 | [Free Ransomware Decryptors - Kaspersky Lab](https://noransom.kaspersky.com/) | Kaspersky's Ransomware Help Page | `N/A` | `N/A` |
 | [Avast Free Ransomware Decryption Tools](https://www.avast.com/ransomware-decryption-tools) | Free Ransomware Decryption Tools by Avast | `N/A` | `N/A` |
@@ -564,7 +565,7 @@ The document section is for research and evidence purposes, topics without any p
 ## Identify Theft Check
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
-| --- | --- | --- | --- | 
+| --- | --- | --- | --- |
 | [Have I Been Pwned](https://haveibeenpwned.com) | Check if your identiy (email etc.) was used/stolen by someone else | `Yes` collects an database (need confirmation if sold to 3rd-parties) | `Partial` |
 | [Shodan.io](https://www.shodan.io/) | Search for devices, vuln. etc | `Yes` collects an database (need confirmation if sold to 3rd-parties) | `Yes` |
 | [New York Attorney General Eric Schneiderman tool](https://ag.ny.gov/fakecomments) | Tool which check fake comments based on a database of known fakers | `Yes` collects an database (need confirmation if sold to 3rd-parties) | `N/A` |
@@ -578,7 +579,7 @@ The document section is for research and evidence purposes, topics without any p
 Keep in mind that a Browser Benchmark doesn't reflect the real-world performance of a website, as explained over [here](https://news.softpedia.com/news/google-to-drop-support-for-octane-browser-benchmark-514942.shtml).
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
-| --- | --- | --- | --- | 
+| --- | --- | --- | --- |
 | [Speedometer](http://browserbench.org/Speedometer/) | JavaScript based Browser Benchmark | `Yes` collects an database (need confirmation if sold to 3rd-parties) | `Yes` |
 | [ARES 6](http://browserbench.org/ARES-6/) | JavaScript based Browser Benchmark | `Yes` collects an database (need confirmation if sold to 3rd-parties) | `Yes` |
 | [Motion Mark](http://browserbench.org/MotionMark/) | JavaScript based Browser Benchmark | `Yes` collects an database (need confirmation if sold to 3rd-parties) | `Yes` |
@@ -590,10 +591,10 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 
 
 
-## Sandboxes Virus/Malware/HTTP Analyzer 
+## Sandboxes Virus/Malware/HTTP Analyzer
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
-| --- | --- | --- | --- | 
+| --- | --- | --- | --- |
 | [BitBlaze](http://bitblaze.cs.berkeley.edu/) | The BitBlaze Binary Analysis Platform | `No`, it's open source | `No` |
 | [Hybrid Analysis](https://www.hybrid-analysis.com/) + [Mirror](https://www.reverse.it/) | Free Malware analysis service for the community that detects and analyzes unknown threats using a unique Hybrid Analysis technology | `N/A` | `Yes` for the WebInterface. |
 | [Jevereg](http://jevereg.amnpardaz.com/) | Jevereg analyses the behavior of potential malicious executables | `N/A` | `No` |
@@ -614,7 +615,7 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 ## Online Link Checkers
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
-| --- | --- | --- | --- | 
+| --- | --- | --- | --- |
 | [Dr.Web Online Scanner](https://vms.drweb-av.de/online/) | URL link checker | `Yes` | `Yes` |
 | [Google Safe Browsing](https://transparencyreport.google.com/safe-browsing/search?url=putyourlinkhere.com) | Change putyourlinkhere.com to url you want to check! | `Yes`, see [here](https://support.google.com/transparencyreport/). | `Yes` |
 | [Google Safe Browsing Testing Links](https://testsafebrowsing.appspot.com) | The tests are safe to use, it basically checks your Browser settings | `Yes`, for some tests |
@@ -627,15 +628,15 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 
 ## Online IP Scanner
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
-| --- | --- | --- | --- | 
-| [GreyNoise Visualizer](https://viz.greynoise.io/) | Tracks _every_ IP + mass scanning/attacking the Internet and Visalize them | `No` | `No` | 
+| --- | --- | --- | --- |
+| [GreyNoise Visualizer](https://viz.greynoise.io/) | Tracks _every_ IP + mass scanning/attacking the Internet and Visalize them | `No` | `No` |
 | TCPIPUtils now [DNSLytics](https://dnslytics.com/) | One of the biggest and oldest IP/Domain tracking service | `Yes` | `Yes` |
 
 
 
 ## Opt-Out of targeting based Ads
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
-| --- | --- | --- | --- | 
+| --- | --- | --- | --- |
 |[Stop Targeting Ads at Me](https://stoptargetingads.me/) | Helps you turn off targeted ads on 41 websites, apps, and devices | `No` | `Yes` |
 | [Your Online Choice](http://www.youronlinechoices.com/uk/your-ad-choices) | Take control over your ad choices | `Yes` | `Yes` |
 | [YourAdChoices](http://optout.aboutads.info/?c=2&lang=EN) | WebChoices checks whether your browser can set opt out requests | `Yes` | `Yes` |
