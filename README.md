@@ -99,6 +99,7 @@ The document section is for research and evidence purposes, topics without any p
 * [Zero With Detection](https://umpox.github.io/zero-width-detection/)
 * [getClientRects fingerprinting](https://browserleaks.com/rects) via [DOM](http://www.water.ca.gov/waterquality/docs/Fingerprinting%20Sources%20of%20DOM%20-%20Ngatia.pdf)
 * [uBeacons](https://www.ubuduasia.com/single-post/2015/12/02/Leverage-Data-Analytics-to-reevaluate-your-marketing-effort-using-uBeacons-)
+* [Deep learning fingerprinting attacks on Tor ("Deep fingerprinting")](https://www.rit.edu/news/rit-cyber-fighters-go-deep-tor-security)
 
 
 ### Already fixed within the Browser (ensure you use the latest product [always!])
