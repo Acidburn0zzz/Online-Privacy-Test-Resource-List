@@ -87,7 +87,7 @@ The document section is for research and evidence purposes, topics without any p
 * [TLS downgrade attacks](https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2019/february/downgrade-attack-on-tls-1.3-and-vulnerabilities-in-major-tls-libraries/?Year=2019&Month=2)
 * [TLS](https://github.com/LeeBrotherston/tls-fingerprinting)
 * [Tor Browser Security Design](https://www.torproject.org/projects/torbrowser/design/)
-* [Tor node detection](https://check.torproject.org/)
+* [Tor Node Detection](https://check.torproject.org/)
 * [Tracking Users across the Web via TLS Session Resumption](https://browserprivacy.wordpress.com/2013/11/19/requiring-better-cryptography-in-firefox-and-thunderbird-breaks-update-functionality/)
 * [UberCookie](http://ubercookie.robinlinus.com/faq.html)/[Cookies](https://en.wikipedia.org/wiki/HTTP_cookie)/[EverCookie](https://en.wikipedia.org/wiki/Evercookie)/[Supercookies](https://en.wikipedia.org/wiki/HTTP_cookie#Supercookie)
 * [Urchin Tracking Module (UTM)](https://support.google.com/urchin/answer/28307?hl=en)
@@ -100,6 +100,7 @@ The document section is for research and evidence purposes, topics without any p
 * [getClientRects fingerprinting](https://browserleaks.com/rects) via [DOM](http://www.water.ca.gov/waterquality/docs/Fingerprinting%20Sources%20of%20DOM%20-%20Ngatia.pdf)
 * [uBeacons](https://www.ubuduasia.com/single-post/2015/12/02/Leverage-Data-Analytics-to-reevaluate-your-marketing-effort-using-uBeacons-)
 * [Deep learning fingerprinting attacks on Tor ("Deep fingerprinting")](https://www.rit.edu/news/rit-cyber-fighters-go-deep-tor-security)
+* [Progressive Web Applications (PWA) tracking](https://blog.lukaszolejnik.com/tracking-users-with-rogue-progressive-web-applications/)
 
 
 ### Already fixed within the Browser (ensure you use the latest product [always!])
@@ -644,7 +645,17 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 | [Simple Opt-Out](http://simpleoptout.com/) | A (HTTP only) website which allows you to out of data sharing by 50+ companies | `No` | `No` |
 
 
+
 ## Intel
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
 | RIDL and Fallout: MDS attacks | Information & utility for Windows/Linux to check against MDS attacks | `No` | No, it's a [info website](https://mdsattacks.com/) + tool ([Source Code](https://github.com/vusec/ridl)) |
+
+
+
+## Progressive Web Applications (PWA) Tracking Test
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- |
+| [Persistent Web Apprehension](https://pwapprehension.sensorsprivacy.com/) | Cookie respawn which makes it impossible to clear website identifiers | `No`
+
+
