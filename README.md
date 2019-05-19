@@ -416,11 +416,31 @@ The document section is for research and evidence purposes, topics without any p
 
 
 
-## Government Internet Speed Test
+## Government Network measurement software
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
+| [Austria](https://www.netztest.at/) | Official Austria Internet Speed Test `Yes` collects an online database shares and sells them to ISP's and others you need to agree in everything before you can use it | `Yes` |
+| [Croatia](https://hakometarplus.hakom.hr/home) | Official Croatia Internet Speed Test | `Yes` collects an online database shares and sells them to ISP's and others you need to agree in everything before you can use it | `Yes` |
+| [Cyprus](http://2b2t.ocecpr.org.cy/) | Official Cyprus Internet Speed Test | `Yes` collects an online database shares and sells them to ISP's and others you need to agree in everything before you can use it | `Yes` |
+| [Czech Republic](https://www.netmetr.cz/) | Official Czech Republic Internet Speed Test | `Yes` collects an online database shares and sells them to ISP's and others you need to agree in everything before you can use it | `Yes` |
 | [Breitbandmessung](http://breitbandmessung.de) | Official German Internet Speed Test | `Yes` collects an online database shares and sells them to ISP's and others you need to agree in everything before you can use it | `Yes` |
+| [Denmark](https://tjekditnet.dk/) | Official Denmark Internet Speed Test | `Yes` collects an online database shares and sells them to ISP's and others you need to agree in everything before you can use it | `Yes` |
+| [France](https://www.arcep.fr/en/news/press-releases/detail/n/open-internet.html) | Official France Internet Speed Test | `Yes` collects an online database shares and sells them to ISP's and others you need to agree in everything before you can use it | `Yes` |
+| [Greece](https://hyperiontest.gr/?action=dashboard&v=tools) | Official Greece Internet Speed Test | `Yes` collects an online database shares and sells them to ISP's and others you need to agree in everything before you can use it | `Yes` |
+| [Hungary](http://szelessav.net/en/internet_speedtest) | Official Hungarian Internet Speed Test | `Yes` collects an online database shares and sells them to ISP's and others you need to agree in everything before you can use it | `Yes` |
+| [Italy](https://www.misurainternet.it/) | Official Italian Internet Speed Test | `Yes` collects an online database shares and sells them to ISP's and others you need to agree in everything before you can use it | `Yes` |
+| [Lativa](https://itest.sprk.gov.lv/solis1) | Official Lativa Internet Speed Test | `Yes` collects an online database shares and sells them to ISP's and others you need to agree in everything before you can use it | `Yes` |
+| [Lithuania](http://matuok.lt/) | Official Lithuania Internet Speed Test | `Yes` collects an online database shares and sells them to ISP's and others you need to agree in everything before you can use it | `Yes` |
+| [Norway](http://matuok.lt/) | Official Norway Internet Speed Test | `Yes` collects an online database shares and sells them to ISP's and others you need to agree in everything before you can use it | `Yes` |
+| [Poland](http://www.speedtest.pl/) | Official Poland Internet Speed Test | `Yes` collects an online database shares and sells them to ISP's and others you need to agree in everything before you can use it | `Yes` |
+| [Portgual](https://netmede.pt/) | Official Portugal Internet Speed Test | `Yes` collects an online database shares and sells them to ISP's and others you need to agree in everything before you can use it | `Yes` |
+| [Romania](http://www.netograf.ro/) | Official Romania Internet Speed Test | `Yes` collects an online database shares and sells them to ISP's and others you need to agree in everything before you can use it | `Yes` |
+| [Slovak Repualic](https://www.meracinternetu.sk/sk/test) | Official Slovak Repualic Internet Speed Test | `Yes` collects an online database shares and sells them to ISP's and others you need to agree in everything before you can use it | `Yes` |
+| [Slovenia](https://www.akostest.net/en/newtest/) | Official Slovenia Internet Speed Test | `Yes` collects an online database shares and sells them to ISP's and others you need to agree in everything before you can use it | `Yes` |
+| [Sweden](http://www.bredbandskollen.se/) | Official Sweden Internet Speed Test | `Yes` collects an online database shares and sells them to ISP's and others you need to agree in everything before you can use it | `Yes` |
+| [Netherlands](https://speed.measurementlab.net/nl/#/) | Official Netherlands Internet Speed Test | `Yes` collects an online database shares and sells them to ISP's and others you need to agree in everything before you can use it | `Yes` |
+| [United Kingdom](https://checker.ofcom.org.uk/) | Official UK Internet Speed Test | `Yes` collects an online database shares and sells them to ISP's and others you need to agree in everything before you can use it | `Yes` |
 
 
 
