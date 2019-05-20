@@ -48,8 +48,7 @@ The document section is for research and evidence purposes, topics without any p
 * [CPU Starvation Attacks](https://msdn.microsoft.com/en-us/library/ee810608(v=cs.20).aspx)
 * [CSS based attacks](https://www.mike-gualtieri.com/posts/stealing-data-with-css-attack-and-defense)
 * [Caching attacks](https://en.wikipedia.org/wiki/Timing_attack)
-* [Canvas fingerprinting](https://en.wikipedia.org/wiki/Canvas_fingerprinting)
-* [Canvas](http://cseweb.ucsd.edu/~hovav/dist/canvas.pdf)
+* [Canvas fingerprinting](https://en.wikipedia.org/wiki/Canvas_fingerprinting), see ([here](http://cseweb.ucsd.edu/~hovav/dist/canvas.pdf))
 * [Captive Portal based attacks](https://rootsh3ll.com/captive-portal-guide/)
 * [Clickjacking](https://www.vojtechruzicka.com/preventing-clickjacking/)
 * [Common Spoofing attacks](https://en.wikipedia.org/wiki/Spoofing_attack)
@@ -649,6 +648,7 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 
 
 ## Online IP Scanner
+
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
 | [GreyNoise Visualizer](https://viz.greynoise.io/) | Tracks _every_ IP + mass scanning/attacking the Internet and Visalize them | `No` | `No` |
@@ -657,6 +657,7 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 
 
 ## Opt-Out of targeting based Ads
+
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
 | [Stop Targeting Ads at Me](https://stoptargetingads.me/) | Helps you turn off targeted ads on 41 websites, apps, and devices | `No` | `Yes` |
@@ -667,6 +668,7 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 
 
 ## Intel
+
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
 | RIDL and Fallout: MDS attacks | Information & utility for Windows/Linux to check against MDS attacks | `No` | No, it's a [info website](https://mdsattacks.com/) + tool ([Source Code](https://github.com/vusec/ridl)) |
@@ -674,8 +676,15 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 
 
 ## Progressive Web Applications (PWA) Tracking Test
+
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
-| [Persistent Web Apprehension](https://pwapprehension.sensorsprivacy.com/) | Cookie respawn which makes it impossible to clear website identifiers | `No`
+| [Persistent Web Apprehension](https://pwapprehension.sensorsprivacy.com/) | Cookie respawn which makes it impossible to clear website identifiers | `No` |
 
 
+
+## Browser Audit Test
+
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- |
+| [Browser Audit Test](https://browseraudit.com/test) | Test your Browser for known holes | `NA` | `Yes` |
