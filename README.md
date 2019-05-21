@@ -121,7 +121,6 @@ The document section is for research and evidence purposes, topics without any p
 
 
 
-
 ## Obsolete Add-ons & Plugin Tests
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** |
@@ -131,14 +130,6 @@ The document section is for research and evidence purposes, topics without any p
 | [Adobe official Flash Player Test](https://www.adobe.com/software/flash/about/) | Official Adobe Flash Player Test | `Yes` collects statistics and sells them. |
 | [Java Test](https://www.java.com/en/download/installed.jsp) | Official Java Browser verification page. | `Yes` collects statistics and sells them. |
 | [Unofficial Microsoft Silverlight Test](https://www.browserleaks.com/silverlight) | Browserleaks Silverlight Test Page | `No` |
-
-
-
-## Add-ons e10s check
-
-| **Page or Addon** | **Description** | **Collects or sells user data?** |
-| --- | --- | --- |
-| [Firefox Compatible check](https://www.arewee10syet.com/) | Checks if your Firefox Browser is e10s compatible | `No` |
 
 
 
@@ -216,6 +207,14 @@ The document section is for research and evidence purposes, topics without any p
 | [Firefox Stoage Test](https://firefox-storage-test.glitch.me/) | Test if your IndexedDB file is broken or corrupt | `No` | `Yes` |
 | [Mozilla Plugin Privacy Test Database](https://nullsweep.com/launching-the-mozilla-plugin-privacy-test-database/) | The tests attempt to determine whether plugins passively gather data about users browsing habits | `No` | `No` [(Open Source)](https://github.com/Charlie-belmer/mozilla_privacy_plugin_tester) |
 | [Cloudflare ESNI Checker](https://www.cloudflare.com/ssl/encrypted-sni/) | Can not only be used with Firefox but was designed for test reasons, it automatically tests whether your DNS queries and answers are encrypted |  `Yes`, statistics | `Yes` |
+
+
+
+
+## Chrome/Chromium specific test pages
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- |
+[Chrome 76+ escape key-generated popups test](https://codepen.io/mustaqahmed/full/yrXLxZ) | [Read here for more infos](https://www.zdnet.com/article/google-changes-how-the-escape-key-is-handled-in-chrome-to-fight-popup-ads/) | `No` | `No` |
 
 
 
