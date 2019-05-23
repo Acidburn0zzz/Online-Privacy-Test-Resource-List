@@ -100,9 +100,10 @@ The document section is for research and evidence purposes, topics without any p
 * [uBeacons](https://www.ubuduasia.com/single-post/2015/12/02/Leverage-Data-Analytics-to-reevaluate-your-marketing-effort-using-uBeacons-)
 * [Deep learning fingerprinting attacks on Tor ("Deep fingerprinting")](https://www.rit.edu/news/rit-cyber-fighters-go-deep-tor-security)
 * [Progressive Web Applications (PWA) tracking](https://blog.lukaszolejnik.com/tracking-users-with-rogue-progressive-web-applications/)
+* [SensorID](https://www.forbes.com/sites/kevinmurnane/2019/05/23/all-iphones-and-some-android-phones-are-vulnerable-to-a-new-device-fingerprinting-attack/#26f6ab7831a9)
 
 
-### Already fixed within the Browser (ensure you use the latest product [always!])
+### Already fixed within the Browser or OS (ensure you use the latest product [always!])
 * Browser based download attacks by exposing sensible information.
 * CPU & Mouse wheel fingerprinting which needs to be fixed also within the OS (this is a wont-fix!)
 * Cookies in general, daily pages like e.g. Amazon/Facebook as an example need them to function probably (addons/filter-lists may help to whitelist). But you can disable/restrict the Cookie collection and work instead with a whitelist, every Browser does support this. Some pages like [Facebook already started to track user via first-party cookies](https://marketingland.com/facebook-to-release-first-party-pixel-for-ads-web-analytics-from-browsers-like-safari-249478).
@@ -118,6 +119,7 @@ The document section is for research and evidence purposes, topics without any p
 * ~~File Transfer Protocol (FTP)~~ - Will be removed soon or later from every Browser.
 * ~~OpenSSL fixed (HeartBleed,CloudBleed...)~~
 * ~~SSL / TLS (ciphers) [if you only browsing on pages like GitHub ~ you can even more '[harden](https://tools.ietf.org/html/draft-sheffer-tls-bcp-00)' it]~~ TLS 1.3 is the new common default and most platforms abandoned TLS 1.0/1.1/1.2
+* ~~SensorID fingerprinting attacks~~ fixed in iOS 12.2+ and it will be fixed in Android Q.
 
 
 
