@@ -66,6 +66,7 @@ The document section is for research and evidence purposes, topics without any p
 * [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 * [Font detection & vulnerabilities](https://support.microsoft.com/en-us/kb/2639658)
 * [getClientRects fingerprinting](https://browserleaks.com/rects) via [DOM](http://www.water.ca.gov/waterquality/docs/Fingerprinting%20Sources%20of%20DOM%20-%20Ngatia.pdf)
+* [High Resolution Timer attacks](https://w3c.github.io/hr-time/#sec-privacy-security)
 * [IDN homograph attack](https://en.wikipedia.org/wiki/IDN_homograph_attack)
 * [ISP throttling checks](https://thenextweb.com/apps/2015/05/21/quick-test-shows-if-isps-are-secretly-throttling-your-internet-speeds/)
 * [Keyboard API fingerprinting](https://wicg.github.io/keyboard-map/#privacy)
