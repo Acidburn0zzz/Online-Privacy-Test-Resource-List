@@ -77,6 +77,7 @@ The document section is for research and evidence purposes, topics without any p
 * [NoCoin](https://github.com/keraf/NoCoin), prevents background mining via opt-in.
 * [OSI model fingerprints](https://searchnetworking.techtarget.com/tip/OSI-Securing-the-Stack-Layer-4-Fingerprinting) (based on [HTTP](https://github.com/wireghoul/lbmap), Header, User Agent, Firewall, ...)
 * [Password sniffing](http://cng.seas.rochester.edu/CNG/docs/Security/node8.html)
+* [Paste-jacking](https://github.com/dxa4481/Pastejacking) & [Backspace variant](https://security.stackexchange.com/questions/39118/how-can-i-protect-myself-from-this-kind-of-clipboard-abuse)
 * [Plugin/Extension tracking](https://webdevwonders.com/detecting-browser-plugins/) (Silverlight, Adobe Flash, ...)
 * [Progressive Web Applications (PWA) tracking](https://blog.lukaszolejnik.com/tracking-users-with-rogue-progressive-web-applications/)
 * [Public key fingerprint](https://en.wikipedia.org/wiki/Public_key_fingerprint)
@@ -409,6 +410,14 @@ The document section is for research and evidence purposes, topics without any p
 | [CSS Exfil Vulnerability Tester](https://www.mike-gualtieri.com/css-exfil-vulnerability-tester) | The page tests to see if your browser is vulnerable to Cascading Style Sheets (CSS) data leakage. If you are vulnerable, one way to protect yourself is to install the CSS Exfil Protection plugin for your browser. | `No` | `No` |
 | [CSS History Leak](http://lcamtuf.coredump.cx/yahh/) | CSS History Leak check | `N/A` | `No` |
 | [Third Party Fingerprinting test](https://cezaraugusto.github.io/privacy-checks/fingerprinting/third-party/) | Basic Third Party Fingerprinting test page | `No` | `Yes` |
+
+
+
+## Paste-jacking
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- |
+| [Demo](https://thejh.net/misc/website-terminal-copy-paste) | Copy-paste the example line and run it into a terminal window to check if you're vulnerable | `No` | `No` |
+| [Another demo](http://saynotolinux.com/tests/pastejacking/test.html) | See [here](https://security.stackexchange.com/questions/39118/how-can-i-protect-myself-from-this-kind-of-clipboard-abuse) for more details. | `No` | `No` | 
 
 
 
