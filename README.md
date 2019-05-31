@@ -422,12 +422,20 @@ The document section is for research and evidence purposes, topics without any p
 
 
 
-## DNSSEC Test
+## DNSSEC & EDNS Test
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
 | [DNSSEC Resolver Test](http://dnssec.vs.uni-due.de/) | Test the Resolver if it supports DNSSEC | `N/A` | `No` |
 | [DS Algorithm Test](https://rootcanary.org/test.html) | Check if DNSSEC is weak against DS | `N/A` | `No` |
+| [Internet.nl](https://internet.nl/) | eMail, connection, website and other checks | `Yes` | `Yes` |
+| [DNSSEC resolver algorithm test](https://rootcanary.org/test.html) | // | `No` | `Yes` |
+| [Cloudflare tools](https://www.cloudflare.com/cdn-cgi/tracepoof) | Several tracing tools, [read here](https://cloudflare-dns.com/help/) for more information. | `Yes` | `Yes` |
+| [Check my DNS](https://cmdns.dev.dns-oarc.net/) | DNS & DNSSEC check | `No` | `Yes` |
+| [DNS randomness](https://www.dns-oarc.net/oarc/services/dnsentropy) | DNS & DNSSEC check | `NA` | `Yes` |
+| [DNS Spoofability test](https://www.grc.com/dns/dns.htm) | DNS Nameserver Spoofability Test | `No` | `No` |
+| [DNSTrace](https://dnsdumpster.com/) | dns recon & research, find & lookup dns records | `No` | `Yes` |
+| [EDNS test](https://ednscomp.isc.org/ednscomp/) | EDNS Compliance Tester | `No` | `No` |
 
 
 
@@ -704,3 +712,5 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
 | [Browser Audit Test](https://browseraudit.com/test) | Test your Browser for known holes | `NA` | `Yes` |
+
+
