@@ -216,6 +216,7 @@ The document section is for research and evidence purposes, topics without any p
 | [Firefox Stoage Test](https://firefox-storage-test.glitch.me/) | Test if your IndexedDB file is broken or corrupt | `No` | `Yes` |
 | [Mozilla Plugin Privacy Test Database](https://nullsweep.com/launching-the-mozilla-plugin-privacy-test-database/) | The tests attempt to determine whether plugins passively gather data about users browsing habits | `No` | `No` [(Open Source)](https://github.com/Charlie-belmer/mozilla_privacy_plugin_tester) |
 | [Cloudflare ESNI Checker](https://www.cloudflare.com/ssl/encrypted-sni/) | Can not only be used with Firefox but was designed for test reasons, it automatically tests whether your DNS queries and answers are encrypted |  `Yes`, statistics | `Yes` |
+| [Show Shield Studies (Beta)](https://www.jeffersonscher.com/sumo/shield.php) | Show ("detect") current Mozilla Shield Studies | `No` | `Yes` |
 
 
 
