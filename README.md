@@ -512,6 +512,7 @@ The document section is for research and evidence purposes, topics without any p
 | [Punycode](https://www.xn--80ak6aa92e.com) | See the [Article](https://www.xudongz.com/blog/2017/idn-phishing/) | `N/A` | `No` |
 | [FingerPrintJS2](https://valve.github.io/fingerprintjs2/) | Check your Browser fingerprint | `N/A` | `Yes` |
 | [BrowserPlugs](https://www.browserplugs.com/fingerprint-test/index.html) | Check your Browser fingerprint with 3 different test scenarios | `N/A` | `Yes`, for the first test |
+| [Device Info](https://www.deviceinfo.me/) | Canvas, Battery Status, ActiveX, City, CPU, Country, Connection type, Device detection & more. | `N/A` | `Yes` |
 
 
 
