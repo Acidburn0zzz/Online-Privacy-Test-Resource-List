@@ -64,6 +64,7 @@ The document section is for research and evidence purposes, topics without any p
 * [Do not track (DNT) detection](https://econsultancy.com/blog/6921-the-ftc-s-do-not-track-proposal-useless-harmful-or-both) & [Companies that have implemented Do Not Track](https://allaboutdnt.com/companies/)
 * [Extension system based attacks](https://www.usenix.org/system/files/conference/usenixsecurity17/sec17-sanchez-rola.pdf)
 * [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+* [Finger taps eavesdropping](https://nakedsecurity.sophos.com/2019/06/07/researchers-eavesdrop-on-smartphone-finger-taps/)
 * [Font detection & vulnerabilities](https://support.microsoft.com/en-us/kb/2639658)
 * [getClientRects fingerprinting](https://browserleaks.com/rects) via [DOM](http://www.water.ca.gov/waterquality/docs/Fingerprinting%20Sources%20of%20DOM%20-%20Ngatia.pdf)
 * [High Resolution Timer attacks](https://w3c.github.io/hr-time/#sec-privacy-security)
