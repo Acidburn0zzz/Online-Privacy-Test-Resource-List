@@ -379,7 +379,7 @@ The document section is for research and evidence purposes, topics without any p
 
 
 
-## Do Not Track (DNT), Evercookie, Headers & Javascript
+## Do Not Track (DNT), Evercookie, Headers & Javascript bases tests
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
@@ -412,6 +412,7 @@ The document section is for research and evidence purposes, topics without any p
 | [CSS Exfil Vulnerability Tester](https://www.mike-gualtieri.com/css-exfil-vulnerability-tester) | The page tests to see if your browser is vulnerable to Cascading Style Sheets (CSS) data leakage. If you are vulnerable, one way to protect yourself is to install the CSS Exfil Protection plugin for your browser. | `No` | `No` |
 | [CSS History Leak](http://lcamtuf.coredump.cx/yahh/) | CSS History Leak check | `N/A` | `No` |
 | [Third Party Fingerprinting test](https://cezaraugusto.github.io/privacy-checks/fingerprinting/third-party/) | Basic Third Party Fingerprinting test page | `No` | `Yes` |
+| [WTF?](https://wybiral.github.io/wtf/) | ["A practical demo of privacy violation using local service detection on a website for product recommendations."](https://twitter.com/davywtf/status/1137094721279582209) | `No` | `Yes` & localhost |
 
 
 
