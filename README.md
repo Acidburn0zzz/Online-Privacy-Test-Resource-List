@@ -150,7 +150,7 @@ The document section is for research and evidence purposes, topics without any p
 | [Email IP Leak Test](http://emailipleak.com/) | Checks if your email provider shows your real IP address to its recipients. | `N/A` |
 | [Email Privacy Tester](https://emailprivacytester.com/) | Checks email addresses | `Yes` see [here](https://www.emailprivacytester.com/privacy) |
 | [Email Trace](http://www.ip-adress.com/trace_email/) | Checks email addresses | `Yes` |
-| [Have I Been Pwned?](https://haveibeenpwned.com/) | Database which checks if you affected by several holes | `No` |
+| [Have I Been Pwned? (Svalbard)](https://haveibeenpwned.com/) | Database which checks if you affected by several holes | `No` |
 | [Pwnedlist](https://pwnedlist.com/) | Database which checks if you affected by several holes | `Yes` - Currently down |
 | [Check Your GPG Fingerprints](https://evil32.com/) | Check if your GPG key is leaked or not | `No` |
 | [Have I Been Sold?](https://haveibeensold.app/) | Quickly check if your email has been sold. | `No`, database lookup needs JS
