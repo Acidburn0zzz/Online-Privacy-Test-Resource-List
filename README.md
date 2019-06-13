@@ -83,6 +83,7 @@ The document section is for research and evidence purposes, topics without any p
 * [Progressive Web Applications (PWA) tracking](https://blog.lukaszolejnik.com/tracking-users-with-rogue-progressive-web-applications/)
 * [Public key fingerprint](https://en.wikipedia.org/wiki/Public_key_fingerprint)
 * [PushAPI](https://developer.mozilla.org/en-US/docs/Web/API/Push_API)
+* [RAMBleed](https://rambleed.com/)
 * [Resource Starvation Attacks](https://msdn.microsoft.com/en-us/library/ee798408(v=cs.20).aspx)
 * [SameSite cookies](https://tools.ietf.org/html/draft-ietf-httpbis-rfc6265bis-02#section-5.3.7)
 * [Screen resolution](http://www.b3rn3d.com/blog/2014/05/29/fingerprinting-resolution/)
