@@ -1,6 +1,6 @@
  ## - POTARC -
 
-Privacy Online Test And Resource Compendium© (short: POTARC) project original created under the MIT license 2016 - 2019 by CHEF-KOCH and community.
+Privacy Online Test And Resource Compendium© (short: POTARC) project original created under the MIT license 2016 - present by CHEF-KOCH and community.
 
 ![Matrix](https://img.shields.io/matrix/cknews:matrix.org.svg?label=CK%27s%20Technology%20News%20-%20Matrix%20Chat&server_fqdn=matrix.org&style=popout)
 ![Twitter Follow](https://img.shields.io/twitter/follow/@CKsTechNews.svg?label=Follow%20%40CKsTechNews&style=social)
@@ -29,11 +29,15 @@ The document section is for research and evidence purposes, topics without any p
 > Some of the integrated services & pages collect the results and store it offline and some other pages even sell the results to 3rd-parties! I'm not responsible for this behavior, the list added an indicator in order to inform you.
 
 
+### Research documents
+
+I'm not the original author of any uploaded .pdf file in this repository, nor do I claim I wrote them. The documents are not under any license and the credit goes to the people which orignally written them. The documents are only mirrored here because several search engines (sadly) delete or hiding content behind proxies/VPN's, or the original link simply vanishes. All research documents are untouched. Please contact me via eMail if you don't like it and I'm going to remove them from this repository.
+
 ### Known Fingerprinting Techniques
 * CDN [Web Cache Deception Attack based attacks](https://omergil.blogspot.ch/2017/02/web-cache-deception-attack.html). CDN's are in general a security problem, once infected or compromised you have no chance to identify the threat or not before it's already too late. [Decentraleyes](https://github.com/Synzvato/decentraleyes) reduce the attack surface.
-* Fake identity, Identify theft (not fixable) & Fake Comments
-* Hardware implemented fingerprint methods such as [hardware based DRM](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/hardware-drm)
-* Power consumption and wave signal based tests (not fixable without breaking the signals!).
+* Fake identity, identify theft (not fixable) [NETSEC] & fake comments (OPSEC)
+* Hardware implemented fingerprint methods such as [hardware based DRM](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/hardware-drm) (wont-fix but can be configured via flags)
+* Power consumption 'attacks' and wave signal based tests (not fixable without breaking the signals or updating the RFCs).
 * Several [HTTP authorization detection](https://en.wikipedia.org/wiki/Security_testing#Authentication) which is not fixable because it's protocol and meta-data depending and would require new metadata less protocols.
 * Stuff which is documented and mentioned over [here](https://github.com/CHEF-KOCH/NSABlocklist) or [here](https://wiki.mozilla.org/Fingerprinting).
 * [AJAX](http://www.symantec.com/connect/articles/ajax-security-basics)
@@ -111,25 +115,26 @@ The document section is for research and evidence purposes, topics without any p
 
 
 ### Already fixed within the Browser or OS (ensure you use the latest product [always!])
-* Browser based download attacks by exposing sensible information, there are several anti-fingerprinting techniques.
-* CPU & Mouse wheel fingerprinting which needs to be fixed also within the OS (this is a wont-fix!)
-* Cookies in general, daily pages like e.g. Amazon/Facebook as an example need them to function probably (addons/filter-lists may help to whitelist). But you can disable/restrict the Cookie collection and work instead with a whitelist, every Browser does support this. Some pages like [Facebook already started to track user via first-party cookies](https://marketingland.com/facebook-to-release-first-party-pixel-for-ads-web-analytics-from-browsers-like-safari-249478).
-* HTML5 which includes stuff like Canvas, Fonts & more (will never be fixed, you have to use  in order to spoof such data)
-* HTTP Public Key Pinning (HPKP) sniffing attacks (removed in Chrome 72+)
-* Network layer based leaks like MAC address leakage. Disabling/blocking IPv6, if not necessary/needed is enough. See [RFC 3041](https://tools.ietf.org/html/rfc3041).
-* PopUps aren't possible anymore, if not Canvas/JS related). You see a permission dialog or can control this behavior directly via Browser settings. Some [Browsers also come with their own Ads-blocking feature](https://www.theverge.com/2018/2/14/17011266/google-chrome-ad-blocker-features).
-* Third-party cookie "isolation" (blocking)
-* Tor (several fingerprint methods are still possible)
-* WebRTC since Chrome 48+ and Firefox 42+, both getting an new menu to allow it per-page (whitelist). There exist also for both several addons, workarounds to compile it without WebRTC support). [Unofficial Chromium builds](http://chromium.woolyss.com) also come without WebRTC or sync.
+* Browser based download attacks by exposing sensible information, there are several anti-fingerprinting techniques to expose you via drive-by.
+* CPU & Mouse wheel fingerprinting which needs to be fixed also within the OS (wont-fix!)
+* First-party cookies in general, daily pages like e.g. Amazon/Facebook (as an example) need cookies to function probably (addons/filter-lists may help to whitelist/bypass certain restrictions). Some pages like [Facebook already started to track user via first-party cookies](https://marketingland.com/facebook-to-release-first-party-pixel-for-ads-web-analytics-from-browsers-like-safari-249478).
+* HTML5 based attacks which inclduing stuff like Canvas, fonts & more (will never be fixed, you have to use in order to spoof such data, however "configuration hardening" might help to reduce the surface attack level).
+* ~~HTTP Public Key Pinning (HPKP) sniffing attacks (removed/fixed in Chrome 72+ & Firefox 56+)~~
+* Network layer based leaks (OSI leaks) e.g. MAC address leakage (EUI64). Disabling/blocking IPv6, if not necessary/needed is usually enough. See [RFC 3041](https://tools.ietf.org/html/rfc3041) & ([leak test](http://ipv6leak.com/))
+* Classic PopUps aren't possible anymore (if not Canvas/JS related). Normally you'll see a permission dialog or can control this behavior directly via Browser settings. Some [Browsers also come with their own Ads-blocking feature](https://www.theverge.com/2018/2/14/17011266/google-chrome-ad-blocker-features).
+* ~~Third-party cookie "isolation" or blocking~~
+* Tor network attacks - several fingerprint methods are still possible. 
+* ~~WebRTC since Chrome 48+ and Firefox 42+, both getting an new menu to allow it per-page (whitelist). There exist also for both several addons, workarounds to compile it without WebRTC support). [Unofficial Chromium builds](http://chromium.woolyss.com) also come without WebRTC or sync.~~
 * ~~* Detection of incognito mode~~
 * ~~Adobe Flash~~ (EOL), replaced by HTML5 (which has it's own _weaknesses_ [see below])
 * ~~File Transfer Protocol (FTP)~~ - Will be removed soon or later from every Browser.
 * ~~OpenSSL fixed (HeartBleed,CloudBleed...)~~
-* ~~SSL / TLS (ciphers) [if you only browsing on pages like GitHub ~ you can even more '[harden](https://tools.ietf.org/html/draft-sheffer-tls-bcp-00)' it]~~ TLS 1.3 is the new common default and most platforms abandoned TLS 1.0/1.1/1.2
+* ~~SSL / TLS (ciphers) [if you only browse on pages like GitHub ~ you can even more [harden it](https://tools.ietf.org/html/draft-sheffer-tls-bcp-00)]~~ TLS 1.3 (3.0+) is the new common default and most platforms abandoned TLS 1.0/1.1/1.2.
 * ~~SensorID fingerprinting attacks~~ fixed in iOS 12.2+ and it will be fixed in Android Q.
 * ~~Coin Mining~~
 * ~~BatteryAPI~~ fingerprinting attacks
 * ~~Spectre & Meltdown~~ Via OS & BIOS patches. Almost all modern Browser also protecting their memory against exfiltration attacks.
+* ~~Several timing based attacks are too ineffective for an advertiser/attack to abuse (in the real world).~~
 
 
 ## Obsolete Add-ons & Plugin Tests
@@ -219,7 +224,7 @@ The document section is for research and evidence purposes, topics without any p
 | [Mozilla Plugin Privacy Test Database](https://nullsweep.com/launching-the-mozilla-plugin-privacy-test-database/) | The tests attempt to determine whether plugins passively gather data about users browsing habits | `No` | `No` [(Open Source)](https://github.com/Charlie-belmer/mozilla_privacy_plugin_tester) |
 | [Cloudflare ESNI Checker](https://www.cloudflare.com/ssl/encrypted-sni/) | Can not only be used with Firefox but was designed for test reasons, it automatically tests whether your DNS queries and answers are encrypted |  `Yes`, statistics | `Yes` |
 | [Show Shield Studies (Beta)](https://www.jeffersonscher.com/sumo/shield.php) | Show ("detect") current Mozilla Shield Studies | `No` | `Yes` |
-| [Platform/GFX/WebRender Where]](http://arewewebrenderyet.com/) | Where have we shipped WebRender? | `No` | `No` |
+| [Platform/GFX/WebRender Where](http://arewewebrenderyet.com/) | Where have we shipped WebRender? | `No` | `No` |
 
 
 
