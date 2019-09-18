@@ -203,7 +203,7 @@ The document section is for research and evidence purposes, topics without any p
 
 
 
-## Mozilla (Firefox) specific test pages
+## Mozilla (Firefox) specific test and overview pages
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
@@ -219,6 +219,7 @@ The document section is for research and evidence purposes, topics without any p
 | [Mozilla Plugin Privacy Test Database](https://nullsweep.com/launching-the-mozilla-plugin-privacy-test-database/) | The tests attempt to determine whether plugins passively gather data about users browsing habits | `No` | `No` [(Open Source)](https://github.com/Charlie-belmer/mozilla_privacy_plugin_tester) |
 | [Cloudflare ESNI Checker](https://www.cloudflare.com/ssl/encrypted-sni/) | Can not only be used with Firefox but was designed for test reasons, it automatically tests whether your DNS queries and answers are encrypted |  `Yes`, statistics | `Yes` |
 | [Show Shield Studies (Beta)](https://www.jeffersonscher.com/sumo/shield.php) | Show ("detect") current Mozilla Shield Studies | `No` | `Yes` |
+| [Platform/GFX/WebRender Where]](http://arewewebrenderyet.com/) | Where have we shipped WebRender? | `No` | `No` |
 
 
 
@@ -717,6 +718,6 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
-| [Browser Audit Test](https://browseraudit.com/test) | Test your Browser for known holes | `NA` | `Yes` |
+| [Browser Audit Test](https://browseraudit.com/test) | Test your Browser for known holes | `N/A` | `Yes` |
 
 
