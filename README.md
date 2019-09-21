@@ -19,7 +19,7 @@ Keep in mind that reducing the fingerprint doesn't mean you're secured against a
 See [CONTRIBUTING.md](https://github.com/CHEF-KOCH/Online-Privacy-Test-Resource-List/blob/master/CONTRIBUTING.md). Before you create a new issue ticket, ensure you read the issue template and check if the things you like to request is not already on the todo list in order to avoid duplicates or already known things.
 
 
-## How to handle the information and test results?
+## How to handle these information and test results?
 
 Collection of [device fingerprints](https://en.wikipedia.org/wiki/Device_fingerprint) from web clients such as browser software mostly relies on the availability of JavaScript or similar client-side scripting language for the harvesting of a suitably large number of parameters. Overall this means if only one or a small of things are detectable it not automatically reveals your real identify, but all together can be pretty dangerous in order to expose you or your security setup. Keep in mind that it's not a good idea to share the results or to leak information which setup you exactly use.
 
@@ -233,6 +233,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
 [Chrome 76+ escape key-generated popups test](https://codepen.io/mustaqahmed/full/yrXLxZ) | [Read here for more infos](https://www.zdnet.com/article/google-changes-how-the-escape-key-is-handled-in-chrome-to-fight-popup-ads/) | `No` | `No` |
+| [CRXcavator](https://crxcavator.io/) | Submit a Chrome Extension ID to scan the extension | `No` | `Yes` |
 
 
 
