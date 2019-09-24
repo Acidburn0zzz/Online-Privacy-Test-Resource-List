@@ -1,6 +1,6 @@
  ## - POTARC -
 
-Privacy Online Test And Resource Compendium© (short: POTARC) project original created under the MIT license 2016 - present by CHEF-KOCH and community.
+Privacy Online Test And Resource Compendium© (short: POTARC) project original created under the MIT license (2016 - present) by CHEF-KOCH and community.
 
 ![Matrix](https://img.shields.io/matrix/cknews:matrix.org.svg?label=CK%27s%20Technology%20News%20-%20Matrix%20Chat&server_fqdn=matrix.org&style=popout)
 ![Twitter Follow](https://img.shields.io/twitter/follow/@CKsTechNews.svg?label=Follow%20%40CKsTechNews&style=social)
@@ -45,7 +45,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 * [Acoustic fingerprinting](https://en.wikipedia.org/wiki/Acoustic_fingerprint)
 * [Audio fingerprint tests](https://github.com/worldveil/dejavu)  ([example](https://github.com/dpwe/audfprint))
 * [Automatic content recognition](https://en.wikipedia.org/wiki/Automatic_content_recognition)
-* [Battery API](https://www.w3.org/TR/battery-status/)
+* [Battery API](https://www.w3.org/TR/battery-status/) (fixed, see below)
 * [CORS (ajax)](http://www.html5rocks.com/en/tutorials/cors/)
 * [CPU Fingerprint](http://yinzhicao.org/TrackingFree/crossbrowsertracking_NDSS17.pdf)
 * [CPU Starvation Attacks](https://msdn.microsoft.com/en-us/library/ee810608(v=cs.20).aspx)
@@ -58,7 +58,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 * [Crooked Style Sheets](https://www.mike-gualtieri.com/posts/stealing-data-with-css-attack-and-defense) [Discussion](https://news.ycombinator.com/item?id=16157773)
 * [Cross-Origin Identifier](https://www.torproject.org/projects/torbrowser/design/#identifier-linkability)
 * [DNS Spoofing](https://en.wikipedia.org/wiki/DNS_spoofing)
-* [DNS cookies](http://dnscookie.com/)
+* [DNS cookie attacks](http://dnscookie.com/)
 * [DNS exfiltration over DNS over HTTPS (DoH) with godoh](https://sensepost.com/blog/2018/waiting-for-godoh/)
 * [DNS leakage or bypasses](https://www.dnsleaktest.com/what-is-a-dns-leak.html)
 * [DOMrect](https://developer.mozilla.org/en-US/docs/Web/API/DOMRect)
@@ -76,6 +76,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 * [ISP throttling checks](https://thenextweb.com/apps/2015/05/21/quick-test-shows-if-isps-are-secretly-throttling-your-internet-speeds/)
 * [Keyboard API fingerprinting](https://wicg.github.io/keyboard-map/#privacy)
 * [Measuring time](https://en.wikipedia.org/wiki/Timing_attack) (Timezone/[NTP](http://www.securityweek.com/ntp-servers-exposed-long-distance-wireless-attacks))
+* [Multiple browser fingerprinting detection](https://arstechnica.com/information-technology/2017/02/now-sites-can-fingerprint-you-online-even-when-you-use-multiple-browsers/)
 * [Memory Starvation Attacks](https://msdn.microsoft.com/en-us/library/ee810601(v=cs.20).aspx)
 * [Mouse & CPU fingerprinting](http://jcarlosnorte.com/security/2016/03/06/advanced-tor-browser-fingerprinting.html)
 * [Network Bandwidth Attacks](https://msdn.microsoft.com/en-us/library/ee798452(v=cs.20).aspx)
@@ -110,7 +111,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 * [Web Browser Address Bar Spoofing](https://www.netsparker.com/blog/web-security/web-browser-address-bar-spoofing/)
 * [WebGL](https://browserleaks.com/webgl)
 * [WebSocket based attacks](http://resources.infosecinstitute.com/websocket-security-issues/)
-* [Zero With Detection](https://umpox.github.io/zero-width-detection/)
+* [Zero With Detection](https://umpox.github.io/zero-width-detection/), see [here](https://www.hindawi.com/journals/scn/2018/5325040/) for more information.
 
 
 
@@ -132,7 +133,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 * ~~SSL / TLS (ciphers) [if you only browse on pages like GitHub ~ you can even more [harden it](https://tools.ietf.org/html/draft-sheffer-tls-bcp-00)]~~ TLS 1.3 (3.0+) is the new common default and most platforms abandoned TLS 1.0/1.1/1.2.
 * ~~SensorID fingerprinting attacks~~ fixed in iOS 12.2+ and it will be fixed in Android Q.
 * ~~Coin Mining~~
-* ~~BatteryAPI~~ fingerprinting attacks
+* ~~BatteryAPI~~ based fingerprinting attacks
 * ~~Spectre & Meltdown~~ Via OS & BIOS patches. Almost all modern Browser also protecting their memory against exfiltration attacks.
 * ~~Several timing based attacks are too ineffective for an advertiser/attack to abuse (in the real world).~~
 
