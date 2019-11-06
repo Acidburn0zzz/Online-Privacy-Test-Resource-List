@@ -214,7 +214,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
 | [Windows Hello Test Page](https://webauthn.org/) | Check if Firefox 66+ supports Windows Hello  | `No` | `Yes` |
-| [Windows Hello Test Page (mirror)](https://webauthn.io/) | Check if Firefox 66+ supports Windows Hello  | `No` | `Yes` |
+| [Windows Hello Test Page (mirror)](https://webauthn.io/) | This site is designed by Duo Labs to test the new W3C Specification Web Authentication  | `No` | `Yes` |
 | [Windows Hello Test Page (mirror)](https://webauthn.me/) | Check if Firefox 66+ supports Windows Hello  | `No` | `Yes` |
 | [Windows Hello Test Page (mirror)](https://webauthndemo.appspot.com/) | Check if Firefox 66+ supports Windows Hello  | `No` | `Yes` |
 | [Tracking Protection](https://itisatrap.org/firefox/its-a-tracker.html) | Test page for Firefox's built-in Tracking Protection | `No` | `Yes` |
@@ -726,5 +726,13 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
 | [Browser Audit Test](https://browseraudit.com/test) | Test your Browser for known holes | `N/A` | `Yes` |
+
+
+
+## HTTP/3 test servers
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- |
+| [HTTP/3 test servers](https://bagder.github.io/HTTP3-test/) | Documentation for early HTTP/3 testing (with curl and more) | `No` | `No, the URL however do require JavaScript unless you use curl` |
+
 
 
