@@ -370,6 +370,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 | [Permission Site](https://permission.site/) | A site to test the interaction of web APIs and browser permissions.  | `No` | `Partial`, [source code](https://github.com/chromium/permission.site) |
 | [Browser Storage Abuser](https://demo.agektmr.com/storage/) | Experiment for your browser storage limitation on LocalStorage, SessionStorage, WebSQL Database, IndexedDB API and FileSystem API. | `No` + [source code](https://github.com/agektmr/BrowserStorageAbuser) | `Yes`
 | [PWA.rocks](https://pwa.rocks/) | Test if your Browser supports [Progressive Web Apps (PWA)](https://developers.google.com/web/progressive-web-apps/) | `No` | `Partial`
+| [Permission Site](https://permission.site/) | Test if your Browser supports specific permissions such as Camera, Location, Fullscreen and other privacy critical APIs  | `No` | `Yes`
 
 
 
