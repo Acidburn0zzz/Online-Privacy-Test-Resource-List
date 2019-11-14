@@ -113,6 +113,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 * [CPU Starvation Attacks](https://msdn.microsoft.com/en-us/library/ee810608(v=cs.20).aspx)
 * [CSS based attacks](https://www.mike-gualtieri.com/posts/stealing-data-with-css-attack-and-defense)
 * [Caching attacks](https://en.wikipedia.org/wiki/Timing_attack)
+* [Cache-Poisoned Denial-of-Service (CPDoS)](https://cpdos.org/)
 * [Canvas fingerprinting](https://en.wikipedia.org/wiki/Canvas_fingerprinting), see ([here](http://cseweb.ucsd.edu/~hovav/dist/canvas.pdf))
 * [Captive Portal based attacks](https://rootsh3ll.com/captive-portal-guide/)
 * [Clickjacking](https://www.vojtechruzicka.com/preventing-clickjacking/) ([De-anonymization via Clickjacking in 2019](https://m417z.com/De-anonymization-via-Clickjacking-in-2019/))
