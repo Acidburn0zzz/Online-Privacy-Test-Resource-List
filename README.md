@@ -33,6 +33,62 @@ The document section is for research and evidence purposes, topics without any p
 
 I'm not the original author of any uploaded .pdf file in this repository, nor do I claim I wrote them. The documents are not under any license and the credit goes to the people which orignally written them. The documents are only mirrored here because several search engines (sadly) delete or hiding content behind proxies/VPN's, or the original link simply vanishes. All research documents are untouched. Please contact me via eMail if you don't like it and I'm going to remove them from this repository.
 
+### Table of Contents
+- [Privacy Online Test And Resource Compendium](#privacy-online-test-and-resource-compendium)
+- [Contribution](#contribution)
+- [How to handle these information and test results?](#how-to-handle-these-information-and-test-results-)
+    + [Keep in mind](#keep-in-mind)
+  * [Research documents](#research-documents)
+  * [Known Fingerprinting Techniques](#known-fingerprinting-techniques)
+  * [Already fixed within the Browser or OS (ensure you use the latest product [always!])](#already-fixed-within-the-browser-or-os--ensure-you-use-the-latest-product--always---)
+- [Obsolete Add-ons & Plugin Tests](#obsolete-add-ons---plugin-tests)
+- [eMail](#email)
+- [Phishing](#phishing)
+- [Browser Prerender & Feature Tests](#browser-prerender---feature-tests)
+- [Window Measurements](#window-measurements)
+- [Certificate](#certificate)
+- [Crypto-mining detection and Malware](#crypto-mining-detection-and-malware)
+- [Mozilla (Firefox) specific test and overview pages](#mozilla--firefox--specific-test-and-overview-pages)
+- [Chrome/Chromium specific test pages](#chrome-chromium-specific-test-pages)
+- [Incognito Detection](#incognito-detection)
+- [DNS Rebinding](#dns-rebinding)
+- [DNS-over-HTTPS (DoH)](#dns-over-https--doh-)
+- [HTML5 based features test](#html5-based-features-test)
+- [CSS Fingerprint Tests](#css-fingerprint-tests)
+- [IP, DNS & Magnet Leak Tests](#ip--dns---magnet-leak-tests)
+- [Account Management](#account-management)
+- [Resource:// URIs leak checks](#resource----uris-leak-checks)
+- [Web API Test](#web-api-test)
+- [SSL/TLS, RSA & SSH Test](#ssl-tls--rsa---ssh-test)
+- [Do Not Track (DNT), Evercookie, Headers & Javascript bases tests](#do-not-track--dnt---evercookie--headers---javascript-bases-tests)
+- [Paste-jacking](#paste-jacking)
+- [DNSSEC & EDNS Test](#dnssec---edns-test)
+- [Government Network measurement software](#government-network-measurement-software)
+- [Mouse Rate/Fingerprint Check](#mouse-rate-fingerprint-check)
+- [Keyboard Test](#keyboard-test)
+- [Advanced Fingerprint Tests](#advanced-fingerprint-tests)
+- [HTTP Strict Transport Security (HSTS)](#http-strict-transport-security--hsts-)
+- [Tor Network & Fingerprint Test](#tor-network---fingerprint-test)
+- [Cryptography Test](#cryptography-test)
+- [ISP Throttling check](#isp-throttling-check)
+- [Web Search Engine which can show & Inspect the Source Code](#web-search-engine-which-can-show---inspect-the-source-code)
+- [Cookie Leak Test](#cookie-leak-test)
+- [Firewall Test](#firewall-test)
+- [Torrent Leak Test](#torrent-leak-test)
+- [Ransomware Decrypter](#ransomware-decrypter)
+- [Identify Theft Check](#identify-theft-check)
+- [Browser Benchmarks](#browser-benchmarks)
+- [Sandboxes Virus/Malware/HTTP Analyzer](#sandboxes-virus-malware-http-analyzer)
+- [Online Link Checkers](#online-link-checkers)
+- [Online IP Scanner](#online-ip-scanner)
+- [Opt-Out of targeting based Ads](#opt-out-of-targeting-based-ads)
+- [Intel](#intel)
+- [Progressive Web Applications (PWA) Tracking Test](#progressive-web-applications--pwa--tracking-test)
+- [Browser Audit Test](#browser-audit-test)
+- [HTTP/3 test servers](#http-3-test-servers)
+  * [VPN Chart](#vpn-chart)
+
+
 ### Known Fingerprinting Techniques
 * CDN [Web Cache Deception Attack based attacks](https://omergil.blogspot.ch/2017/02/web-cache-deception-attack.html). CDN's are in general a security problem, once infected or compromised you have no chance to identify the threat or not before it's already too late. [Decentraleyes](https://github.com/Synzvato/decentraleyes) reduce the attack surface.
 * Fake identity, identify theft (not fixable) [NETSEC] & fake comments (OPSEC)
@@ -56,6 +112,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 * [Clickjacking](https://www.vojtechruzicka.com/preventing-clickjacking/)
 * [Common Spoofing attacks](https://en.wikipedia.org/wiki/Spoofing_attack)
 * [Crooked Style Sheets](https://www.mike-gualtieri.com/posts/stealing-data-with-css-attack-and-defense) [Discussion](https://news.ycombinator.com/item?id=16157773)
+* Content Security Policy (CSP) is set up incorrectly
 * [Cross-Origin Identifier](https://www.torproject.org/projects/torbrowser/design/#identifier-linkability)
 * [DNS Spoofing](https://en.wikipedia.org/wiki/DNS_spoofing)
 * [DNS cookie attacks](http://dnscookie.com/)
@@ -187,6 +244,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 
 ## Window Measurements
 | **Page or Addon** | **Description** | **Collects or sells user data?** |
+
 | --- | --- | --- |
 | [Inner Window Measurements](https://fiprinca.0x90.eu/poc/) | Detects the Browser Window Size | `No` |
 
@@ -234,6 +292,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 
 
 ## Chrome/Chromium specific test pages
+
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
 [Chrome 76+ escape key-generated popups test](https://codepen.io/mustaqahmed/full/yrXLxZ) | [Read here for more infos](https://www.zdnet.com/article/google-changes-how-the-escape-key-is-handled-in-chrome-to-fight-popup-ads/) | `No` | `No` |
@@ -371,6 +430,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 | [Browser Storage Abuser](https://demo.agektmr.com/storage/) | Experiment for your browser storage limitation on LocalStorage, SessionStorage, WebSQL Database, IndexedDB API and FileSystem API. | `No` + [source code](https://github.com/agektmr/BrowserStorageAbuser) | `Yes`
 | [PWA.rocks](https://pwa.rocks/) | Test if your Browser supports [Progressive Web Apps (PWA)](https://developers.google.com/web/progressive-web-apps/) | `No` | `Partial`
 | [Permission Site](https://permission.site/) | Test if your Browser supports specific permissions such as Camera, Location, Fullscreen and other privacy critical APIs  | `No` | `Yes`
+| Realtime detection of XSS with Casper](https://csper.io/) | Csper will help guide you through the process of installing a simple report-only CSP policy (HTTP Header). (_addon/test maybe planned_) | `No` | `No`
 
 
 
@@ -495,7 +555,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 
 
 
-## Keyboard
+## Keyboard Test
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
@@ -578,7 +638,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 
 
 
-## Cookie Test
+## Cookie Leak Test
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
 | [Test if you leak cookies (after disabling them)](http://raymondhill.net/httpsb/httpsb-test-cookie-1.php) | Cookie test to check if your extensions which are supposed to block cookies doing their job | `No` | `No` |
