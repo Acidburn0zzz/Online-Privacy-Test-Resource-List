@@ -15,6 +15,7 @@ POTARC itself is more a community driven project because everyone can contribute
 
 Keep in mind that reducing the fingerprint doesn't mean you're secured against all attacks (including new upcoming ones) because security is a process and not something you gain by installing the correct extensions, plugins or programs.
 
+
 ## Contribution
 
 See [CONTRIBUTING.md](https://github.com/CHEF-KOCH/Online-Privacy-Test-Resource-List/blob/master/CONTRIBUTING.md). 
@@ -22,21 +23,7 @@ See [CONTRIBUTING.md](https://github.com/CHEF-KOCH/Online-Privacy-Test-Resource-
 Before you create a new issue ticket, ensure you read the issue template and check if the things you like to request aren't already on the to-do list.
 
 
-## How to handle these information and test results?
-
-Collection of [device fingerprints](https://en.wikipedia.org/wiki/Device_fingerprint) from web clients such as browser software mostly relies on the availability of JavaScript or similar client-side scripting language for the harvesting of a suitably large number of parameters. Overall this means if only one or a small of things are detectable it not automatically reveals your real identify, but all together can be pretty dangerous in order to expose you or your security setup. Keep in mind that it's not a good idea to share the results or to leak information which setup you exactly use.
-
-The document section is for research and evidence purposes, topics without any proof are not reliable and the project doesn't accept any submissions without any documents or research based on the matter.
-
-#### Keep in mind
-> Some of the integrated services & pages collect the results and store it offline and some other pages even sell the results to 3rd-parties! I'm not responsible for this behavior, the list added an indicator in order to inform you.
-
-
-### Research documents
-
-I'm not the original author of any uploaded .pdf file in this repository, nor do I claim I wrote them. The documents are not under any license and the credit goes to the people which orignally written them. The documents are only mirrored here because several search engines (sadly) delete or hiding content behind proxies/VPN's, or the original link simply vanishes. All research documents are untouched. Please contact me via eMail if you don't like it and I'm going to remove them from this repository.
-
-### Table of Contents
+## Table of Contents
 - [Privacy Online Test And Resource Compendium](#privacy-online-test-and-resource-compendium)
 - [Contribution](#contribution)
 - [How to handle these information and test results?](#how-to-handle-these-information-and-test-results-)
@@ -90,6 +77,22 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 - [Browser Audit Test](#browser-audit-test)
 - [HTTP/3 test servers](#http-3-test-servers)
   * [VPN Chart](#vpn-chart)
+
+
+
+## How to handle these information and test results?
+
+Collection of [device fingerprints](https://en.wikipedia.org/wiki/Device_fingerprint) from web clients such as browser software mostly relies on the availability of JavaScript or similar client-side scripting language for the harvesting of a suitably large number of parameters. Overall this means if only one or a small of things are detectable it not automatically reveals your real identify, but all together can be pretty dangerous in order to expose you or your security setup. Keep in mind that it's not a good idea to share the results or to leak information which setup you exactly use.
+
+The document section is for research and evidence purposes, topics without any proof are not reliable and the project doesn't accept any submissions without any documents or research based on the matter.
+
+#### Keep in mind
+> Some of the integrated services & pages collect the results and store it offline and some other pages even sell the results to 3rd-parties! I'm not responsible for this behavior, the list added an indicator in order to inform you.
+
+
+### Research documents
+
+I'm not the original author of any uploaded .pdf file in this repository, nor do I claim I wrote them. The documents are not under any license and the credit goes to the people which orignally written them. The documents are only mirrored here because several search engines (sadly) delete or hiding content behind proxies/VPN's, or the original link simply vanishes. All research documents are untouched. Please contact me via eMail if you don't like it and I'm going to remove them from this repository.
 
 
 ### Known Fingerprinting Techniques
