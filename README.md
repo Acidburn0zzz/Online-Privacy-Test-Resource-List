@@ -2,6 +2,7 @@
 
 Privacy Online Test And Resource Compendium© (short: POTARC) project original created under the MIT license (2016 - present) by CHEF-KOCH and community.
 
+[![HitCount](http://hits.dwyl.io/CHEF-KOCH/Online-Privacy-Test-Resource-List.svg)](http://hits.dwyl.io/CHEF-KOCH/Online-Privacy-Test-Resource-List)
 ![Matrix](https://img.shields.io/matrix/cknews:matrix.org.svg?label=CK%27s%20Technology%20News%20-%20Matrix%20Chat&server_fqdn=matrix.org&style=popout)
 ![Twitter Follow](https://img.shields.io/twitter/follow/@CKsTechNews.svg?label=Follow%20%40CKsTechNews&style=social)
 [![Discord](https://discordapp.com/api/guilds/418256415874875402/widget.png)](https://discord.me/CHEF-KOCH)
@@ -16,7 +17,9 @@ Keep in mind that reducing the fingerprint doesn't mean you're secured against a
 
 ## Contribution
 
-See [CONTRIBUTING.md](https://github.com/CHEF-KOCH/Online-Privacy-Test-Resource-List/blob/master/CONTRIBUTING.md). Before you create a new issue ticket, ensure you read the issue template and check if the things you like to request is not already on the todo list in order to avoid duplicates or already known things.
+See [CONTRIBUTING.md](https://github.com/CHEF-KOCH/Online-Privacy-Test-Resource-List/blob/master/CONTRIBUTING.md). 
+
+Before you create a new issue ticket, ensure you read the issue template and check if the things you like to request aren't already on the to-do list.
 
 
 ## How to handle these information and test results?
@@ -430,7 +433,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 | [Browser Storage Abuser](https://demo.agektmr.com/storage/) | Experiment for your browser storage limitation on LocalStorage, SessionStorage, WebSQL Database, IndexedDB API and FileSystem API. | `No` + [source code](https://github.com/agektmr/BrowserStorageAbuser) | `Yes`
 | [PWA.rocks](https://pwa.rocks/) | Test if your Browser supports [Progressive Web Apps (PWA)](https://developers.google.com/web/progressive-web-apps/) | `No` | `Partial`
 | [Permission Site](https://permission.site/) | Test if your Browser supports specific permissions such as Camera, Location, Fullscreen and other privacy critical APIs  | `No` | `Yes`
-| Realtime detection of XSS with Casper](https://csper.io/) | Csper will help guide you through the process of installing a simple report-only CSP policy (HTTP Header). (_addon/test maybe planned_) | `No` | `No`
+| Realtime detection of XSS with [Casper](https://csper.io/) | Csper will help guide you through the process of installing a simple report-only CSP policy (HTTP Header). (_addon/test maybe planned_) | `No` | `No`
 
 
 
