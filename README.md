@@ -112,7 +112,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 * [Caching attacks](https://en.wikipedia.org/wiki/Timing_attack)
 * [Canvas fingerprinting](https://en.wikipedia.org/wiki/Canvas_fingerprinting), see ([here](http://cseweb.ucsd.edu/~hovav/dist/canvas.pdf))
 * [Captive Portal based attacks](https://rootsh3ll.com/captive-portal-guide/)
-* [Clickjacking](https://www.vojtechruzicka.com/preventing-clickjacking/)
+* [Clickjacking](https://www.vojtechruzicka.com/preventing-clickjacking/) ([De-anonymization via Clickjacking in 2019](https://m417z.com/De-anonymization-via-Clickjacking-in-2019/))
 * [Common Spoofing attacks](https://en.wikipedia.org/wiki/Spoofing_attack)
 * [Crooked Style Sheets](https://www.mike-gualtieri.com/posts/stealing-data-with-css-attack-and-defense) [Discussion](https://news.ycombinator.com/item?id=16157773)
 * Content Security Policy (CSP) is set up incorrectly
