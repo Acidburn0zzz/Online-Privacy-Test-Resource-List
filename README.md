@@ -800,14 +800,24 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 
 
 
-## HTTP/3 test servers
+## HTTP/3 Test Servers
+
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
 | [HTTP/3 test servers](https://bagder.github.io/HTTP3-test/) | Documentation for early HTTP/3 testing (with curl and more) | `No` | `No, the URL however do require JavaScript unless you use curl` |
 
 
 
-### VPN Chart
+## SmartScreen test
+
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- |
+| [SmartScreen Test](https://smartscreentestratings2.net) | Test if SmartScreen and Safe-browsing are working | `No` | `No` |
+
+
+
+### VPN Charts
+
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
 | [VPN Chart (always updated)](https://docs.google.com/spreadsheets/d/e/2PACX-1vRh1eSvC9A9hvNE9m1ZgfZQu5GtREEXtKQ25BmCLveYduOl4kVc5gDO7Mj28oOboAv-VTIMtY7JdKpP/pubhtml#) | TheBestVPN Comparison Chart for 2019 | `Yes (via Google Docs)` | `Yes (website function breakage)` |
