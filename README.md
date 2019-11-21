@@ -208,6 +208,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** |
 | --- | --- | --- |
+
 | [Firefox Addon Detector](https://thehackerblog.com/addon_scanner/) | ://URI detection | `No` |
 | [Flash Player System Test](https://www.browserleaks.com/flash) | Checks if and what version or Adobe Flash Player is installed | `No` |
 | [Adobe official Flash Player Test](https://www.adobe.com/software/flash/about/) | Official Adobe Flash Player Test | `Yes` collects statistics and sells them. |
@@ -220,6 +221,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** |
 | --- | --- | --- |
+
 | [Email IP Leak Test](http://emailipleak.com/) | Checks if your email provider shows your real IP address to its recipients. | `N/A` |
 | [Email Privacy Tester](https://emailprivacytester.com/) | Checks email addresses | `Yes` see [here](https://www.emailprivacytester.com/privacy) |
 | [Email Trace](http://www.ip-adress.com/trace_email/) | Checks email addresses | `Yes` |
@@ -235,6 +237,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 
 | **Page** | **Description** | **Collects or sells user data?** |
 | --- | --- | --- |
+
 | [KnowBe4](https://www.knowbe4.com/phishing-security-test-offer) | Login to get your phishing test template | [Yes](https://www.knowbe4.com/privacy-policy)
 | [Are you leaking Windows/VPN Login-Data?](https://msleak.perfect-privacy.com/) | [Understanding the Windows Credential Leak Flaw and How to Prevent It](https://www.bleepingcomputer.com/news/security/understanding-the-windows-credential-leak-flaw-and-how-to-prevent-it/) | [No](https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/network-security-restrict-ntlm-outgoing-ntlm-traffic-to-remote-servers)
 
@@ -247,6 +250,15 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 | [Prerender test](http://prerender-test.appspot.com/) | [Prerender](https://www.keycdn.com/blog/resource-hints/) resource test | `No` |
 | [Web platform's features check](http://paulirish.github.io/web-feature-availability/) | Test which Web Feature your Browser supports | Yes, StatCounter & caniuse.com |
 | [Third-Party redirection test](https://ndossougbe.github.io/web-sandbox/interventions/3p-redirect/) | Third-party redirection Test site - Pass if not redirected | `No` |
+
+
+
+## Ad-Blocker test pages
+
+| **Page** | **Description** | **Collects or sells user data?** |
+| --- | --- | --- |
+
+| [Prerender test](http://raymondhill.net/ublock/adbox.html) | Cosmetic filtering: Test your blocker| `No` |
 
 
 
