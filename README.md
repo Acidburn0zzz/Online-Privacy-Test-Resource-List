@@ -102,6 +102,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 * Power consumption 'attacks' and wave signal based tests (not fixable without breaking the signals or updating the RFCs).
 * Several [HTTP authorization detection](https://en.wikipedia.org/wiki/Security_testing#Authentication) which is not fixable because it's protocol and meta-data depending and would require new metadata less protocols.
 * Stuff which is documented and mentioned over [here](https://github.com/CHEF-KOCH/NSABlocklist) or [here](https://wiki.mozilla.org/Fingerprinting).
+* [1st-party tracker blocking](https://github.com/uBlockOrigin/uBlock-issues/issues/780)
 * [AJAX](http://www.symantec.com/connect/articles/ajax-security-basics)
 * [ASN Squatting Attacks](http://securityskeptic.typepad.com/the-security-skeptic/2011/06/asn-squatting-attacks.html)
 * [Acoustic fingerprinting](https://en.wikipedia.org/wiki/Acoustic_fingerprint)
