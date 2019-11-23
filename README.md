@@ -290,7 +290,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 
 
 
-## Mozilla (Firefox) specific test and overview pages
+## Mozilla (Firefox) specific test
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
@@ -311,7 +311,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 
 
 
-## Chrome/Chromium specific test pages
+## Chrome/Chromium Tests
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
@@ -320,7 +320,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 
 
 
-## Incognito Detection
+## Incognito Detection 
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
@@ -389,7 +389,6 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 | [GeoTek Datentechnik - Web Privacy Check](https://ipinfo.info/html/privacy-check.php) | Basic Web Privacy Check | `No` | `Yes` |
 | [DoiLeak](https://www.doileak.com/) | Checks if you real IP is leaking behind Proxy/VPN | `N/A` | `Yes` |
 | [IP Leak](https://ipleak.net/) | Most well-known IP leak check | `Yes` | `Yes` |
-| [Tenta-Test](https://tenta.com/test/) | Browser Privacy Test by Tenta VPN Browser | `Yes` | `Yes` |
 | [DNS Leak Test](https://www.dnsleaktest.com/) | Most well-known DNS leak check | `Yes` | `Yes` |
 | [Content Filters and Proxy Test](https://www.browserleaks.com/proxy) | Check your filter list and Proxy configuration | `N/A` | `Yes` |
 | [DNS Spoofability Test](https://www.grc.com/dns/dns.htm) | Is your DNS spoofed? | `Yes` | `Yes` |
@@ -433,7 +432,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 
 
 
-## Resource:// URIs leak checks
+## Resource:// URIs leak Test
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
@@ -511,7 +510,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 
 
 
-## Paste-jacking
+## Paste-jacking Test
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
 | [Demo](https://thejh.net/misc/website-terminal-copy-paste) | Copy-paste the example line and run it into a terminal window to check if you're vulnerable | `No` | `No` |
@@ -589,27 +588,29 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
+| [5who](http://5who.net/?type=extend) | Multiple tests | `N/A` | `Yes` |
 | [Am I Unique?](https://amiunique.org/fp) | Is your Machine / Browser unique? | `N/A` | `Yes` |
-| [Browser Spy](http://browserspy.dk/) | Multiple Browser Tests | `N/A` | `Yes` |
-| [Cross Browser Fingerprinting Test](http://fingerprint.pet-portal.eu/) | Multiple Browser Test | `N/A` | `Yes` User must to disable its ad-blocker! |
-| [Jondonym Full Anonymity Test](http://ip-check.info/?lang=en) | The first and original anonymity test | `No` | `Yes` |
-| [Panopticlick](https://panopticlick.eff.org/) | The most well-known Browser Fingerprint check by EFF | `Yes` collects stats and stores them in a database | `Yes` |
-| [Browserprint.Info](https://browserprint.info/test) | Another JavaScript based Fingerprinting Test |`Yes` collects stats and stores them in a database | `Yes` |
-| [Browserprint check](https://fingerprint.pet-portal.eu/) | Another advance fingerprinting check | `No` | `Yes` - Currently (?) Offline |
-| [PC Flank](http://www.pcflank.com/index.htm) | Random Browser Check | `N/A` | `Yes` |
-| [Onion Leak Test](http://cure53.de/leak/onion.php) | Check your .onion | `N/A` | `Yes` |
-| [Whoer](https://whoer.net/) | Advance Browser check | `Yes` Sells the results | `Yes` for advance informations/tests |
-| [Popup Test](http://www.popuptest.com/) | Check how good your Browser performs against Popups | `N/A` | `Yes` |
-| [Privacy Check](http://do-know.com/privacy-test.html) | Another overall Browser header/leak test | `Yes` | `Yes` |
 | [Audio Fingerprint Test](https://audiofingerprint.openwpm.com/) | The original audio fingerprint test | `No` | `Yes` ([Source Code](https://github.com/Gitoffthelawn)) |
 | [Browser 'auto-download' Security Vulnerability](https://binaer.xyz/haifei-li/test.html) | Check Chrome, IDM and other Downloader against a security attack | `N/A` | `No` |
-| [Check2IP](http://check2ip.com/) | One of the oldest advance Browser/IP tests | `No` | `Yes` only for advance tests but also works without |
-| [HTML5 Canvas Fingerprinting](https://browserleaks.com/canvas) | Canvas HTML5 API Browser Test | `N/A` | `Yes` |
-| [5who](http://5who.net/?type=extend) | Multiple tests | `N/A` | `Yes` |
-| [Punycode](https://www.xn--80ak6aa92e.com) | See the [Article](https://www.xudongz.com/blog/2017/idn-phishing/) | `N/A` | `No` |
-| [FingerPrintJS2](https://valve.github.io/fingerprintjs2/) | Check your Browser fingerprint | `N/A` | `Yes` |
+| [Browser Spy](http://browserspy.dk/) | Multiple Browser Tests | `N/A` | `Yes` |
 | [BrowserPlugs](https://www.browserplugs.com/fingerprint-test/index.html) | Check your Browser fingerprint with 3 different test scenarios | `N/A` | `Yes`, for the first test |
+| [Browserprint check](https://fingerprint.pet-portal.eu/) | Another advance fingerprinting check | `No` | `Yes` - Currently (?) Offline |
+| [Browserprint.Info](https://browserprint.info/test) | Another JavaScript based Fingerprinting Test |`Yes` collects stats and stores them in a database | `Yes` |
+| [Check2IP](http://check2ip.com/) | One of the oldest advance Browser/IP tests | `No` | `Yes` only for advance tests but also works without |
+| [Cross Browser Fingerprinting Test](http://fingerprint.pet-portal.eu/) | Multiple Browser Test | `N/A` | `Yes` User must to disable its ad-blocker! |
 | [Device Info](https://www.deviceinfo.me/) | Canvas, Battery Status, ActiveX, City, CPU, Country, Connection type, Device detection & more. | `N/A` | `Yes` |
+| [FingerPrintJS2](https://valve.github.io/fingerprintjs2/) | Check your Browser fingerprint | `N/A` | `Yes` |
+| [HTML5 Canvas Fingerprinting](https://browserleaks.com/canvas) | Canvas HTML5 API Browser Test | `N/A` | `Yes` |
+| [Jondonym Full Anonymity Test](http://ip-check.info/?lang=en) | The first and original anonymity test | `No` | `Yes` |
+| [Onion Leak Test](http://cure53.de/leak/onion.php) | Check your .onion | `N/A` | `Yes` |
+| [Panopticlick](https://panopticlick.eff.org/) | The most well-known Browser Fingerprint check by EFF | `Yes` collects stats and stores them in a database | `Yes` |
+| [PC Flank](http://www.pcflank.com/index.htm) | Random Browser Check | `N/A` | `Yes` |
+| [Popup Test](http://www.popuptest.com/) | Check how good your Browser performs against Popups | `N/A` | `Yes` |
+| [Privacy Analyzer](https://privacy.net/analyzer/#pre-loadon) | IP, browser fingerprinting test | `N/A` | `Yes` |
+| [Privacy Check](http://do-know.com/privacy-test.html) | Another overall Browser header/leak test | `Yes` | `Yes` |
+| [Punycode](https://www.xn--80ak6aa92e.com) | See the [Article](https://www.xudongz.com/blog/2017/idn-phishing/) | `N/A` | `No` |
+| [Tenta-Test](https://tenta.com/test/) | Browser Privacy Test by Tenta VPN Browser | `Yes` | `Yes` |
+| [Whoer](https://whoer.net/) | Advance Browser check | `Yes` Sells the results | `Yes` for advance information and tests |
 
 
 
@@ -628,6 +629,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 | --- | --- | --- | --- |
 | [TorCheck at Xenobite.eu](https://torcheck.xenobite.eu/index.php) | Advance Tor Network Check | `No` | `Yes` |
 | [Tor Fingerprint Test](https://tor.triop.se/) | Basic Tor Network Check | `N/A` | `No` |
+| [pseudo-flaw.net](http://pseudo-flaw.net/content/tor/torbutton/) | Torbutton testing | `No` | `No` |
 
 
 
@@ -833,6 +835,4 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
-| [VPN Chart (always updated)](https://docs.google.com/spreadsheets/d/e/2PACX-1vRh1eSvC9A9hvNE9m1ZgfZQu5GtREEXtKQ25BmCLveYduOl4kVc5gDO7Mj28oOboAv-VTIMtY7JdKpP/pubhtml#) | TheBestVPN Comparison Chart for 2019 | `Yes (via Google Docs)` | `Yes (website function breakage)` |
-
-
+| [VPN Chart (always updated)](https://docs.google.com/spreadsheets/d/e/2PACX-1vRh1eSvC9A9hvNE9m1ZgfZQu5GtREEXtKQ25BmCLveYduOl4kVc5gDO7Mj28oOboAv-VTIMtY7JdKpP/pubhtml#) | TheBestVPN Comparison Chart for 2019 | `Yes (via Google Docs)` | `Yes (website function breakage)` |   
