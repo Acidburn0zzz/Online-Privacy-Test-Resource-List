@@ -257,14 +257,13 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 
 | **Page** | **Description** | **Collects or sells user data?** |
 | --- | --- | --- |
-
 | [Prerender test](http://raymondhill.net/ublock/adbox.html) | Cosmetic filtering: Test your blocker| `No` |
 
 
 
 ## Window Measurements
-| **Page or Addon** | **Description** | **Collects or sells user data?** |
 
+| **Page or Addon** | **Description** | **Collects or sells user data?** |
 | --- | --- | --- |
 | [Inner Window Measurements](https://fiprinca.0x90.eu/poc/) | Detects the Browser Window Size | `No` |
 
@@ -310,13 +309,13 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 
 
 
-
 ## Chrome/Chromium Tests
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
 [Chrome 76+ escape key-generated popups test](https://codepen.io/mustaqahmed/full/yrXLxZ) | [Read here for more infos](https://www.zdnet.com/article/google-changes-how-the-escape-key-is-handled-in-chrome-to-fight-popup-ads/) | `No` | `No` |
 | [CRXcavator](https://crxcavator.io/) | Submit a Chrome Extension ID to scan the extension | `No` | `Yes` |
+| [Safe-Browsing Test Page](https://testsafebrowsing.appspot.com/) | Works in Firefox, Chrome/Chromium | `No` | `No` |
 
 
 
