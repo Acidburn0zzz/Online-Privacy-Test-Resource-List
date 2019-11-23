@@ -183,7 +183,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 
 ### Already fixed within the Browser or OS (ensure you use the latest product [always!])
 * Browser based download attacks by exposing sensible information, there are several anti-fingerprinting techniques to expose you via drive-by.
-* CPU & Mouse wheel fingerprinting which needs to be fixed also within the OS (wont-fix!)
+* CPU & Mouse wheel fingerprinting which needs to be fixed also within the OS.
 * First-party cookies in general, daily pages like e.g. Amazon/Facebook (as an example) need cookies to function probably (addons/filter-lists may help to whitelist/bypass certain restrictions). Some pages like [Facebook already started to track user via first-party cookies](https://marketingland.com/facebook-to-release-first-party-pixel-for-ads-web-analytics-from-browsers-like-safari-249478).
 * HTML5 based attacks which inclduing stuff like Canvas, fonts & more (will never be fixed, you have to use in order to spoof such data, however "configuration hardening" might help to reduce the surface attack level).
 * ~~HTTP Public Key Pinning (HPKP) sniffing attacks (removed/fixed in Chrome 72+ & Firefox 56+)~~
@@ -208,7 +208,6 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** |
 | --- | --- | --- |
-
 | [Firefox Addon Detector](https://thehackerblog.com/addon_scanner/) | ://URI detection | `No` |
 | [Flash Player System Test](https://www.browserleaks.com/flash) | Checks if and what version or Adobe Flash Player is installed | `No` |
 | [Adobe official Flash Player Test](https://www.adobe.com/software/flash/about/) | Official Adobe Flash Player Test | `Yes` collects statistics and sells them. |
@@ -221,7 +220,6 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** |
 | --- | --- | --- |
-
 | [Email IP Leak Test](http://emailipleak.com/) | Checks if your email provider shows your real IP address to its recipients. | `N/A` |
 | [Email Privacy Tester](https://emailprivacytester.com/) | Checks email addresses | `Yes` see [here](https://www.emailprivacytester.com/privacy) |
 | [Email Trace](http://www.ip-adress.com/trace_email/) | Checks email addresses | `Yes` |
@@ -237,7 +235,6 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 
 | **Page** | **Description** | **Collects or sells user data?** |
 | --- | --- | --- |
-
 | [KnowBe4](https://www.knowbe4.com/phishing-security-test-offer) | Login to get your phishing test template | [Yes](https://www.knowbe4.com/privacy-policy)
 | [Are you leaking Windows/VPN Login-Data?](https://msleak.perfect-privacy.com/) | [Understanding the Windows Credential Leak Flaw and How to Prevent It](https://www.bleepingcomputer.com/news/security/understanding-the-windows-credential-leak-flaw-and-how-to-prevent-it/) | [No](https://docs.microsoft.com/en-us/windows/security/threat-protection/security-policy-settings/network-security-restrict-ntlm-outgoing-ntlm-traffic-to-remote-servers)
 
