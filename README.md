@@ -216,7 +216,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 
 
 
-## eMail
+## eMail Test
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** |
 | --- | --- | --- |
@@ -250,7 +250,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 
 
 
-## Ad-Blocker test pages
+## Ad-Blocker Test
 
 | **Page** | **Description** | **Collects or sells user data?** |
 | --- | --- | --- |
@@ -266,7 +266,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 
 
 
-## Certificate
+## Certificate Test
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** |
 | --- | --- | --- |
@@ -507,6 +507,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 
 
 ## Paste-jacking Test
+
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
 | [Demo](https://thejh.net/misc/website-terminal-copy-paste) | Copy-paste the example line and run it into a terminal window to check if you're vulnerable | `No` | `No` |
@@ -657,6 +658,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 
 
 ## Cookie Leak Test
+
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
 | [Test if you leak cookies (after disabling them)](http://raymondhill.net/httpsb/httpsb-test-cookie-1.php) | Cookie test to check if your extensions which are supposed to block cookies doing their job | `No` | `No` |
@@ -787,7 +789,7 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 
 
 
-## Intel
+## Intel Security Tests
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
@@ -823,7 +825,7 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
-| [SmartScreen Test](https://smartscreentestratings2.net) | Test if SmartScreen and Safe-browsing are working | `No` | `No` |
+| [SmartScreen Test](https://smartscreentestratings2.net) | Test if SmartScreen and Safe-browsing are working (the website is **not malware**) | `No` | `No` |
 
 
 
@@ -832,3 +834,12 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
 | [VPN Chart (always updated)](https://docs.google.com/spreadsheets/d/e/2PACX-1vRh1eSvC9A9hvNE9m1ZgfZQu5GtREEXtKQ25BmCLveYduOl4kVc5gDO7Mj28oOboAv-VTIMtY7JdKpP/pubhtml#) | TheBestVPN Comparison Chart for 2019 | `Yes (via Google Docs)` | `Yes (website function breakage)` |   
+
+
+
+### Check if a website is disguising third-party trackers as first-party trackers
+
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- |
+| [SmartScreen Test](https://trackingthetrackers.com/) | A free analysis tool to check if a website is disguising third-party trackers as first-party trackers. | `No` | `No` |
+
