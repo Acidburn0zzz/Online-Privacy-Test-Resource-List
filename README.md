@@ -303,7 +303,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 | [Cloudflare ESNI Checker](https://www.cloudflare.com/ssl/encrypted-sni/) | Can not only be used with Firefox but was designed for test reasons, it automatically tests whether your DNS queries and answers are encrypted |  `Yes`, statistics | `Yes` |
 | [Show Shield Studies (Beta)](https://www.jeffersonscher.com/sumo/shield.php) | Show ("detect") current Mozilla Shield Studies | `No` | `Yes` |
 | [Platform/GFX/WebRender Where](http://arewewebrenderyet.com/) | Where have we shipped WebRender? | `No` | `No` |
-
+| [Website FPI test](https://web.security.plumbing/fpi) & [source code](https://github.com/mozfreddyb/test-firstpartyisolation) | Test whether First Party Isolation works | `No` | `No` |
 
 
 ## Chrome/Chromium Tests
