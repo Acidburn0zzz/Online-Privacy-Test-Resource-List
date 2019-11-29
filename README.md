@@ -834,6 +834,7 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
 | [VPN Chart (always updated)](https://docs.google.com/spreadsheets/d/e/2PACX-1vRh1eSvC9A9hvNE9m1ZgfZQu5GtREEXtKQ25BmCLveYduOl4kVc5gDO7Mj28oOboAv-VTIMtY7JdKpP/pubhtml#) | TheBestVPN Comparison Chart for 2019 | `Yes (via Google Docs)` | `Yes (website function breakage)` |   
+| [VPN Comparison by That One Privacy Guy](https://de.thatoneprivacysite.net/) | VPN chart porovided by by That One Privacy Guy | `No` | `No`
 
 
 
@@ -841,5 +842,5 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
-| [SmartScreen Test](https://trackingthetrackers.com/) | A free analysis tool to check if a website is disguising third-party trackers as first-party trackers. | `No` | `No` |
+| [TrackingTheTrackers](https://trackingthetrackers.com/) | A free analysis tool to check if a website is disguising third-party trackers as first-party trackers. | `No` | `No` |
 
