@@ -466,6 +466,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 | [Symantec](https://cryptoreport.websecurity.symantec.com/checker/views/sslCheck.jsp) | Symantec SSL Check | `Yes`, 1 month. | `Yes` |
 | [Fingerprinting TLS clients with JA3](https://jwlss.pw/ja3/) | A website qhich explains and demonstrate Fingerprinting on TLS CLients | `No` | `Yes` [(Open Source)](https://github.com/CapacitorSet/ja3-server) |
 | [Vulmap](https://vulmon.com/) | Vulmap Online Local Vulnerability Scanners Project | `No` | `No` [(Open Source)](https://github.com/vulmon/Vulmap) |
+| [Badsec](https://badsec.io/domain) | An online domain permutation, certificate transparency lookup utility | `N/A` | `Yes` |
 
 
 
