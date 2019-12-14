@@ -846,3 +846,11 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 | --- | --- | --- | --- |
 | [TrackingTheTrackers](https://trackingthetrackers.com/) | A free analysis tool to check if a website is disguising third-party trackers as first-party trackers. | `No` | `No` |
 
+
+
+### EULA/GDPR/Terms
+
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- |
+| [Terms of Service; Didn't Read](https://tosdr.org/) | Rate and label website terms & privacy policies, from very good Class A to very bad Class E, also provides Browser extensions. | `No` | `No` |
+| [PrivacySpy](https://privacyspy.org/) | Aims to track privacy, which rates, annotate and archive privacy policies | `No` | `Yes` |
