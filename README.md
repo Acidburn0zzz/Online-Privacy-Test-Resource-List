@@ -854,3 +854,13 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 | --- | --- | --- | --- |
 | [Terms of Service; Didn't Read](https://tosdr.org/) | Rate and label website terms & privacy policies, from very good Class A to very bad Class E, also provides Browser extensions. | `No` | `No` |
 | [PrivacySpy](https://privacyspy.org/) | Aims to track privacy, which rates, annotate and archive privacy policies | `No` | `Yes` |
+
+
+
+### I2P based fingerprint test 
+
+| **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
+| --- | --- | --- | --- |
+| [Similar like "AM I unique"](https://3dpwhxxcp47t7h6pnejm5hw7ymv56ywee3zdhct2sbctubsb3yra.b32.i2p) | I2P checkup page. | `No` | `Yes` |
+| [Fingerprinter](https://qsagwif55g5gxsnka6r5ewuna6gokme2nv64s4zofl4hhuuqnd4q.b32.i2p) | A I2P fingerprinting test | `No` | `Yes` |
+
