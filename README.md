@@ -304,6 +304,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 | [Show Shield Studies (Beta)](https://www.jeffersonscher.com/sumo/shield.php) | Show ("detect") current Mozilla Shield Studies | `No` | `Yes` |
 | [Platform/GFX/WebRender Where](http://arewewebrenderyet.com/) | Where have we shipped WebRender? | `No` | `No` |
 | [Website FPI test](https://web.security.plumbing/fpi) & [source code](https://github.com/mozfreddyb/test-firstpartyisolation) | Test whether First Party Isolation works | `No` | `No` |
+| [Madaidan.github.io](https://madaidan.github.io/ ) & [source code](https://github.com/madaidan/madaidan.github.io) | Use JavaScript to check your system time, unless other tests it does not determine the time from the system timezone | `No` | `Yes` |
 
 
 ## Chrome/Chromium Tests
