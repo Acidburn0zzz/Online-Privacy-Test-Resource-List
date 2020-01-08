@@ -156,6 +156,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 * [RAMBleed](https://rambleed.com/)
 * [Resource Starvation Attacks](https://msdn.microsoft.com/en-us/library/ee798408(v=cs.20).aspx)
 * [SameSite cookies](https://tools.ietf.org/html/draft-ietf-httpbis-rfc6265bis-02#section-5.3.7)
+* [SHA-1 based attacks](https://sha-mbles.github.io/)
 * [Screen resolution](http://www.b3rn3d.com/blog/2014/05/29/fingerprinting-resolution/)
 * [Secure Messenger](https://github.com/dessalines/Messaging-Services-Comparison)
 * [SensorID](https://www.forbes.com/sites/kevinmurnane/2019/05/23/all-iphones-and-some-android-phones-are-vulnerable-to-a-new-device-fingerprinting-attack/#26f6ab7831a9)
