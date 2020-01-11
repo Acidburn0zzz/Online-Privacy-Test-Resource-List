@@ -612,6 +612,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 | [Tenta-Test](https://tenta.com/test/) | Browser Privacy Test by Tenta VPN Browser | `Yes` | `Yes` |
 | [Whoer](https://whoer.net/) | Advance Browser check | `Yes` Sells the results | `Yes` for advance information and tests |
 | [What's my fingerprint](https://whats-my-fingerprint.herokuapp.com/) | Similar like amiunique.org but FOSS. | [Data collection](https://whats-my-fingerprint.herokuapp.com/about) but they are used for a school project only | `Yes` ([Source code](https://github.com/jtherrmann/fingerprint))
+| [Luminous: JavaScript events blocker test](https://gbaptista.github.io/luminous/html/demos/detections/index.html) | Demo website to test [Luminous](https://gbaptista.github.io/luminous/doc/en-US/) addon/extension but also works to test other addons/extension | `No` | `Yes` |
 
 
 
