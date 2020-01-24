@@ -241,7 +241,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 
 
 
-## Browser Prerender & Feature Tests
+## Browser Prerender & Feature Test
 
 | **Page** | **Description** | **Collects or sells user data?** |
 | --- | --- | --- |
@@ -506,6 +506,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 | [CSS History Leak](http://lcamtuf.coredump.cx/yahh/) | CSS History Leak check | `N/A` | `No` |
 | [Third Party Fingerprinting test](https://cezaraugusto.github.io/privacy-checks/fingerprinting/third-party/) | Basic Third Party Fingerprinting test page | `No` | `Yes` |
 | [WTF?](https://wybiral.github.io/wtf/) | ["A practical demo of privacy violation using local service detection on a website for product recommendations."](https://twitter.com/davywtf/status/1137094721279582209) | `No` | `Yes` & localhost |
+| [Webtest app](https://webtest.app/) | [Website speed test](https://www.reddit.com/r/privacytoolsIO/comments/esgokz/this_website_speed_test_tool_compares_brave_plain/) (_beta_) | `N/A` | `No` |
 
 
 
@@ -774,7 +775,7 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 
 
 
-## Online IP Scanner
+## Online IP Scanner Visualizer
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
@@ -826,7 +827,7 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 
 
 
-## SmartScreen test
+## SmartScreen Test
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
@@ -834,7 +835,7 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 
 
 
-### VPN Charts
+### VPN comparison charts
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
@@ -860,7 +861,7 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 
 
 
-### I2P based fingerprint test 
+### I2P based Fingerprint Test 
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
