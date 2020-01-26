@@ -591,6 +591,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 | --- | --- | --- | --- |
 | [5who](http://5who.net/?type=extend) | Multiple tests | `N/A` | `Yes` |
 | [Am I Unique?](https://amiunique.org/fp) | Is your Machine / Browser unique? | `N/A` | `Yes` |
+| [Are you anonymous?](https://www.nothingprivate.ml/) | Similar like Am I Unique? but open source | `N/A` | `Yes` ([Source Code](https://github.com/gautamkrishnar/nothing-private)) |
 | [Audio Fingerprint Test](https://audiofingerprint.openwpm.com/) | The original audio fingerprint test | `No` | `Yes` ([Source Code](https://github.com/Gitoffthelawn)) |
 | [Browser 'auto-download' Security Vulnerability](https://binaer.xyz/haifei-li/test.html) | Check Chrome, IDM and other Downloader against a security attack | `N/A` | `No` |
 | [Browser Spy](http://browserspy.dk/) | Multiple Browser Tests | `N/A` | `Yes` |
