@@ -292,7 +292,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
 | [Windows Hello Test Page](https://webauthn.org/) | Check if Firefox 66+ supports Windows Hello  | `No` | `Yes` |
-| [Windows Hello Test Page (mirror)](https://webauthn.io/) | This site is designed by Duo Labs to test the new W3C Specification Web Authentication  | `No` | `Yes` |
+| [Windows Hello Test Page (**mirror**)](https://webauthn.io/) | This site is designed by Duo Labs to test the new W3C Specification Web Authentication  | `No` | `Yes` |
 | [Windows Hello Test Page (mirror)](https://webauthn.me/) | Check if Firefox 66+ supports Windows Hello  | `No` | `Yes` |
 | [Windows Hello Test Page (mirror)](https://webauthndemo.appspot.com/) | Check if Firefox 66+ supports Windows Hello  | `No` | `Yes` |
 | [Tracking Protection](https://itisatrap.org/firefox/its-a-tracker.html) | Test page for Firefox's built-in Tracking Protection | `No` | `Yes` |
@@ -306,6 +306,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 | [Platform/GFX/WebRender Where](http://arewewebrenderyet.com/) | Where have we shipped WebRender? | `No` | `No` |
 | [Website FPI test](https://web.security.plumbing/fpi) & [source code](https://github.com/mozfreddyb/test-firstpartyisolation) | Test whether First Party Isolation works | `No` | `No` |
 | [Madaidan.github.io](https://madaidan.github.io/ ) & [source code](https://github.com/madaidan/madaidan.github.io) | Use JavaScript to check your system time, unless other tests it does not determine the time from the system timezone | `No` | `Yes` |
+| [WebGPU compute demo](https://old.reddit.com/domain/hello-webgpu-compute.glitch.me/) | Firefox (Nightly) WebGPU compute demo, it needs `dom.webgpu.enabled = true` | `N/A` | `N/A` |
 
 
 ## Chrome/Chromium Tests
