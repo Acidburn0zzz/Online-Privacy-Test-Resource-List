@@ -164,7 +164,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 * [Spectre](https://alephsecurity.com/2018/06/26/spectre-browser-query-cache/) - Allows an attacker to read secret data.
 * [TLS downgrade attacks](https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2019/february/downgrade-attack-on-tls-1.3-and-vulnerabilities-in-major-tls-libraries/?Year=2019&Month=2)
 * [TLS fingerprinting attacks](https://github.com/LeeBrotherston/tls-fingerprinting)
-* [TLS interception attacks](https://censoredplanet.org/kazakhstan) (such as HTTPS Interception [TLS-SNI])
+* [TLS interception attacks](https://censoredplanet.org/kazakhstan) (such as HTTPS Interception [TLS-SNI](https://blog.cloudflare.com/encrypted-sni/))
 * [Tracking Pixel](https://jvns.ca/blog/how-tracking-pixels-work/)
 * [Tor Node Detection](https://check.torproject.org/) for more information check [Tor Browser Security Design](https://www.torproject.org/projects/torbrowser/design/)
 * [Tracking Users across the Web via TLS Session Resumption](https://browserprivacy.wordpress.com/2013/11/19/requiring-better-cryptography-in-firefox-and-thunderbird-breaks-update-functionality/)
