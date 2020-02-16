@@ -307,6 +307,8 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 | [Website FPI test](https://web.security.plumbing/fpi) & [source code](https://github.com/mozfreddyb/test-firstpartyisolation) | Test whether First Party Isolation works | `No` | `No` |
 | [Madaidan.github.io](https://madaidan.github.io/ ) & [source code](https://github.com/madaidan/madaidan.github.io) | Use JavaScript to check your system time, unless other tests it does not determine the time from the system timezone | `No` | `Yes` |
 | [WebGPU compute demo](https://old.reddit.com/domain/hello-webgpu-compute.glitch.me/) | Firefox (Nightly) WebGPU compute demo, it needs `dom.webgpu.enabled = true` | `N/A` | `N/A` |
+| [Lazy Loading Test Page](https://mathiasbynens.be/demo/img-loading-lazy) | Firefox Firefox 75 Lazy loading images test page | `No` | `Yes` | 
+
 
 
 ## Chrome/Chromium Tests
