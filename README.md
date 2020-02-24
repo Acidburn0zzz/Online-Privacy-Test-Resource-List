@@ -819,7 +819,8 @@ Keep in mind that a Browser Benchmark doesn't reflect the real-world performance
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** | **Requires activated JavaScript**
 | --- | --- | --- | --- |
-| [Browser Audit Test](https://browseraudit.com/test) | Test your Browser for known holes | `N/A` | `Yes` |
+| [Browser Audit Test](https://browseraudit.com/test) | Test your Browser for known holes and display an overall score | `N/A` | `Yes` |
+| [Privacy test](https://privacy.net/analyzer) | Test your Browser tracking and fingerpritning holes | `Yes` | `Yes` |
 
 
 
