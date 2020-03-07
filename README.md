@@ -371,6 +371,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 | [Web RTC Chrome vulnerability check](https://internet-israel.com/internet_files/webrtc/index.html) | See ([Bug 709952](https://bugs.chromium.org/p/chromium/issues/detail?id=709952)) | `No` | `No` |
 | [Anonymster WebRTC check](https://anonymster.com/web-rtc-leak-test/) | Another WebRTC check | `No` | `Yes` |
 | [AutoPlay test](https://videojs.github.io/autoplay-tests/) | Test if your Browser blocks Video/Audio autoplay | `No` | `Yes` |
+| [Fraud detection API demo](https://fingerprintjs.com/demo) | Fraud detection API, which has a 99.5% identification accuracy | `No` | `Yes` |
 
 
 
@@ -451,7 +452,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 | [PWA.rocks](https://pwa.rocks/) | Test if your Browser supports [Progressive Web Apps (PWA)](https://developers.google.com/web/progressive-web-apps/) | `No` | `Partial`
 | [Permission Site](https://permission.site/) | Test if your Browser supports specific permissions such as Camera, Location, Fullscreen and other privacy critical APIs  | `No` | `Yes`
 | Realtime detection of XSS with [Casper](https://csper.io/) | Csper will help guide you through the process of installing a simple report-only CSP policy (HTTP Header). (_addon/test maybe planned_) | `No` | `No`
-
+| [Are you anonymous?][(https://www.nothingprivate.ml/) | `No` + [source code](https://github.com/gautamkrishnar/nothing-private) | `Yes`
 
 
 ## SSL/TLS, RSA & SSH Test
