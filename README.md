@@ -318,7 +318,7 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 [Chrome 76+ escape key-generated popups test](https://codepen.io/mustaqahmed/full/yrXLxZ) | [Read here for more infos](https://www.zdnet.com/article/google-changes-how-the-escape-key-is-handled-in-chrome-to-fight-popup-ads/) | `No` | `No` |
 | [CRXcavator](https://crxcavator.io/) | Submit a Chrome Extension ID to scan the extension | `No` | `Yes` |
 | [Safe-Browsing Test Page](https://testsafebrowsing.appspot.com/) | Works in Firefox, Chrome/Chromium | `No` | `No` |
-
+| [Ben Kennish's Web Site](https://www.bennish.net/mixed-content.html) | Mixed content test page | `No` | `Yes` |
 
 
 ## Incognito Detection 
