@@ -267,6 +267,16 @@ I'm not the original author of any uploaded .pdf file in this repository, nor do
 
 
 
+## Cloudflare
+
+| **Page or Addon** | **Description** | **Collects or sells user data?** |
+| --- | --- | --- |
+| [Cloudflare Phishing Test](https://phishing.testcategory.com/) | Detects if 1.1.1.3 is working correctly | `No` |
+| [Cloudflare Porn Test](https://nudity.testcategory.com) | Detects if 1.1.1.3 is working correctly | `No` |
+| [Report false positives or missinf domains to Cloudflare DNS Team](https://report.teams.cloudflare.com/) | Report false/positives or missing domains | `No`, needs JavaScript |
+
+
+
 ## Certificate Test
 
 | **Page or Addon** | **Description** | **Collects or sells user data?** |
